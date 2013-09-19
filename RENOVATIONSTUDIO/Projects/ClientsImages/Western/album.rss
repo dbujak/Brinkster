@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+
+    <channel>
+        <title>Western</title>
+   	<link>.</link>
+        <generator>Jalbum 8.1</generator>
+   		<description></description>
+        
+        
+        <item>
+            <title>100_3523</title>
+            <link>slides/100_3523.JPG</link>
+            <pubDate>Sat, 07 Feb 2009 01:46:46 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/100_3523.JPG" width="209" height="157"/>
+            <media:content url="slides/100_3523.JPG" width="1024" height="768"/>
+            
+            <jalbum:exif originalDate="2004.07.28 12:50:13" cameraMake="EASTMAN KODAK COMPANY" cameraModel="KODAK Z740 ZOOM DIGITAL CAMERA"/>
+            <guid isPermaLink="false">slides/100_3523.JPG</guid>
+        </item>
+        
+        <item>
+            <title>100_3524</title>
+            <link>slides/100_3524.JPG</link>
+            <pubDate>Sat, 07 Feb 2009 01:46:46 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/100_3524.JPG" width="209" height="157"/>
+            <media:content url="slides/100_3524.JPG" width="1024" height="768"/>
+            
+            <jalbum:exif originalDate="2004.07.28 12:50:24" cameraMake="EASTMAN KODAK COMPANY" cameraModel="KODAK Z740 ZOOM DIGITAL CAMERA"/>
+            <guid isPermaLink="false">slides/100_3524.JPG</guid>
+        </item>
+        
+        <item>
+            <title>100_3520</title>
+            <link>slides/100_3520.JPG</link>
+            <pubDate>Sat, 07 Feb 2009 01:46:46 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/100_3520.JPG" width="209" height="157"/>
+            <media:content url="slides/100_3520.JPG" width="1024" height="768"/>
+            
+            <jalbum:exif originalDate="2004.07.28 12:35:21" cameraMake="EASTMAN KODAK COMPANY" cameraModel="KODAK Z740 ZOOM DIGITAL CAMERA"/>
+            <guid isPermaLink="false">slides/100_3520.JPG</guid>
+        </item>
+        
+        <item>
+            <title>100_3516</title>
+            <link>slides/100_3516.JPG</link>
+            <pubDate>Sat, 07 Feb 2009 01:46:46 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/100_3516.JPG" width="209" height="157"/>
+            <media:content url="slides/100_3516.JPG" width="1024" height="768"/>
+            
+            <jalbum:exif originalDate="2004.07.28 12:33:55" cameraMake="EASTMAN KODAK COMPANY" cameraModel="KODAK Z740 ZOOM DIGITAL CAMERA"/>
+            <guid isPermaLink="false">slides/100_3516.JPG</guid>
+        </item>
+        
+        <item>
+            <title>100_3517</title>
+            <link>slides/100_3517.JPG</link>
+            <pubDate>Sat, 07 Feb 2009 01:46:46 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/100_3517.JPG" width="209" height="157"/>
+            <media:content url="slides/100_3517.JPG" width="1024" height="768"/>
+            
+            <jalbum:exif originalDate="2004.07.28 12:34:06" cameraMake="EASTMAN KODAK COMPANY" cameraModel="KODAK Z740 ZOOM DIGITAL CAMERA"/>
+            <guid isPermaLink="false">slides/100_3517.JPG</guid>
+        </item>
+        
+        <item>
+            <title>100_3519</title>
+            <link>slides/100_3519.JPG</link>
+            <pubDate>Sat, 07 Feb 2009 01:46:46 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/100_3519.JPG" width="209" height="157"/>
+            <media:content url="slides/100_3519.JPG" width="1024" height="768"/>
+            
+            <jalbum:exif originalDate="2004.07.28 12:34:28" cameraMake="EASTMAN KODAK COMPANY" cameraModel="KODAK Z740 ZOOM DIGITAL CAMERA"/>
+            <guid isPermaLink="false">slides/100_3519.JPG</guid>
+        </item>
+        
+        <item>
+            <title>100_3521</title>
+            <link>slides/100_3521.JPG</link>
+            <pubDate>Sat, 07 Feb 2009 01:46:46 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/100_3521.JPG" width="210" height="280"/>
+            <media:content url="slides/100_3521.JPG" width="768" height="1024"/>
+            
+            <jalbum:exif originalDate="2004.07.28 12:35:42" cameraMake="EASTMAN KODAK COMPANY" cameraModel="KODAK Z740 ZOOM DIGITAL CAMERA"/>
+            <guid isPermaLink="false">slides/100_3521.JPG</guid>
+        </item>
+        
+        <item>
+            <title>album</title>
+            <link>album.xml</link>
+            <pubDate>Sat, 07 Feb 2009 01:46:46 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="res/xml.gif" width="26" height="30"/>
+            <media:content url="res/xml.gif" width="26" height="30"/>
+            <jalbum:original url="album.xml" width="26" height="30" fileSize="4888"/>
+            
+            <guid isPermaLink="false">res/xml.gif</guid>
+        </item>
+        
+        <item>
+            <title>menu</title>
+            <link>menu.xml</link>
+            <pubDate>Sat, 07 Feb 2009 01:46:46 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="res/xml.gif" width="26" height="30"/>
+            <media:content url="res/xml.gif" width="26" height="30"/>
+            <jalbum:original url="menu.xml" width="26" height="30" fileSize="173"/>
+            
+            <guid isPermaLink="false">res/xml.gif</guid>
+        </item>
+        
+        <item>
+            <title>settings</title>
+            <link>settings.xml</link>
+            <pubDate>Sat, 07 Feb 2009 01:46:46 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="res/xml.gif" width="26" height="30"/>
+            <media:content url="res/xml.gif" width="26" height="30"/>
+            <jalbum:original url="settings.xml" width="26" height="30" fileSize="1360"/>
+            
+            <guid isPermaLink="false">res/xml.gif</guid>
+        </item>
+        
+    </channel>
+</rss>

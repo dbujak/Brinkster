@@ -1,0 +1,29 @@
+# This file is created by JAlbum. It sets custom file filtering and ordering for this image directory.
+# Each row indicate a file and it's order. Files not listed here are added to the end of the album
+# Rows beginning with "-" indicate excluded files.
+# Rows containing a tab character indicate links, where the text before the tab is the logical file name
+# and the path to the right is the target path.
+# Note: This file allows absolute paths to files and directories in other locations and thereby
+# allows you to compile albums consisting of files from several different locations.
+
+100_2360.JPG	J:\Renovation Studio\Pictures\Archive\Ambler\Finished\100_2360.JPG
+Y579LD.jpg	J:\Renovation Studio\Pictures\Archive\Ambler\Tour Hi-Res\Y579LD.jpg
+Y579LD_still_2fba.jpg	J:\Renovation Studio\Pictures\Archive\Ambler\Tour Hi-Res\Y579LD_still_2fba.jpg
+Y579LD_still_b2.jpg	J:\Renovation Studio\Pictures\Archive\Ambler\Tour Hi-Res\Y579LD_still_b2.jpg
+Y579LD_still_b3.jpg	J:\Renovation Studio\Pictures\Archive\Ambler\Tour Hi-Res\Y579LD_still_b3.jpg
+Y579LD_still_b4.jpg	J:\Renovation Studio\Pictures\Archive\Ambler\Tour Hi-Res\Y579LD_still_b4.jpg
+Y579LD_still_bkyd.jpg	J:\Renovation Studio\Pictures\Archive\Ambler\Tour Hi-Res\Y579LD_still_bkyd.jpg
+Y579LD_still_bt.jpg	J:\Renovation Studio\Pictures\Archive\Ambler\Tour Hi-Res\Y579LD_still_bt.jpg
+Y579LD_still_dk.jpg	J:\Renovation Studio\Pictures\Archive\Ambler\Tour Hi-Res\Y579LD_still_dk.jpg
+Y579LD_still_dr.jpg	J:\Renovation Studio\Pictures\Archive\Ambler\Tour Hi-Res\Y579LD_still_dr.jpg
+Y579LD_still_fr.jpg	J:\Renovation Studio\Pictures\Archive\Ambler\Tour Hi-Res\Y579LD_still_fr.jpg
+Y579LD_still_fvhs.jpg	J:\Renovation Studio\Pictures\Archive\Ambler\Tour Hi-Res\Y579LD_still_fvhs.jpg
+Y579LD_still_ki.jpg	J:\Renovation Studio\Pictures\Archive\Ambler\Tour Hi-Res\Y579LD_still_ki.jpg
+Y579LD_still_lr.jpg	J:\Renovation Studio\Pictures\Archive\Ambler\Tour Hi-Res\Y579LD_still_lr.jpg
+Y579LD_still_mb.jpg	J:\Renovation Studio\Pictures\Archive\Ambler\Tour Hi-Res\Y579LD_still_mb.jpg
+Y579LD_still_mbr.jpg	J:\Renovation Studio\Pictures\Archive\Ambler\Tour Hi-Res\Y579LD_still_mbr.jpg
+Y579LD_still_rvhs.jpg	J:\Renovation Studio\Pictures\Archive\Ambler\Tour Hi-Res\Y579LD_still_rvhs.jpg
+Y579LD_still_s1.jpg	J:\Renovation Studio\Pictures\Archive\Ambler\Tour Hi-Res\Y579LD_still_s1.jpg
+Y579LD_still_s2.jpg	J:\Renovation Studio\Pictures\Archive\Ambler\Tour Hi-Res\Y579LD_still_s2.jpg
+Y579LD_still_s3.jpg	J:\Renovation Studio\Pictures\Archive\Ambler\Tour Hi-Res\Y579LD_still_s3.jpg
+Y579LD_still_s4.jpg	J:\Renovation Studio\Pictures\Archive\Ambler\Tour Hi-Res\Y579LD_still_s4.jpg

@@ -1,0 +1,58 @@
+ /* CSS definition file containing sitestyle stylesheets
+    Additional style sheet black.css for JAlbum skin - Exhibit Plus
+    Author Mark Fyvie email: <jalbum at markf . mailshell . com> 
+
+    Note: this style sheet contains only information to change the colours on the original stylesheet basestyle.css (located in the res directory). This makes it easy to update just the colours in one location */
+
+/* <% album.put("BUTTON_SET", "silver-21px-darkbackground"); %> */ 
+
+ body  { color: white; background-color: black }
+ a:link { } 
+ a:visited { }
+ a:hover { }
+ p { }
+ p.indent { }
+ table,tr,td { }
+ img { }
+/* Used to setup the main page structure */
+#centercontent { background: black; background-image: url(); }
+
+/* Styles assosicated with index pages */
+ #indexframe { background-color: #111111 }
+ .folderData { color: #cccc99 }
+ .folderDescription { color: #cccc99 }
+ .folderNavigation { }
+ .folderNavigation a { }
+ .folderNavigation a:link { }
+ .folderNavigation a:visited { }
+ .folderNavigation a:hover { }
+ .float { } 
+ .float p { }
+ .float p.thumbComment { }
+ .thumbName a { color: #cccc99; }
+ .thumbDate { }
+ #w3clogosright { }
+
+/* Styles assosciated with slide pages */
+ #centercontent { background: black; background-image: url(); }
+ .minithumb { }
+ .minithumbCurrent { border: 1px dotted white }
+ .minithumbBox { }
+ .photoName { color: white }
+ .photoPosition { color: white }
+ .photoComments { }
+ .photoData { color: #000099 }
+ .photoData b { }
+ .photoData i { }
+ .photoDataPopupBase { }
+ .photoDataPopup { background: black; color: #000099 }
+ .keyboardDataPopup { }
+ .slideFrameButtons { }
+ #buttonbox_portrait { }
+ #photonavbar_inside_portrait { }
+ #w3clogosleft { }
+
+/* Styles assosciated with additional files, e.g. news.inc, footer.inc etc */
+ .dateline { color: gray }
+ .header { color: white }
+ .footer { color: gray }

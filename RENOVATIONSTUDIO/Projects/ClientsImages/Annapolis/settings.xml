@@ -1,0 +1,46 @@
+<settings version="v6.0.9" generator="Jalbum 8.1" build="20090109">
+
+<style>[res]styles/Clean.swf</style>
+
+<colors 
+background="#000000" 
+fill="#575656" 
+line="#828282" 
+text="#828282" 
+tool="#828282" 
+active="#ffffff"
+/>
+
+<title size="" typeface="" x="" y="">false</title>
+
+<description position="" size="" typeface="" x="" y="" w="" h="" external="">true</description>
+
+<menu prefix="" suffix="" loadfirstifempty="true" size="" typeface="" x="" y="" expand="false">true</menu>
+
+<thumbs width="68" height="68" crop="false" spacing="" autohide="false" automove="true" center="true" scrollbar="true" style="standard" active="standard" x="" y="" w="" h="">right</thumbs>
+
+<image  x="" y="" w="" h="" outline="false" autoscale="" preload=""/>
+
+<transition fade="false">smooth</transition>
+
+<info></info>
+
+
+
+<download link="[image]" target="_blank" x="" y="" txt="Download Image">false</download>
+
+<margin></margin>
+
+<slideshow interval="4" x="" y="" txt="Play Slideshow, Pause Slideshow" autoplay="true">true</slideshow>
+
+<donut line="false" fill="true" transparency="" innerradius="9" outerradius="15"/>
+
+<fullscreen x="" y="" txt="Enter Full Screen, Exit Full Screen">true</fullscreen>
+
+<rightmouse fullscreen="true" download="false"/>
+
+<backgroundimage tile="" align="center" valign="center"></backgroundimage>
+
+
+
+</settings>

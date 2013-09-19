@@ -1,0 +1,73 @@
+<weather>
+	<units>
+		<temp>F</temp>
+		<dist>mi</dist>
+		<speed>mph</speed>
+		<press>in</press>
+		<rain>in</rain>
+	</units>
+	<current>
+		<temp>84</temp>
+		<feels>82</feels>
+		<high>N/A</high>
+		<low>60</low>
+		<humid>25</humid>
+		<windsp>6</windsp>
+		<winddir>ESE</winddir>
+		<icon>http://www.circlepix.com/site/tour/flash/images/weather/28.jpg</icon>
+		<cond>Mostly Cloudy</cond>
+		<press>29.66</press>
+		<presscond>falling</presscond>
+		<lastup>8/23/06 3:45 PM MDT</lastup>
+	</current>
+	<days>
+		<day01>
+			<dayofwk>Thursday</dayofwk>
+			<date>Aug 24</date>
+			<cond>Mostly Sunny</cond>
+			<icon>http://www.circlepix.com/site/tour/flash/images/weather/34.jpg</icon>
+		</day01>
+		<day02>
+			<dayofwk>Friday</dayofwk>
+			<date>Aug 25</date>
+			<cond>Partly Cloudy</cond>
+			<icon>http://www.circlepix.com/site/tour/flash/images/weather/30.jpg</icon>
+		</day02>
+		<day03>
+			<dayofwk>Saturday</dayofwk>
+			<date>Aug 26</date>
+			<cond>Mostly Sunny</cond>
+			<icon>http://www.circlepix.com/site/tour/flash/images/weather/34.jpg</icon>
+		</day03>
+		<day04>
+			<dayofwk>Sunday</dayofwk>
+			<date>Aug 27</date>
+			<cond>Sunny</cond>
+			<icon>http://www.circlepix.com/site/tour/flash/images/weather/32.jpg</icon>
+		</day04>
+		<day05>
+			<dayofwk>Monday</dayofwk>
+			<date>Aug 28</date>
+			<cond>Sunny</cond>
+			<icon>http://www.circlepix.com/site/tour/flash/images/weather/32.jpg</icon>
+		</day05>
+		<day06>
+			<dayofwk>Tuesday</dayofwk>
+			<date>Aug 29</date>
+			<cond>Mostly Sunny</cond>
+			<icon>http://www.circlepix.com/site/tour/flash/images/weather/34.jpg</icon>
+		</day06>
+		<day07>
+			<dayofwk>Wednesday</dayofwk>
+			<date>Aug 30</date>
+			<cond>Partly Cloudy</cond>
+			<icon>http://www.circlepix.com/site/tour/flash/images/weather/30.jpg</icon>
+		</day07>
+		<day08>
+			<dayofwk>Thursday</dayofwk>
+			<date>Aug 31</date>
+			<cond>Mostly Sunny</cond>
+			<icon>http://www.circlepix.com/site/tour/flash/images/weather/34.jpg</icon>
+		</day08>
+	</days>
+</weather>

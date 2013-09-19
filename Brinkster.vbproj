@@ -1,0 +1,3124 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6A96E972-A1EB-483F-B8DE-B98C3B464111}</ProjectGuid>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Brinkster</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>Brinkster</RootNamespace>
+    <StartupObject>
+    </StartupObject>
+    <WebReference_EnableProperties>true</WebReference_EnableProperties>
+    <WebReference_EnableSQLTypes>false</WebReference_EnableSQLTypes>
+    <WebReference_EnableLegacyEventingModel>true</WebReference_EnableLegacyEventingModel>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Brinkster.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Brinkster.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <Name>System.Web.Services</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.HtmlControls" />
+    <Import Include="System.Web.UI.WebControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Bujak\databasetest.aspx.designer.vb">
+      <DependentUpon>databasetest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bujak\databasetest.aspx.vb">
+      <DependentUpon>databasetest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bujak\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bujak\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bujak\Email.aspx.designer.vb">
+      <DependentUpon>Email.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bujak\Email.aspx.vb">
+      <DependentUpon>Email.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="error.aspx.designer.vb">
+      <DependentUpon>error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="error.aspx.vb">
+      <DependentUpon>error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Errors\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Errors\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Errors\ErrorInfo.ascx.designer.vb">
+      <DependentUpon>ErrorInfo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Errors\ErrorInfo.ascx.vb">
+      <DependentUpon>ErrorInfo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Errors\FlahertyDCError.aspx.designer.vb">
+      <DependentUpon>FlahertyDCError.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Errors\FlahertyDCError.aspx.vb">
+      <DependentUpon>FlahertyDCError.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Errors\FlahertyPotomacError.aspx.designer.vb">
+      <DependentUpon>FlahertyPotomacError.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Errors\FlahertyPotomacError.aspx.vb">
+      <DependentUpon>FlahertyPotomacError.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Errors\KensingtonTeamError.aspx.designer.vb">
+      <DependentUpon>KensingtonTeamError.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Errors\KensingtonTeamError.aspx.vb">
+      <DependentUpon>KensingtonTeamError.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Errors\renovationStudioError.aspx.designer.vb">
+      <DependentUpon>renovationStudioError.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Errors\renovationStudioError.aspx.vb">
+      <DependentUpon>renovationStudioError.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Errors\reStudioError.aspx.designer.vb">
+      <DependentUpon>reStudioError.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Errors\reStudioError.aspx.vb">
+      <DependentUpon>reStudioError.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FLAHERTYDC\About\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FLAHERTYDC\About\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FLAHERTYDC\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FLAHERTYDC\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FLAHERTYDC\Listings\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FLAHERTYDC\Listings\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FLAHERTYDC\Resources\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FLAHERTYDC\Resources\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FLAHERTYDC\SoldReports\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FLAHERTYDC\SoldReports\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FLAHERTYDC\SoldReports\details.aspx.designer.vb">
+      <DependentUpon>details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FLAHERTYDC\SoldReports\details.aspx.vb">
+      <DependentUpon>details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FLAHERTYDC\SoldReports\results.aspx.designer.vb">
+      <DependentUpon>results.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FLAHERTYDC\SoldReports\results.aspx.vb">
+      <DependentUpon>results.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FLAHERTYPOTOMAC\About\about.ascx.designer.vb">
+      <DependentUpon>about.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="FLAHERTYPOTOMAC\About\about.ascx.vb">
+      <DependentUpon>about.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FLAHERTYPOTOMAC\About\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FLAHERTYPOTOMAC\About\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FLAHERTYPOTOMAC\controls\Footer.ascx.designer.vb">
+      <DependentUpon>Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="FLAHERTYPOTOMAC\controls\Footer.ascx.vb">
+      <DependentUpon>Footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FLAHERTYPOTOMAC\controls\Left.ascx.designer.vb">
+      <DependentUpon>Left.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="FLAHERTYPOTOMAC\controls\Left.ascx.vb">
+      <DependentUpon>Left.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FLAHERTYPOTOMAC\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FLAHERTYPOTOMAC\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FLAHERTYPOTOMAC\Listings\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FLAHERTYPOTOMAC\Listings\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FLAHERTYPOTOMAC\Resources\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FLAHERTYPOTOMAC\Resources\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FLAHERTYPOTOMAC\Resources\Resources.ascx.designer.vb">
+      <DependentUpon>Resources.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="FLAHERTYPOTOMAC\Resources\Resources.ascx.vb">
+      <DependentUpon>Resources.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FLAHERTYPOTOMAC\SoldReports\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FLAHERTYPOTOMAC\SoldReports\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FLAHERTYPOTOMAC\SoldReports\details.aspx.designer.vb">
+      <DependentUpon>details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FLAHERTYPOTOMAC\SoldReports\details.aspx.vb">
+      <DependentUpon>details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FLAHERTYPOTOMAC\SoldReports\results.aspx.designer.vb">
+      <DependentUpon>results.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FLAHERTYPOTOMAC\SoldReports\results.aspx.vb">
+      <DependentUpon>results.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="General\clsGeneral.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HarmonyLeaf\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HarmonyLeaf\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KensingtonTeam\About\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KensingtonTeam\About\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KensingtonTeam\Controls\Footer.ascx.designer.vb">
+      <DependentUpon>Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="KensingtonTeam\Controls\Footer.ascx.vb">
+      <DependentUpon>Footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KensingtonTeam\Controls\Header.ascx.designer.vb">
+      <DependentUpon>Header.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="KensingtonTeam\Controls\Header.ascx.vb">
+      <DependentUpon>Header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KensingtonTeam\Controls\Left.ascx.designer.vb">
+      <DependentUpon>Left.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="KensingtonTeam\Controls\Left.ascx.vb">
+      <DependentUpon>Left.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KensingtonTeam\Controls\Right.ascx.designer.vb">
+      <DependentUpon>Right.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="KensingtonTeam\Controls\Right.ascx.vb">
+      <DependentUpon>Right.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KensingtonTeam\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KensingtonTeam\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KensingtonTeam\Listings\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KensingtonTeam\Listings\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KensingtonTeam\Listings\OldListings.ascx.designer.vb">
+      <DependentUpon>OldListings.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="KensingtonTeam\Listings\OldListings.ascx.vb">
+      <DependentUpon>OldListings.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KensingtonTeam\Resources\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KensingtonTeam\Resources\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KensingtonTeam\Sold Reports\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KensingtonTeam\Sold Reports\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KensingtonTeam\Sold Reports\details.aspx.designer.vb">
+      <DependentUpon>details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KensingtonTeam\Sold Reports\details.aspx.vb">
+      <DependentUpon>details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KensingtonTeam\Sold Reports\results.aspx.designer.vb">
+      <DependentUpon>results.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KensingtonTeam\Sold Reports\results.aspx.vb">
+      <DependentUpon>results.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="properIT\About\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="properIT\About\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="properIT\BackToTop.ascx.designer.vb">
+      <DependentUpon>BackToTop.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="properIT\BackToTop.ascx.vb">
+      <DependentUpon>BackToTop.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="properIT\Database\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="properIT\Database\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="properIT\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="properIT\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="properIT\Footer.ascx.designer.vb">
+      <DependentUpon>Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="properIT\Footer.ascx.vb">
+      <DependentUpon>Footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="properIT\Header.ascx.designer.vb">
+      <DependentUpon>Header.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="properIT\Header.ascx.vb">
+      <DependentUpon>Header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="properIT\MoreInformation.ascx.designer.vb">
+      <DependentUpon>MoreInformation.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="properIT\MoreInformation.ascx.vb">
+      <DependentUpon>MoreInformation.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="properIT\Network\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="properIT\Network\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="properIT\Samples\OasisCD\NavBar\MainPanel.ascx.designer.vb">
+      <DependentUpon>MainPanel.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="properIT\Samples\OasisCD\NavBar\MainPanel.ascx.vb">
+      <DependentUpon>MainPanel.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="properIT\Samples\OasisCD\NavBar\Sample1.aspx.designer.vb">
+      <DependentUpon>Sample1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="properIT\Samples\OasisCD\NavBar\Sample1.aspx.vb">
+      <DependentUpon>Sample1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="properIT\Samples\OasisCD\NavBar\Sample2.aspx.designer.vb">
+      <DependentUpon>Sample2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="properIT\Samples\OasisCD\NavBar\Sample2.aspx.vb">
+      <DependentUpon>Sample2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="properIT\Samples\OasisCD\NavBar\Sample3.aspx.designer.vb">
+      <DependentUpon>Sample3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="properIT\Samples\OasisCD\NavBar\Sample3.aspx.vb">
+      <DependentUpon>Sample3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="properIT\Samples\OasisCD\NavBar\Sample4.aspx.designer.vb">
+      <DependentUpon>Sample4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="properIT\Samples\OasisCD\NavBar\Sample4.aspx.vb">
+      <DependentUpon>Sample4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="properIT\Samples\OasisCD\NavBar\Sample5.aspx.vb">
+      <DependentUpon>Sample5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="properIT\Samples\OasisCD\NavBar\Sample6.aspx.designer.vb">
+      <DependentUpon>Sample6.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="properIT\Samples\OasisCD\NavBar\Sample6.aspx.vb">
+      <DependentUpon>Sample6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="properIT\Samples\OasisCD\NavBar\Sample7.aspx.designer.vb">
+      <DependentUpon>Sample7.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="properIT\Samples\OasisCD\NavBar\Sample7.aspx.vb">
+      <DependentUpon>Sample7.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="properIT\Samples\OasisCD\NavBar\Sample8.aspx.designer.vb">
+      <DependentUpon>Sample8.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="properIT\Samples\OasisCD\NavBar\Sample8.aspx.vb">
+      <DependentUpon>Sample8.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="properIT\Software\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="properIT\Software\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\aboutus.aspx.designer.vb">
+      <DependentUpon>aboutus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\aboutus.aspx.vb">
+      <DependentUpon>aboutus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\contact.aspx.designer.vb">
+      <DependentUpon>contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\contact.aspx.vb">
+      <DependentUpon>contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\controls\Footer.ascx.designer.vb">
+      <DependentUpon>Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\controls\Footer.ascx.vb">
+      <DependentUpon>Footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\controls\Header.ascx.designer.vb">
+      <DependentUpon>Header.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\controls\Header.ascx.vb">
+      <DependentUpon>Header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\controls\MainNavBar.ascx.designer.vb">
+      <DependentUpon>MainNavBar.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\controls\MainNavBar.ascx.vb">
+      <DependentUpon>MainNavBar.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\controls\Right.ascx.designer.vb">
+      <DependentUpon>Right.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\controls\Right.ascx.vb">
+      <DependentUpon>Right.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\controls\Sales.ascx.designer.vb">
+      <DependentUpon>Sales.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\controls\Sales.ascx.vb">
+      <DependentUpon>Sales.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\process.aspx.designer.vb">
+      <DependentUpon>process.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\process.aspx.vb">
+      <DependentUpon>process.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\Projects\Baltimore\defaultStara.aspx.designer.vb">
+      <DependentUpon>defaultStara.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\Projects\Baltimore\defaultStara.aspx.vb">
+      <DependentUpon>defaultStara.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\Projects\Clients.aspx.designer.vb">
+      <DependentUpon>Clients.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\Projects\Clients.aspx.vb">
+      <DependentUpon>Clients.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\Projects\Crestwood 10105\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\Projects\Crestwood 10105\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\Projects\Farragut\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\Projects\Farragut\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\Projects\Lexington\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\Projects\Lexington\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\Projects\Lexington\Lexington.ascx.designer.vb">
+      <DependentUpon>Lexington.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\Projects\Lexington\Lexington.ascx.vb">
+      <DependentUpon>Lexington.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\Projects\NewHomes.aspx.designer.vb">
+      <DependentUpon>NewHomes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\Projects\NewHomes.aspx.vb">
+      <DependentUpon>NewHomes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\Projects\Parkwood II\defult.aspx.designer.vb">
+      <DependentUpon>defult.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\Projects\Parkwood II\defult.aspx.vb">
+      <DependentUpon>defult.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\Projects\Parkwood II\P2.ascx.designer.vb">
+      <DependentUpon>P2.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\Projects\Parkwood II\P2.ascx.vb">
+      <DependentUpon>P2.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\Projects\Parkwood I\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\Projects\Parkwood I\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\services.aspx.designer.vb">
+      <DependentUpon>services.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\services.aspx.vb">
+      <DependentUpon>services.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\testimonies.aspx.designer.vb">
+      <DependentUpon>testimonies.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\testimonies.aspx.vb">
+      <DependentUpon>testimonies.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\WebForm1.aspx.designer.vb">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\WebForm1.aspx.vb">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\about.aspx.designer.vb">
+      <DependentUpon>about.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\about.aspx.vb">
+      <DependentUpon>about.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Classes\clsConnectionString.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="REStudio\community\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\community\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\community\Events\2007\Labor Day Parade\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\community\Events\2007\Labor Day Parade\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\community\Events\2007\Parkwood Party\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\community\Events\2007\Parkwood Party\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\contact.aspx.designer.vb">
+      <DependentUpon>contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\contact.aspx.vb">
+      <DependentUpon>contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Controls\emailContact.ascx.designer.vb">
+      <DependentUpon>emailContact.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Controls\emailContact.ascx.vb">
+      <DependentUpon>emailContact.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Controls\Footer.ascx.designer.vb">
+      <DependentUpon>Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Controls\Footer.ascx.vb">
+      <DependentUpon>Footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Controls\Header.ascx.designer.vb">
+      <DependentUpon>Header.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Controls\Header.ascx.vb">
+      <DependentUpon>Header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Controls\Left.ascx.designer.vb">
+      <DependentUpon>Left.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Controls\Left.ascx.vb">
+      <DependentUpon>Left.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Controls\LowDown.ascx.designer.vb">
+      <DependentUpon>LowDown.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Controls\LowDown.ascx.vb">
+      <DependentUpon>LowDown.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Controls\phoneContact.ascx.designer.vb">
+      <DependentUpon>phoneContact.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Controls\phoneContact.ascx.vb">
+      <DependentUpon>phoneContact.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Controls\RentContact.ascx.designer.vb">
+      <DependentUpon>RentContact.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Controls\RentContact.ascx.vb">
+      <DependentUpon>RentContact.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Controls\ResourcesContact.ascx.designer.vb">
+      <DependentUpon>ResourcesContact.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Controls\ResourcesContact.ascx.vb">
+      <DependentUpon>ResourcesContact.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Controls\Right.ascx.designer.vb">
+      <DependentUpon>Right.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Controls\Right.ascx.vb">
+      <DependentUpon>Right.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Controls\SalesContact.ascx.designer.vb">
+      <DependentUpon>SalesContact.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Controls\SalesContact.ascx.vb">
+      <DependentUpon>SalesContact.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Controls\SellerTips.ascx.designer.vb">
+      <DependentUpon>SellerTips.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Controls\SellerTips.ascx.vb">
+      <DependentUpon>SellerTips.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\FlahertyDCSearch\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\FlahertyDCSearch\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\FlahertyPotomacSearch\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\FlahertyPotomacSearch\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\KensingtonTeamSearch\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\KensingtonTeamSearch\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Listings.aspx.designer.vb">
+      <DependentUpon>Listings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Listings.aspx.vb">
+      <DependentUpon>Listings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Listings\10234Parkwood\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Listings\10234Parkwood\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Listings\Ambler\Ambler.ascx.designer.vb">
+      <DependentUpon>Ambler.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Listings\Ambler\Ambler.ascx.vb">
+      <DependentUpon>Ambler.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Listings\Ambler\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Listings\Ambler\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Listings\Baltimore, 3951\Baltimore3951.ascx.designer.vb">
+      <DependentUpon>Baltimore3951.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Listings\Baltimore, 3951\Baltimore3951.ascx.vb">
+      <DependentUpon>Baltimore3951.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Listings\Baltimore, 3951\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Listings\Baltimore, 3951\default.aspx.vb">
+      <SubType>ASPXCodebehind</SubType>
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Listings\Blueridge3003\Blueridge3003.ascx.designer.vb">
+      <DependentUpon>Blueridge3003.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Listings\Blueridge3003\Blueridge3003.ascx.vb">
+      <DependentUpon>Blueridge3003.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Listings\Blueridge3003\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Listings\Blueridge3003\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Listings\Carriage\carriage.ascx.designer.vb">
+      <DependentUpon>carriage.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Listings\Carriage\carriage.ascx.vb">
+      <DependentUpon>carriage.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Listings\Carriage\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Listings\Carriage\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Listings\Crestwood 10105\Crestwood10105.ascx.designer.vb">
+      <DependentUpon>Crestwood10105.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Listings\Crestwood 10105\Crestwood10105.ascx.vb">
+      <DependentUpon>Crestwood10105.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Listings\Crestwood 10105\Crestwood10105AsIs.ascx.designer.vb">
+      <DependentUpon>Crestwood10105AsIs.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Listings\Crestwood 10105\Crestwood10105AsIs.ascx.vb">
+      <DependentUpon>Crestwood10105AsIs.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Listings\Crestwood 10105\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Listings\Crestwood 10105\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Listings\Darcy Green, 2137\DarcyGreen.ascx.designer.vb">
+      <DependentUpon>DarcyGreen.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Listings\Darcy Green, 2137\DarcyGreen.ascx.vb">
+      <DependentUpon>DarcyGreen.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Listings\Darcy Green, 2137\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Listings\Darcy Green, 2137\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Listings\DarcyForestDrive9820\DarcyForest.ascx.designer.vb">
+      <DependentUpon>DarcyForest.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Listings\DarcyForestDrive9820\DarcyForest.ascx.vb">
+      <DependentUpon>DarcyForest.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Listings\DarcyForestDrive9820\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Listings\DarcyForestDrive9820\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Listings\Dupont\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Listings\Dupont\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Listings\Homewood\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Listings\Homewood\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Listings\Lexington\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Listings\Lexington\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Listings\P3\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Listings\P3\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Listings\P3\P3.ascx.designer.vb">
+      <DependentUpon>P3.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Listings\P3\P3.ascx.vb">
+      <DependentUpon>P3.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Listings\Pomander7103\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Listings\Pomander7103\default.aspx.vb">
+      <SubType>ASPXCodebehind</SubType>
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Listings\Pomander7103\Pomander.ascx.designer.vb">
+      <DependentUpon>Pomander.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Listings\Pomander7103\Pomander.ascx.vb">
+      <DependentUpon>Pomander.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Listings\Puller4511\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Listings\Puller4511\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Listings\Puller4511\Puller4511.ascx.designer.vb">
+      <DependentUpon>Puller4511.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Listings\Puller4511\Puller4511.ascx.vb">
+      <DependentUpon>Puller4511.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\NewsletterSubscribe.aspx.designer.vb">
+      <DependentUpon>NewsletterSubscribe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\NewsletterSubscribe.aspx.vb">
+      <DependentUpon>NewsletterSubscribe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Resources.aspx.designer.vb">
+      <DependentUpon>Resources.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Resources.aspx.vb">
+      <DependentUpon>Resources.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Resources\Buyers\1 Deciding on a Neighborhood and Home.aspx.designer.vb">
+      <DependentUpon>1 Deciding on a Neighborhood and Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Resources\Buyers\1 Deciding on a Neighborhood and Home.aspx.vb">
+      <DependentUpon>1 Deciding on a Neighborhood and Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Resources\Buyers\2 Renting versus Buying.aspx.designer.vb">
+      <DependentUpon>2 Renting versus Buying.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Resources\Buyers\2 Renting versus Buying.aspx.vb">
+      <DependentUpon>2 Renting versus Buying.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Resources\Buyers\3 Thoughts of Buying a New Home.aspx.designer.vb">
+      <DependentUpon>3 Thoughts of Buying a New Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Resources\Buyers\3 Thoughts of Buying a New Home.aspx.vb">
+      <DependentUpon>3 Thoughts of Buying a New Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Resources\Buyers\Schools.aspx.designer.vb">
+      <DependentUpon>Schools.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Resources\Buyers\Schools.aspx.vb">
+      <DependentUpon>Schools.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Resources\Home Improvments\1 Tankless Water Heaters.aspx.designer.vb">
+      <DependentUpon>1 Tankless Water Heaters.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Resources\Home Improvments\1 Tankless Water Heaters.aspx.vb">
+      <DependentUpon>1 Tankless Water Heaters.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Resources\Home Improvments\2 Adding Skylights to Your Home.aspx.designer.vb">
+      <DependentUpon>2 Adding Skylights to Your Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Resources\Home Improvments\2 Adding Skylights to Your Home.aspx.vb">
+      <DependentUpon>2 Adding Skylights to Your Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Resources\Home Improvments\3 Herb Gardens.aspx.designer.vb">
+      <DependentUpon>3 Herb Gardens.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Resources\Home Improvments\3 Herb Gardens.aspx.vb">
+      <DependentUpon>3 Herb Gardens.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Resources\Mortgage\1 Pre-approval Letters.aspx.designer.vb">
+      <DependentUpon>1 Pre-approval Letters.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Resources\Mortgage\1 Pre-approval Letters.aspx.vb">
+      <DependentUpon>1 Pre-approval Letters.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Resources\Mortgage\2 Loan Approval.aspx.designer.vb">
+      <DependentUpon>2 Loan Approval.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Resources\Mortgage\2 Loan Approval.aspx.vb">
+      <DependentUpon>2 Loan Approval.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Resources\Mortgage\3 Improving a Credit Score.aspx.designer.vb">
+      <DependentUpon>3 Improving a Credit Score.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Resources\Mortgage\3 Improving a Credit Score.aspx.vb">
+      <DependentUpon>3 Improving a Credit Score.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Resources\Mortgage\4 Saving for a Down Payment.aspx.designer.vb">
+      <DependentUpon>4 Saving for a Down Payment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Resources\Mortgage\4 Saving for a Down Payment.aspx.vb">
+      <DependentUpon>4 Saving for a Down Payment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Resources\Moving\1 Moving Tips.aspx.designer.vb">
+      <DependentUpon>1 Moving Tips.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Resources\Moving\1 Moving Tips.aspx.vb">
+      <DependentUpon>1 Moving Tips.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Resources\Moving\2 Moving Timeline and Checklist.aspx.designer.vb">
+      <DependentUpon>2 Moving Timeline and Checklist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Resources\Moving\2 Moving Timeline and Checklist.aspx.vb">
+      <DependentUpon>2 Moving Timeline and Checklist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Resources\Moving\3 Getting Rid of Extra Items.aspx.designer.vb">
+      <DependentUpon>3 Getting Rid of Extra Items.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Resources\Moving\3 Getting Rid of Extra Items.aspx.vb">
+      <DependentUpon>3 Getting Rid of Extra Items.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Resources\Moving\4 Tips for Saving Energy.aspx.designer.vb">
+      <DependentUpon>4 Tips for Saving Energy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Resources\Moving\4 Tips for Saving Energy.aspx.vb">
+      <DependentUpon>4 Tips for Saving Energy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Resources\Second Home buying\1 Income Properties.aspx.designer.vb">
+      <DependentUpon>1 Income Properties.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Resources\Second Home buying\1 Income Properties.aspx.vb">
+      <DependentUpon>1 Income Properties.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Resources\Second Home buying\2 Vacation Homes.aspx.designer.vb">
+      <DependentUpon>2 Vacation Homes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Resources\Second Home buying\2 Vacation Homes.aspx.vb">
+      <DependentUpon>2 Vacation Homes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Resources\Sellers\1 Determining Fair Market Value.aspx.designer.vb">
+      <DependentUpon>1 Determining Fair Market Value.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Resources\Sellers\1 Determining Fair Market Value.aspx.vb">
+      <DependentUpon>1 Determining Fair Market Value.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Resources\Sellers\2 Preparing to Sell Your Home.aspx.designer.vb">
+      <DependentUpon>2 Preparing to Sell Your Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Resources\Sellers\2 Preparing to Sell Your Home.aspx.vb">
+      <DependentUpon>2 Preparing to Sell Your Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Resources\Sellers\3 Quick Tips for Showing Your Home.aspx.designer.vb">
+      <DependentUpon>3 Quick Tips for Showing Your Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Resources\Sellers\3 Quick Tips for Showing Your Home.aspx.vb">
+      <DependentUpon>3 Quick Tips for Showing Your Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\SendEmail.aspx.designer.vb">
+      <DependentUpon>SendEmail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\SendEmail.aspx.vb">
+      <DependentUpon>SendEmail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Sold Reports\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Sold Reports\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Sold Reports\details.aspx.designer.vb">
+      <DependentUpon>details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Sold Reports\details.aspx.vb">
+      <DependentUpon>details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Sold Reports\results.aspx.designer.vb">
+      <DependentUpon>results.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Sold Reports\results.aspx.vb">
+      <DependentUpon>results.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Sold Reports\SoldDetails.ascx.designer.vb">
+      <DependentUpon>SoldDetails.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Sold Reports\SoldDetails.ascx.vb">
+      <DependentUpon>SoldDetails.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Sold Reports\SoldDfault.ascx.designer.vb">
+      <DependentUpon>SoldDfault.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Sold Reports\SoldDfault.ascx.vb">
+      <DependentUpon>SoldDfault.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Sold Reports\SoldResults.ascx.designer.vb">
+      <DependentUpon>SoldResults.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Sold Reports\SoldResults.ascx.vb">
+      <DependentUpon>SoldResults.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Sold Reports\UpdateLog.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="REStudio\Traffic\clsTraffic.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="REStudio\Traffic\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Traffic\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wanControl\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wanControl\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wanControl\SvLuka\Subscribe\confirmation.aspx.designer.vb">
+      <DependentUpon>confirmation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wanControl\SvLuka\Subscribe\confirmation.aspx.vb">
+      <DependentUpon>confirmation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wanControl\SvLuka\Subscribe\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wanControl\SvLuka\Subscribe\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wanControl\SvLuka\Subscribe\unsubscribe.aspx.designer.vb">
+      <DependentUpon>unsubscribe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wanControl\SvLuka\Subscribe\unsubscribe.aspx.vb">
+      <DependentUpon>unsubscribe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wanControl\test.aspx.designer.vb">
+      <DependentUpon>test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wanControl\test.aspx.vb">
+      <DependentUpon>test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wanControl\ZipCodes\ZipCodes.asmx.vb">
+      <DependentUpon>ZipCodes.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Web References\localhost\Reference.vb">
+      <DependentUpon>Reference.map</DependentUpon>
+      <SubType>code</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Content Include="Bujak\databasetest.aspx" />
+    <Content Include="Bujak\default.aspx" />
+    <Content Include="Bujak\Email.aspx" />
+    <Content Include="Bujak\images\Krstenje Mie\default.htm" />
+    <Content Include="Bujak\images\Krstenje Mie\default2.htm" />
+    <Content Include="Bujak\images\Krstenje Mie\default3.htm" />
+    <Content Include="Bujak\images\Krstenje Mie\res\actions\universal\download.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\actions\universal\first.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\actions\universal\first_disabled.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\actions\universal\folder.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\actions\universal\folder_small.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\actions\universal\help.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\actions\universal\index.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\actions\universal\info.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\actions\universal\info_disabled.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\actions\universal\last.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\actions\universal\last_disabled.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\actions\universal\movie.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\actions\universal\movie_small.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\actions\universal\next.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\actions\universal\next_disabled.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\actions\universal\order_print.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\actions\universal\pause.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\actions\universal\play.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\actions\universal\previous.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\actions\universal\previous_disabled.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\actions\universal\sound.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\actions\universal\sound_small.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\actions\universal\up.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\empty.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\favicon.ico" />
+    <Content Include="Bujak\images\Krstenje Mie\res\folder.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\js\common.js" />
+    <Content Include="Bujak\images\Krstenje Mie\res\js\keyboard.js" />
+    <Content Include="Bujak\images\Krstenje Mie\res\js\nav-index.js" />
+    <Content Include="Bujak\images\Krstenje Mie\res\js\nav-slide.js" />
+    <Content Include="Bujak\images\Krstenje Mie\res\js\remarks.js" />
+    <Content Include="Bujak\images\Krstenje Mie\res\js\save-protection.js" />
+    <Content Include="Bujak\images\Krstenje Mie\res\js\shadow.js" />
+    <Content Include="Bujak\images\Krstenje Mie\res\js\slideshow.js" />
+    <Content Include="Bujak\images\Krstenje Mie\res\js\statusbar.js" />
+    <Content Include="Bujak\images\Krstenje Mie\res\movie.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\styles.css" />
+    <Content Include="Bujak\images\Krstenje Mie\res\styles\arcs.css" />
+    <Content Include="Bujak\images\Krstenje Mie\res\styles\arcs\background.jpg" />
+    <Content Include="Bujak\images\Krstenje Mie\res\styles\arcs\rule.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\topbars\black\classic.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\topbars\blue\classic.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\topbars\blue\panel.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\topbars\blue\pipe.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\topbars\dark-green2\classic.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\topbars\dark-green2\panel.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\topbars\dark-green2\pipe.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\topbars\dark-green\classic.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\topbars\dark-green\panel.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\topbars\dark-green\pipe.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\topbars\golden-green\classic.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\topbars\golden-green\panel.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\topbars\golden-green\pipe.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\topbars\gray\classic.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\topbars\gray\panel.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\topbars\gray\pipe.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\topbars\khaki\classic.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\topbars\light-green\classic.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\topbars\light-green\panel.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\topbars\light-green\pipe.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\topbars\purple\classic.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\topbars\purple\panel.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\topbars\purple\pipe.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\res\topbars\red\classic.gif" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0072.htm" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0072.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0073.htm" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0073.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0074.htm" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0074.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0075.htm" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0075.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0076.htm" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0076.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0077.htm" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0077.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0078.htm" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0078.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0079.htm" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0079.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0080.htm" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0080.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0081.htm" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0081.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0082.htm" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0082.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0083.htm" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0083.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0084.htm" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0084.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0085.htm" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0085.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0086.htm" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0086.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0087.htm" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0087.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0088.htm" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0088.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0089.htm" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0089.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0090.htm" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0090.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0091.htm" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0091.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0092.htm" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0092.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0093.htm" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0093.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0094.htm" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0094.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0095.htm" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0095.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0096.htm" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0096.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0097.htm" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0097.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0098.htm" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0098.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0099.htm" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0099.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0101.htm" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0101.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0102.htm" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0102.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0106.htm" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0106.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0109.htm" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0109.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0112.htm" />
+    <Content Include="Bujak\images\Krstenje Mie\slides\100_0112.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\thumbs\100_0072.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\thumbs\100_0073.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\thumbs\100_0074.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\thumbs\100_0075.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\thumbs\100_0076.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\thumbs\100_0077.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\thumbs\100_0078.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\thumbs\100_0079.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\thumbs\100_0080.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\thumbs\100_0081.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\thumbs\100_0082.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\thumbs\100_0083.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\thumbs\100_0084.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\thumbs\100_0085.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\thumbs\100_0086.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\thumbs\100_0087.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\thumbs\100_0088.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\thumbs\100_0089.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\thumbs\100_0090.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\thumbs\100_0091.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\thumbs\100_0092.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\thumbs\100_0093.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\thumbs\100_0094.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\thumbs\100_0095.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\thumbs\100_0096.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\thumbs\100_0097.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\thumbs\100_0098.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\thumbs\100_0099.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\thumbs\100_0101.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\thumbs\100_0102.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\thumbs\100_0106.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\thumbs\100_0109.JPG" />
+    <Content Include="Bujak\images\Krstenje Mie\thumbs\100_0112.JPG" />
+    <Content Include="Bujak\Portret2.jpg" />
+    <Content Include="default.aspx" />
+    <Content Include="error.aspx" />
+    <Content Include="Errors\default.aspx" />
+    <Content Include="Errors\ErrorInfo.ascx" />
+    <Content Include="Errors\FlahertyDCError.aspx" />
+    <Content Include="Errors\FlahertyPotomacError.aspx" />
+    <Content Include="Errors\KensingtonTeamError.aspx" />
+    <Content Include="Errors\renovationStudioError.aspx" />
+    <Content Include="Errors\reStudioError.aspx" />
+    <Content Include="FLAHERTYDC\About\default.aspx" />
+    <Content Include="FLAHERTYDC\default.aspx" />
+    <Content Include="FLAHERTYDC\Listings\default.aspx" />
+    <Content Include="FLAHERTYDC\Resources\default.aspx" />
+    <Content Include="FLAHERTYDC\SoldReports\default.aspx" />
+    <Content Include="FLAHERTYDC\SoldReports\details.aspx" />
+    <Content Include="FLAHERTYDC\SoldReports\results.aspx" />
+    <Content Include="FLAHERTYPOTOMAC\About\about.ascx" />
+    <Content Include="FLAHERTYPOTOMAC\About\Alana.gif" />
+    <Content Include="FLAHERTYPOTOMAC\About\default.aspx" />
+    <Content Include="FLAHERTYPOTOMAC\About\Dejan.gif" />
+    <Content Include="FLAHERTYPOTOMAC\controls\AlanaDejan.gif" />
+    <Content Include="FLAHERTYPOTOMAC\controls\BlurPeopleBg.jpg" />
+    <Content Include="FLAHERTYPOTOMAC\controls\FlahertyGroupInc.gif" />
+    <Content Include="FLAHERTYPOTOMAC\controls\Footer.ascx" />
+    <Content Include="FLAHERTYPOTOMAC\controls\Left.ascx" />
+    <Content Include="FLAHERTYPOTOMAC\controls\WeStandOut.gif" />
+    <Content Include="FLAHERTYPOTOMAC\default.aspx" />
+    <Content Include="FLAHERTYPOTOMAC\Listings\default.aspx" />
+    <Content Include="FLAHERTYPOTOMAC\Resources\default.aspx" />
+    <Content Include="FLAHERTYPOTOMAC\Resources\Resources.ascx" />
+    <Content Include="FLAHERTYPOTOMAC\SoldReports\default.aspx" />
+    <Content Include="FLAHERTYPOTOMAC\SoldReports\details.aspx" />
+    <Content Include="FLAHERTYPOTOMAC\SoldReports\results.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="HarmonyLeaf\default.aspx" />
+    <Content Include="HTMLPage1.htm" />
+    <Content Include="KensingtonTeam\About\Alana.jpg" />
+    <Content Include="KensingtonTeam\About\default.aspx" />
+    <Content Include="KensingtonTeam\About\Dejan.jpg" />
+    <Content Include="KensingtonTeam\About\Flaherty.jpg" />
+    <Content Include="KensingtonTeam\Controls\Alana and Dejan.jpg" />
+    <Content Include="KensingtonTeam\Controls\Footer.ascx" />
+    <Content Include="KensingtonTeam\Controls\Header.ascx" />
+    <Content Include="KensingtonTeam\Controls\Left.ascx" />
+    <Content Include="KensingtonTeam\Controls\Right.ascx" />
+    <Content Include="KensingtonTeam\default.aspx" />
+    <Content Include="KensingtonTeam\Listings\default.aspx" />
+    <Content Include="KensingtonTeam\Listings\OldListings.ascx" />
+    <Content Include="KensingtonTeam\Resources\default.aspx" />
+    <Content Include="KensingtonTeam\Sold Reports\default.aspx" />
+    <Content Include="KensingtonTeam\Sold Reports\details.aspx" />
+    <Content Include="KensingtonTeam\Sold Reports\results.aspx" />
+    <Content Include="properIT\About\default.aspx" />
+    <Content Include="properIT\About\images\ludoA.jpg" />
+    <Content Include="properIT\BackToTop.ascx" />
+    <Content Include="properIT\Database\default.aspx" />
+    <Content Include="properIT\Database\images\globe.jpg" />
+    <Content Include="properIT\default.aspx" />
+    <Content Include="properIT\Email Stationary\properIT.htm" />
+    <Content Include="properIT\Email Stationary\properIThandshake.jpg" />
+    <Content Include="properIT\Footer.ascx" />
+    <Content Include="properIT\Header.ascx" />
+    <Content Include="properIT\images\footer.gif" />
+    <Content Include="properIT\images\handshake.jpg" />
+    <Content Include="properIT\images\logo.jpg" />
+    <Content Include="properIT\images\properIT Logo.gif" />
+    <Content Include="properIT\MoreInformation.ascx" />
+    <Content Include="properIT\Network\default.aspx" />
+    <Content Include="properIT\Network\images\wwEye.jpg" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\1-basicinfo-2.png" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\15-styles-1.png" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\15-styles-variations.png" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\16-preview-machine.png" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\16-preview-parchment.png" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\16-preview-postagepaid.png" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\16-preview-shafted.png" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\16-preview-wood.png" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\19-publish.png" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\2-contact.jpg" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\2-contact.png" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\25-parchment-home.png" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\3-calendar.png" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\4-news.png" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\5-images-1.png" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\6-photo-1.png" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\7-music-1.png" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\7-music-2.png" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\7-music-3.png" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\7-music-4.png" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\block.css" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\control-panel.png" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\Copy of default.htm" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\default.asp" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\hostbaby_logo_black_orange.gif" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\HostBaby_OasisCD_Header_blue.jpg" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\Links.inc" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\NavBar.gif" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\NavBar.inc" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\orange-arrow-back.gif" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\orange-arrow-OK.gif" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\page1.asp" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\page10.asp" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\page11.asp" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\page12.asp" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\page13.asp" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\page14.asp" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\page15.asp" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\page16.asp" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\page17.asp" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\page18.asp" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\page19.asp" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\page2.asp" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\page20.asp" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\page21.asp" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\page22.asp" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\page23.asp" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\page24.asp" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\page3.asp" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\page4.asp" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\page5.asp" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\page6.asp" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\page7.asp" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\page8.asp" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\page9.asp" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\usage.png" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\webmail-compose.png" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\website-control-panel.jpg" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\website-control-panel.png" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\website-control-panel2.jpg" />
+    <Content Include="properIT\Samples\OasisCD\HostBaby\website-control-panelBig.jpg" />
+    <Content Include="properIT\Samples\OasisCD\NavBar\apple.jpg" />
+    <Content Include="properIT\Samples\OasisCD\NavBar\atoms.jpg" />
+    <Content Include="properIT\Samples\OasisCD\NavBar\bell.gif" />
+    <Content Include="properIT\Samples\OasisCD\NavBar\bell.jpg" />
+    <Content Include="properIT\Samples\OasisCD\NavBar\cloud.jpg" />
+    <Content Include="properIT\Samples\OasisCD\NavBar\Help.css" />
+    <Content Include="properIT\Samples\OasisCD\NavBar\HTMLPage1.htm" />
+    <Content Include="properIT\Samples\OasisCD\NavBar\MainPanel.ascx" />
+    <Content Include="properIT\Samples\OasisCD\NavBar\MainText.jpg" />
+    <Content Include="properIT\Samples\OasisCD\NavBar\OasisLoggo.jpg" />
+    <Content Include="properIT\Samples\OasisCD\NavBar\OasisLoggoBlack.jpg" />
+    <Content Include="properIT\Samples\OasisCD\NavBar\OasisLoggoBlue.jpg" />
+    <Content Include="properIT\Samples\OasisCD\NavBar\OasisLoggoGreen1.jpg" />
+    <Content Include="properIT\Samples\OasisCD\NavBar\OasisLoggoGreen2.jpg" />
+    <Content Include="properIT\Samples\OasisCD\NavBar\Sample1.aspx" />
+    <Content Include="properIT\Samples\OasisCD\NavBar\Sample2.aspx" />
+    <Content Include="properIT\Samples\OasisCD\NavBar\Sample3.aspx" />
+    <Content Include="properIT\Samples\OasisCD\NavBar\Sample4.aspx" />
+    <Content Include="properIT\Samples\OasisCD\NavBar\Sample5.aspx" />
+    <Content Include="properIT\Samples\OasisCD\NavBar\sample5.css" />
+    <Content Include="properIT\Samples\OasisCD\NavBar\Sample6.aspx" />
+    <Content Include="properIT\Samples\OasisCD\NavBar\sample6.css" />
+    <Content Include="properIT\Samples\OasisCD\NavBar\Sample7.aspx" />
+    <Content Include="properIT\Samples\OasisCD\NavBar\sample7.css" />
+    <Content Include="properIT\Samples\OasisCD\NavBar\Sample8.aspx" />
+    <Content Include="properIT\Samples\OasisCD\NavBar\sample8.css" />
+    <Content Include="properIT\Software\default.aspx" />
+    <Content Include="properIT\Software\images\meeting.jpg" />
+    <Content Include="RENOVATIONSTUDIO\101_0155.jpg" />
+    <Content Include="RENOVATIONSTUDIO\aboutus.aspx" />
+    <Content Include="RENOVATIONSTUDIO\contact.aspx" />
+    <Content Include="RENOVATIONSTUDIO\controls\Footer.ascx" />
+    <Content Include="RENOVATIONSTUDIO\controls\Header.ascx" />
+    <Content Include="RENOVATIONSTUDIO\controls\MainNavBar.ascx" />
+    <Content Include="RENOVATIONSTUDIO\controls\Right.ascx" />
+    <Content Include="RENOVATIONSTUDIO\controls\Sales.ascx" />
+    <Content Include="RENOVATIONSTUDIO\default.aspx" />
+    <Content Include="RENOVATIONSTUDIO\images\ceiling.jpg" />
+    <Content Include="RENOVATIONSTUDIO\images\ceiling2.jpg" />
+    <Content Include="RENOVATIONSTUDIO\images\ceiling_round.jpg" />
+    <Content Include="RENOVATIONSTUDIO\images\ceiling_round2.jpg" />
+    <Content Include="RENOVATIONSTUDIO\images\dejan.jpg" />
+    <Content Include="RENOVATIONSTUDIO\images\dejan2.jpg" />
+    <Content Include="RENOVATIONSTUDIO\images\Empty.jpg" />
+    <Content Include="RENOVATIONSTUDIO\images\hand.jpg" />
+    <Content Include="RENOVATIONSTUDIO\images\hand2.jpg" />
+    <Content Include="RENOVATIONSTUDIO\images\jodi.jpg" />
+    <Content Include="RENOVATIONSTUDIO\images\Lex ElevationsFront.jpg" />
+    <Content Include="RENOVATIONSTUDIO\images\loggo.jpg" />
+    <Content Include="RENOVATIONSTUDIO\images\loggo2.jpg" />
+    <Content Include="RENOVATIONSTUDIO\images\man_notebook.jpg" />
+    <Content Include="RENOVATIONSTUDIO\images\man_notebook2.jpg" />
+    <Content Include="RENOVATIONSTUDIO\images\mark.jpg" />
+    <Content Include="RENOVATIONSTUDIO\images\P1 ElevationsFront.jpg" />
+    <Content Include="RENOVATIONSTUDIO\images\P2 ElevationsBack.jpg" />
+    <Content Include="RENOVATIONSTUDIO\images\P2 ElevationsFront.jpg" />
+    <Content Include="RENOVATIONSTUDIO\images\Scenic007.jpg" />
+    <Content Include="RENOVATIONSTUDIO\images\scroll\IMG_0677.JPG" />
+    <Content Include="RENOVATIONSTUDIO\images\scroll\IMG_0708.JPG" />
+    <Content Include="RENOVATIONSTUDIO\images\scroll\Lex afterkitchen.jpg" />
+    <Content Include="RENOVATIONSTUDIO\images\scroll\Lexington.jpg" />
+    <Content Include="RENOVATIONSTUDIO\images\scroll\P1 after.jpg" />
+    <Content Include="RENOVATIONSTUDIO\images\scroll\P1 afterkitchen.jpg" />
+    <Content Include="RENOVATIONSTUDIO\images\tower.jpg" />
+    <Content Include="RENOVATIONSTUDIO\images\tower2.jpg" />
+    <Content Include="RENOVATIONSTUDIO\images\Tracey.jpg" />
+    <Content Include="RENOVATIONSTUDIO\IMG_0684.jpg" />
+    <Content Include="RENOVATIONSTUDIO\IMG_0696.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Logo.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Logos.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Parkwood 3D.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Parkwood images\Parkwood 1st floor plan.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Parkwood images\Parkwood 2st floor plan.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Parkwood images\Parkwood 3D.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Parkwood images\Parkwood Basement.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Parkwood images\Parkwood Elevation - back.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Parkwood images\Parkwood Elevation - left.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Parkwood images\Parkwood Elevation - right.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Parkwood images\Parkwood Elevation -front.jpg" />
+    <Content Include="RENOVATIONSTUDIO\process.aspx" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Baltimore\Baltimore3d.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Baltimore\Baltimore3dsmall.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Baltimore\defaultStara.aspx" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Baltimore\Header.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Clients.aspx" />
+    <Content Include="RENOVATIONSTUDIO\Projects\ClientsImages\HomewoodBW.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\ClientsImages\KPBW.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\ClientsImages\KP\default.htm" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Crestwood 10105\default.aspx" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Farragut\After.JPG" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Farragut\AfterBW.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Farragut\AfterHeader.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Farragut\AfterKitchen.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Farragut\AfterKitchenBW.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Farragut\Before.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Farragut\BeforeBack.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Farragut\BeforeBackBW.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Farragut\BeforeBW.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Farragut\default.aspx" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Farragut\Farragut.exe" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Lexington\default.aspx" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Lexington\Header.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Lexington\Lexington firework1_b.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Lexington\Lexington firework1_s.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Lexington\Lexington Fireworks2_b.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Lexington\Lexington Fireworks2_s.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Lexington\Lexington web.gif" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Lexington\Lexington.ascx" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Lexington\Lexington1_b.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Lexington\Lexington1_S.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Lexington\Lexington2_b.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Lexington\Lexington2_S.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Lexington\Lexington3_b.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Lexington\Lexington3_S.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Lexington\Lexington4_b.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Lexington\Lexington4_S.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Lexington\Lexington5_b.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Lexington\Lexington5_S.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Lexington\Lexington6_b.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Lexington\Lexington6_s.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Lexington\Lexington_FloorPlansAttic.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Lexington\Lexington_FloorPlansAtticSmall.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Lexington\Lexington_FloorPlansBasement.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Lexington\Lexington_FloorPlansBasementSmall.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Lexington\Lexington_FloorPlansFirst.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Lexington\Lexington_FloorPlansFirstSmall.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Lexington\Lexington_FloorPlansSecond.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Lexington\Lexington_FloorPlansSecondSmall.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\NewHomes.aspx" />
+    <Content Include="RENOVATIONSTUDIO\Projects\NewHomesImages\Lexington.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\NewHomesImages\LexingtonBW.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Parkwood II\defult.aspx" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Parkwood II\ElevationsBack.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Parkwood II\ElevationsBackSmall.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Parkwood II\ElevationsFront.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Parkwood II\ElevationsFrontSmall.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Parkwood II\ElevationsLeft.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Parkwood II\ElevationsLeftSmall.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Parkwood II\ElevationsRight.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Parkwood II\ElevationsRightSmall.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Parkwood II\FloorPlansBasement.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Parkwood II\FloorPlansBasementSmall.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Parkwood II\FloorPlansFirst.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Parkwood II\FloorPlansFirstSmall.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Parkwood II\FloorPlansSecond.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Parkwood II\FloorPlansSecondSmall.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Parkwood II\P2.ascx" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Parkwood I\default.aspx" />
+    <Content Include="RENOVATIONSTUDIO\Projects\Parkwood I\Parkwood 1.exe" />
+    <Content Include="RENOVATIONSTUDIO\RenStu Sign.jpg" />
+    <Content Include="RENOVATIONSTUDIO\SampleAfter.jpg" />
+    <Content Include="RENOVATIONSTUDIO\SampleBefore.jpg" />
+    <Content Include="RENOVATIONSTUDIO\services.aspx" />
+    <Content Include="RENOVATIONSTUDIO\test.htm" />
+    <Content Include="RENOVATIONSTUDIO\testimonies.aspx" />
+    <Content Include="RENOVATIONSTUDIO\weather.xml" />
+    <Content Include="RENOVATIONSTUDIO\WebForm1.aspx" />
+    <Content Include="REStudio\about.aspx" />
+    <Content Include="REStudio\community\default.aspx" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\index.html" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\actions\universal\download.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\actions\universal\first.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\actions\universal\first_disabled.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\actions\universal\folder.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\actions\universal\folder_small.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\actions\universal\help.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\actions\universal\index.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\actions\universal\info.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\actions\universal\info_disabled.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\actions\universal\last.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\actions\universal\last_disabled.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\actions\universal\movie.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\actions\universal\movie_small.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\actions\universal\next.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\actions\universal\next_disabled.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\actions\universal\order_print.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\actions\universal\pause.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\actions\universal\play.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\actions\universal\previous.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\actions\universal\previous_disabled.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\actions\universal\sound.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\actions\universal\sound_small.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\actions\universal\up.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\au.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\avi.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\basestyle.css" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\bg.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\black.css" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\blank.html" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\button.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\b_pil.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\camera.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\dia.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\doc.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\download.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\empty.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\favicon.ico" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\folder.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\folder1.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\folder2.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\foldernew.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\footer.inc" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\f_pil.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\gif.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\guestbook.swf" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\hdr_left.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\hdr_mid.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\hdr_right.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\header.inc" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\help.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\idx.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\idx1.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\index.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\info.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\js\common.js" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\js\keyboard.js" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\js\nav-index.js" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\js\nav-slide.js" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\js\remarks.js" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\js\save-protection.js" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\js\shadow.js" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\js\slideshow.js" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\js\statusbar.js" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\keyboard.js" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\la.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\movie.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\navindex.js" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\navslide.js" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\navslideorig.js" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\navslideorig2.js" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\next-disabled.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\next.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\next1.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\next_disabled.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\orderprints.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\pdf.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\ppt.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\prev-disabled.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\prev.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\prev1.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\previous.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\previous_disabled.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\purplestripe.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\ra.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\sb_pil.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\sf_pil.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\show.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\show1.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\silver-21px-darkbackground\first.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\silver-21px-darkbackground\first_disabled.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\silver-21px-darkbackground\help1.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\silver-21px-darkbackground\index.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\silver-21px-darkbackground\index_next.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\silver-21px-darkbackground\index_next_disabled.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\silver-21px-darkbackground\index_previous.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\silver-21px-darkbackground\index_previous_disabled.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\silver-21px-darkbackground\info1.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\silver-21px-darkbackground\last.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\silver-21px-darkbackground\last_disabled.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\silver-21px-darkbackground\next.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\silver-21px-darkbackground\next_disabled.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\silver-21px-darkbackground\previous.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\silver-21px-darkbackground\previous_disabled.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\silver-21px-darkbackground\price.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\silver-21px-darkbackground\remove.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\silver-21px-darkbackground\select.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\silver-21px-darkbackground\slideshowstart.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\silver-21px-darkbackground\slideshowstop.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\silver-21px-darkbackground\up.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\silver-21px-darkbackground\zoom.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\stop.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\stop1.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\styles.css" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\styles\arcs.css" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\styles\arcs\background.jpg" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\styles\arcs\rule.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\t.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\topbars\black\classic.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\topbars\blue\classic.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\topbars\blue\panel.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\topbars\blue\pipe.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\topbars\dark-green2\classic.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\topbars\dark-green2\panel.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\topbars\dark-green2\pipe.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\topbars\dark-green\classic.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\topbars\dark-green\panel.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\topbars\dark-green\pipe.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\topbars\golden-green\classic.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\topbars\golden-green\panel.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\topbars\golden-green\pipe.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\topbars\gray\classic.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\topbars\gray\panel.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\topbars\gray\pipe.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\topbars\khaki\classic.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\topbars\light-green\classic.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\topbars\light-green\panel.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\topbars\light-green\pipe.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\topbars\purple\classic.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\topbars\purple\panel.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\topbars\purple\pipe.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\topbars\red\classic.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\txt.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\up.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\up1.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\warning_icon.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\wmv.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\xls.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\xml.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\res\zip.gif" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\slides\104_0477.html" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\slides\104_0477.JPG" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\slides\104_0478.html" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\slides\104_0478.JPG" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\slides\104_0479.html" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\slides\104_0479.JPG" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\slides\104_0480.html" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\slides\104_0480.JPG" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\slides\104_0481.html" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\slides\104_0481.JPG" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\slides\104_0482.html" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\slides\104_0482.JPG" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\slides\104_0491.html" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\slides\104_0491.JPG" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\slides\104_0492.html" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\slides\104_0492.JPG" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\slides\104_0493.html" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\slides\104_0493.JPG" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\slides\bg.html" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\slides\bg.jpg" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\thumbs\104_0477.JPG" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\thumbs\104_0478.JPG" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\thumbs\104_0479.JPG" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\thumbs\104_0480.JPG" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\thumbs\104_0481.JPG" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\thumbs\104_0482.JPG" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\thumbs\104_0491.JPG" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\thumbs\104_0492.JPG" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\thumbs\104_0493.JPG" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\thumbs\bg.jpg" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\top.htm" />
+    <Content Include="REStudio\community\Events\2005\Egg Hunt\_bg.jpg" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\index.html" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\actions\universal\download.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\actions\universal\first.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\actions\universal\first_disabled.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\actions\universal\folder.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\actions\universal\folder_small.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\actions\universal\help.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\actions\universal\index.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\actions\universal\info.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\actions\universal\info_disabled.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\actions\universal\last.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\actions\universal\last_disabled.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\actions\universal\movie.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\actions\universal\movie_small.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\actions\universal\next.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\actions\universal\next_disabled.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\actions\universal\order_print.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\actions\universal\pause.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\actions\universal\play.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\actions\universal\previous.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\actions\universal\previous_disabled.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\actions\universal\sound.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\actions\universal\sound_small.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\actions\universal\up.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\empty.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\favicon.ico" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\folder.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\js\common.js" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\js\keyboard.js" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\js\nav-index.js" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\js\nav-slide.js" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\js\remarks.js" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\js\save-protection.js" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\js\shadow.js" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\js\slideshow.js" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\js\statusbar.js" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\movie.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\styles.css" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\styles\arcs.css" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\styles\arcs\background.jpg" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\styles\arcs\rule.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\topbars\black\classic.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\topbars\blue\classic.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\topbars\blue\panel.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\topbars\blue\pipe.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\topbars\dark-green2\classic.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\topbars\dark-green2\panel.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\topbars\dark-green2\pipe.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\topbars\dark-green\classic.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\topbars\dark-green\panel.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\topbars\dark-green\pipe.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\topbars\golden-green\classic.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\topbars\golden-green\panel.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\topbars\golden-green\pipe.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\topbars\gray\classic.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\topbars\gray\panel.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\topbars\gray\pipe.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\topbars\khaki\classic.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\topbars\light-green\classic.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\topbars\light-green\panel.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\topbars\light-green\pipe.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\topbars\purple\classic.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\topbars\purple\panel.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\topbars\purple\pipe.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\res\topbars\red\classic.gif" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\slides\100_0667.html" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\slides\100_0667.JPG" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\slides\100_0668.html" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\slides\100_0668.JPG" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\slides\100_0671.html" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\slides\100_0671.JPG" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\slides\100_0672.html" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\slides\100_0672.JPG" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\slides\100_0673.html" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\slides\100_0673.JPG" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\slides\100_0674.html" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\slides\100_0674.JPG" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\slides\100_0675.html" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\slides\100_0675.JPG" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\slides\100_0676.html" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\slides\100_0676.JPG" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\thumbs\100_0667.JPG" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\thumbs\100_0668.JPG" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\thumbs\100_0671.JPG" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\thumbs\100_0672.JPG" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\thumbs\100_0673.JPG" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\thumbs\100_0674.JPG" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\thumbs\100_0675.JPG" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\thumbs\100_0676.JPG" />
+    <Content Include="REStudio\community\Events\2006\July 4th Parade\_bg.jpg" />
+    <Content Include="REStudio\community\Events\2007\July 4th\index.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\index2.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\index3.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\index4.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\index5.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\actions\universal\download.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\actions\universal\first.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\actions\universal\first_disabled.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\actions\universal\folder.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\actions\universal\folder_small.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\actions\universal\help.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\actions\universal\index.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\actions\universal\info.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\actions\universal\info_disabled.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\actions\universal\last.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\actions\universal\last_disabled.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\actions\universal\movie.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\actions\universal\movie_small.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\actions\universal\next.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\actions\universal\next_disabled.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\actions\universal\order_print.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\actions\universal\pause.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\actions\universal\play.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\actions\universal\previous.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\actions\universal\previous_disabled.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\actions\universal\sound.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\actions\universal\sound_small.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\actions\universal\up.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\empty.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\favicon.ico" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\folder.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\js\common.js" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\js\keyboard.js" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\js\nav-index.js" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\js\nav-slide.js" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\js\remarks.js" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\js\save-protection.js" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\js\shadow.js" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\js\slideshow.js" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\js\statusbar.js" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\movie.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\styles.css" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\styles\arcs.css" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\styles\arcs\background.jpg" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\styles\arcs\rule.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\topbars\black\classic.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\topbars\blue\classic.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\topbars\blue\panel.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\topbars\blue\pipe.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\topbars\dark-green2\classic.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\topbars\dark-green2\panel.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\topbars\dark-green2\pipe.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\topbars\dark-green\classic.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\topbars\dark-green\panel.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\topbars\dark-green\pipe.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\topbars\golden-green\classic.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\topbars\golden-green\panel.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\topbars\golden-green\pipe.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\topbars\gray\classic.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\topbars\gray\panel.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\topbars\gray\pipe.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\topbars\khaki\classic.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\topbars\light-green\classic.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\topbars\light-green\panel.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\topbars\light-green\pipe.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\topbars\purple\classic.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\topbars\purple\panel.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\topbars\purple\pipe.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\res\topbars\red\classic.gif" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2178.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2178.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2179.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2179.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2180.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2180.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2181.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2181.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2184.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2184.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2185.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2185.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2186.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2186.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2187.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2187.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2188.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2188.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2189.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2189.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2190.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2190.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2191.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2191.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2192.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2192.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2193.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2193.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2194.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2194.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2197.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2197.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2198.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2198.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2199.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2199.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2200.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2200.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2201.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2201.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2202.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2202.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2203.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2203.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2204.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2204.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2205.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2205.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2207.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2207.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2208.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2208.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2209.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2209.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2211.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2211.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2212.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2212.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2213.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2213.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2214.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2214.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2215.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2215.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2216.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2216.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2217.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2217.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2218.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2218.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2219.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2219.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2220.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2220.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2221.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2221.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2222.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2222.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2223.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2223.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2224.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2224.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2225.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2225.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2226.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2226.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2227.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2227.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2228.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2228.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2229.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2229.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2230.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2230.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2231.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2231.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2232.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2232.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2233.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2233.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2234.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2234.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2235.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2235.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2236.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2236.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2239.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2239.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2240.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2240.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2241.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2241.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2242.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2242.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2243.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2243.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2244.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2244.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2245.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2245.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2246.html" />
+    <Content Include="REStudio\community\Events\2007\July 4th\slides\100_2246.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2178.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2179.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2180.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2181.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2184.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2185.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2186.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2187.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2188.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2189.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2190.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2191.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2192.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2193.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2194.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2197.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2198.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2199.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2200.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2201.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2202.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2203.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2204.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2205.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2207.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2208.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2209.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2211.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2212.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2213.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2214.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2215.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2216.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2217.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2218.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2219.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2220.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2221.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2222.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2223.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2224.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2225.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2226.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2227.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2228.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2229.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2230.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2231.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2232.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2233.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2234.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2235.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2236.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2239.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2240.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2241.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2242.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2243.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2244.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2245.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\thumbs\100_2246.JPG" />
+    <Content Include="REStudio\community\Events\2007\July 4th\_bg.jpg" />
+    <Content Include="REStudio\community\Events\2007\Labor Day Parade\default.aspx" />
+    <Content Include="REStudio\community\Events\2007\Parkwood Party\default.aspx" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\index.html" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\actions\universal\download.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\actions\universal\first.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\actions\universal\first_disabled.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\actions\universal\folder.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\actions\universal\folder_small.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\actions\universal\help.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\actions\universal\index.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\actions\universal\info.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\actions\universal\info_disabled.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\actions\universal\last.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\actions\universal\last_disabled.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\actions\universal\movie.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\actions\universal\movie_small.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\actions\universal\next.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\actions\universal\next_disabled.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\actions\universal\order_print.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\actions\universal\pause.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\actions\universal\play.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\actions\universal\previous.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\actions\universal\previous_disabled.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\actions\universal\sound.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\actions\universal\sound_small.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\actions\universal\up.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\empty.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\favicon.ico" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\folder.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\js\common.js" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\js\keyboard.js" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\js\nav-index.js" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\js\nav-slide.js" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\js\remarks.js" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\js\save-protection.js" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\js\shadow.js" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\js\slideshow.js" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\js\statusbar.js" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\movie.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\styles.css" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\styles\arcs.css" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\styles\arcs\background.jpg" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\styles\arcs\rule.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\topbars\black\classic.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\topbars\blue\classic.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\topbars\blue\panel.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\topbars\blue\pipe.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\topbars\dark-green2\classic.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\topbars\dark-green2\panel.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\topbars\dark-green2\pipe.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\topbars\dark-green\classic.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\topbars\dark-green\panel.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\topbars\dark-green\pipe.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\topbars\golden-green\classic.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\topbars\golden-green\panel.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\topbars\golden-green\pipe.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\topbars\gray\classic.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\topbars\gray\panel.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\topbars\gray\pipe.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\topbars\khaki\classic.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\topbars\light-green\classic.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\topbars\light-green\panel.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\topbars\light-green\pipe.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\topbars\purple\classic.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\topbars\purple\panel.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\topbars\purple\pipe.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\res\topbars\red\classic.gif" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\slides\100_1878.html" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\slides\100_1878.JPG" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\slides\100_1879.html" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\slides\100_1879.JPG" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\slides\100_1880.html" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\slides\100_1880.JPG" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\slides\100_1881.html" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\slides\100_1881.JPG" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\slides\100_1882.html" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\slides\100_1882.JPG" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\slides\100_1883.html" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\slides\100_1883.JPG" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\slides\100_1884.html" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\slides\100_1884.JPG" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\slides\100_1885.html" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\slides\100_1885.JPG" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\slides\100_1886.html" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\slides\100_1886.JPG" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\thumbs\100_1878.JPG" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\thumbs\100_1879.JPG" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\thumbs\100_1880.JPG" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\thumbs\100_1881.JPG" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\thumbs\100_1882.JPG" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\thumbs\100_1883.JPG" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\thumbs\100_1884.JPG" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\thumbs\100_1885.JPG" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\thumbs\100_1886.JPG" />
+    <Content Include="REStudio\community\Events\2007\Rock Creek Clean up\_bg.jpg" />
+    <Content Include="REStudio\contact.aspx" />
+    <Content Include="REStudio\Controls\Dejan.jpg" />
+    <Content Include="REStudio\Controls\emailContact.ascx" />
+    <Content Include="REStudio\Controls\Footer.ascx" />
+    <Content Include="REStudio\Controls\Header.ascx" />
+    <Content Include="REStudio\Controls\Left.ascx" />
+    <Content Include="REStudio\Controls\LowDown.ascx" />
+    <Content Include="REStudio\Controls\phoneContact.ascx" />
+    <Content Include="REStudio\Controls\RentContact.ascx" />
+    <Content Include="REStudio\Controls\ResourcesContact.ascx" />
+    <Content Include="REStudio\Controls\Right.ascx" />
+    <Content Include="REStudio\Controls\SalesContact.ascx" />
+    <Content Include="REStudio\Controls\SellerTips.ascx" />
+    <Content Include="REStudio\default.aspx" />
+    <Content Include="REStudio\FlahertyDCSearch\default.aspx" />
+    <Content Include="REStudio\FlahertyPotomacSearch\default.aspx" />
+    <Content Include="REStudio\images\3102Ferndale.jpg" />
+    <Content Include="REStudio\images\GrabFreeNewsletter.jpg" />
+    <Content Include="REStudio\images\Y5D7HE %281%29.jpg" />
+    <Content Include="REStudio\KensingtonTeamSearch\default.aspx" />
+    <Content Include="REStudio\Listings.aspx" />
+    <Content Include="REStudio\Listings\10234Parkwood\1ST FL small.jpg" />
+    <Content Include="REStudio\Listings\10234Parkwood\1ST FL.jpg" />
+    <Content Include="REStudio\Listings\10234Parkwood\2ND FL small.jpg" />
+    <Content Include="REStudio\Listings\10234Parkwood\2ND FL.jpg" />
+    <Content Include="REStudio\Listings\10234Parkwood\BASEMENT small.jpg" />
+    <Content Include="REStudio\Listings\10234Parkwood\BASEMENT.jpg" />
+    <Content Include="REStudio\Listings\10234Parkwood\default.aspx" />
+    <Content Include="REStudio\Listings\10234Parkwood\FRONT small.jpg" />
+    <Content Include="REStudio\Listings\10234Parkwood\Front.jpg" />
+    <Content Include="REStudio\Listings\10234Parkwood\PostCardFront.jpg" />
+    <Content Include="REStudio\Listings\10234Parkwood\PostCardFront_Small.jpg" />
+    <Content Include="REStudio\Listings\Ambler\Ambler.ascx" />
+    <Content Include="REStudio\Listings\Ambler\Areal View Small.jpg" />
+    <Content Include="REStudio\Listings\Ambler\Areal View.gif" />
+    <Content Include="REStudio\Listings\Ambler\default.aspx" />
+    <Content Include="REStudio\Listings\Ambler\ElevationsBack.jpg" />
+    <Content Include="REStudio\Listings\Ambler\ElevationsBackSmall.jpg" />
+    <Content Include="REStudio\Listings\Ambler\ElevationsFront.jpg" />
+    <Content Include="REStudio\Listings\Ambler\ElevationsFrontSmall.jpg" />
+    <Content Include="REStudio\Listings\Ambler\ElevationsLeft.jpg" />
+    <Content Include="REStudio\Listings\Ambler\ElevationsLeftSmall.jpg" />
+    <Content Include="REStudio\Listings\Ambler\ElevationsRight.jpg" />
+    <Content Include="REStudio\Listings\Ambler\ElevationsRightSmall.jpg" />
+    <Content Include="REStudio\Listings\Ambler\FloorPlansBasement.jpg" />
+    <Content Include="REStudio\Listings\Ambler\FloorPlansBasementSmall.jpg" />
+    <Content Include="REStudio\Listings\Ambler\FloorPlansFirst.jpg" />
+    <Content Include="REStudio\Listings\Ambler\FloorPlansFirstSmall.jpg" />
+    <Content Include="REStudio\Listings\Ambler\FloorPlansSecond.jpg" />
+    <Content Include="REStudio\Listings\Ambler\FloorPlansSecondSmall.jpg" />
+    <Content Include="REStudio\Listings\Ambler\FrontMed.gif" />
+    <Content Include="REStudio\Listings\Ambler\FrontMed.jpg" />
+    <Content Include="REStudio\Listings\Ambler\FrontSmall.jpg" />
+    <Content Include="REStudio\Listings\Baltimore, 3951\Baltimore3951.ascx" />
+    <Content Include="REStudio\Listings\Baltimore, 3951\default.aspx" />
+    <Content Include="REStudio\Listings\Baltimore, 3951\DLES3C.jpg" />
+    <Content Include="REStudio\Listings\Blueridge3003\Blueridge3003.ascx" />
+    <Content Include="REStudio\Listings\Blueridge3003\default.aspx" />
+    <Content Include="REStudio\Listings\Carriage\Backyard.jpg" />
+    <Content Include="REStudio\Listings\Carriage\Backyard2.jpg" />
+    <Content Include="REStudio\Listings\Carriage\Basement.jpg" />
+    <Content Include="REStudio\Listings\Carriage\Bath.jpg" />
+    <Content Include="REStudio\Listings\Carriage\Bedroom.jpg" />
+    <Content Include="REStudio\Listings\Carriage\Carriage small.jpg" />
+    <Content Include="REStudio\Listings\Carriage\carriage.ascx" />
+    <Content Include="REStudio\Listings\Carriage\default.aspx" />
+    <Content Include="REStudio\Listings\Carriage\DinningRoom.jpg" />
+    <Content Include="REStudio\Listings\Carriage\Foyer.jpg" />
+    <Content Include="REStudio\Listings\Carriage\Front.jpg" />
+    <Content Include="REStudio\Listings\Carriage\Kitchen.jpg" />
+    <Content Include="REStudio\Listings\Carriage\Kitchen2.jpg" />
+    <Content Include="REStudio\Listings\Carriage\LivingRoom.jpg" />
+    <Content Include="REStudio\Listings\Carriage\PowderRoom.jpg" />
+    <Content Include="REStudio\Listings\Carriage\UpstairsHall.jpg" />
+    <Content Include="REStudio\Listings\Crestwood 10105\1ST FL small %281%29.jpg" />
+    <Content Include="REStudio\Listings\Crestwood 10105\1ST FL.jpg" />
+    <Content Include="REStudio\Listings\Crestwood 10105\2ND FL small %281%29.jpg" />
+    <Content Include="REStudio\Listings\Crestwood 10105\2ND FL.jpg" />
+    <Content Include="REStudio\Listings\Crestwood 10105\Basement Floor plan small.jpg" />
+    <Content Include="REStudio\Listings\Crestwood 10105\Basement Floor plan.jpg" />
+    <Content Include="REStudio\Listings\Crestwood 10105\Crestwood %281%29.jpg" />
+    <Content Include="REStudio\Listings\Crestwood 10105\Crestwood.jpg" />
+    <Content Include="REStudio\Listings\Crestwood 10105\Crestwood10105.ascx" />
+    <Content Include="REStudio\Listings\Crestwood 10105\Crestwood10105AsIs.ascx" />
+    <Content Include="REStudio\Listings\Crestwood 10105\default.aspx" />
+    <Content Include="REStudio\Listings\Crestwood 10105\FRONT Elevation small.jpg" />
+    <Content Include="REStudio\Listings\Crestwood 10105\FRONT Elevation.jpg" />
+    <Content Include="REStudio\Listings\Crestwood 10105\Front.jpg" />
+    <Content Include="REStudio\Listings\Crestwood 10105\FrontAfter.gif" />
+    <Content Include="REStudio\Listings\Crestwood 10105\FrontAfter.jpg" />
+    <Content Include="REStudio\Listings\Crestwood 10105\FrontAfterSmall.jpg" />
+    <Content Include="REStudio\Listings\Crestwood 10105\LEFT Elevation small %281%29.jpg" />
+    <Content Include="REStudio\Listings\Crestwood 10105\LEFT Elevation small.jpg" />
+    <Content Include="REStudio\Listings\Crestwood 10105\LEFT Elevation.jpg" />
+    <Content Include="REStudio\Listings\Crestwood 10105\REAR Elevations small %281%29.jpg" />
+    <Content Include="REStudio\Listings\Crestwood 10105\REAR Elevations.jpg" />
+    <Content Include="REStudio\Listings\Darcy Green, 2137\DarcyGreen.ascx" />
+    <Content Include="REStudio\Listings\Darcy Green, 2137\default.aspx" />
+    <Content Include="REStudio\Listings\DarcyForestDrive9820\DarcyForest.ascx" />
+    <Content Include="REStudio\Listings\DarcyForestDrive9820\default.aspx" />
+    <Content Include="REStudio\Listings\Dupont\default.aspx" />
+    <Content Include="REStudio\Listings\Dupont\dupont small.jpg" />
+    <Content Include="REStudio\Listings\Dupont\dupont.jpg" />
+    <Content Include="REStudio\Listings\Homewood\default.aspx" />
+    <Content Include="REStudio\Listings\Homewood\Homewood small.jpg" />
+    <Content Include="REStudio\Listings\Homewood\Homewood.jpg" />
+    <Content Include="REStudio\Listings\Lexington\default.aspx" />
+    <Content Include="REStudio\Listings\Lexington\Lexington small.jpg" />
+    <Content Include="REStudio\Listings\Lexington\Lexington1_s.jpg" />
+    <Content Include="REStudio\Listings\P3\1ST FL small.jpg" />
+    <Content Include="REStudio\Listings\P3\1ST FL.jpg" />
+    <Content Include="REStudio\Listings\P3\2ND FL small.jpg" />
+    <Content Include="REStudio\Listings\P3\2ND FL.jpg" />
+    <Content Include="REStudio\Listings\P3\BASEMENT small.jpg" />
+    <Content Include="REStudio\Listings\P3\BASEMENT.jpg" />
+    <Content Include="REStudio\Listings\P3\default.aspx" />
+    <Content Include="REStudio\Listings\P3\FRONT 2 small.jpg" />
+    <Content Include="REStudio\Listings\P3\FRONT 2.jpg" />
+    <Content Include="REStudio\Listings\P3\Front small.gif" />
+    <Content Include="REStudio\Listings\P3\FRONT small.jpg" />
+    <Content Include="REStudio\Listings\P3\Front.gif" />
+    <Content Include="REStudio\Listings\P3\FRONT.jpg" />
+    <Content Include="REStudio\Listings\P3\LEFT small.jpg" />
+    <Content Include="REStudio\Listings\P3\LEFT.jpg" />
+    <Content Include="REStudio\Listings\P3\P3.ascx" />
+    <Content Include="REStudio\Listings\P3\REAR small.jpg" />
+    <Content Include="REStudio\Listings\P3\REAR.jpg" />
+    <Content Include="REStudio\Listings\P3\RIGHT small.jpg" />
+    <Content Include="REStudio\Listings\P3\RIGHT.jpg" />
+    <Content Include="REStudio\Listings\Pomander7103\default.aspx" />
+    <Content Include="REStudio\Listings\Pomander7103\Exterior-1.JPG" />
+    <Content Include="REStudio\Listings\Pomander7103\Pomander.ascx" />
+    <Content Include="REStudio\Listings\Puller4511\BackLeft.jpg" />
+    <Content Include="REStudio\Listings\Puller4511\BackLeftSmall.jpg" />
+    <Content Include="REStudio\Listings\Puller4511\BackRight.jpg" />
+    <Content Include="REStudio\Listings\Puller4511\BackRightSmall.jpg" />
+    <Content Include="REStudio\Listings\Puller4511\basement.jpg" />
+    <Content Include="REStudio\Listings\Puller4511\basementSmall.jpg" />
+    <Content Include="REStudio\Listings\Puller4511\default.aspx" />
+    <Content Include="REStudio\Listings\Puller4511\first.jpg" />
+    <Content Include="REStudio\Listings\Puller4511\firstSmall.jpg" />
+    <Content Include="REStudio\Listings\Puller4511\Front.jpg" />
+    <Content Include="REStudio\Listings\Puller4511\FrontLeft.jpg" />
+    <Content Include="REStudio\Listings\Puller4511\FrontLeftSmall.jpg" />
+    <Content Include="REStudio\Listings\Puller4511\FrontRight.jpg" />
+    <Content Include="REStudio\Listings\Puller4511\FrontRightSmall.jpg" />
+    <Content Include="REStudio\Listings\Puller4511\Puller4511.ascx" />
+    <Content Include="REStudio\Listings\Puller4511\second.jpg" />
+    <Content Include="REStudio\Listings\Puller4511\secondSmall.jpg" />
+    <Content Include="REStudio\Listings\Puller4511\third.jpg" />
+    <Content Include="REStudio\Listings\Puller4511\thirdSmall.jpg" />
+    <Content Include="REStudio\NewsletterSubscribe.aspx" />
+    <Content Include="REStudio\Resources.aspx" />
+    <Content Include="REStudio\Resources\Buyers\1 Deciding on a Neighborhood and Home.aspx" />
+    <Content Include="REStudio\Resources\Buyers\2 Renting versus Buying.aspx" />
+    <Content Include="REStudio\Resources\Buyers\3 Thoughts of Buying a New Home.aspx" />
+    <Content Include="REStudio\Resources\Buyers\Schools.aspx" />
+    <Content Include="REStudio\Resources\Home Improvments\1 Tankless Water Heaters.aspx" />
+    <Content Include="REStudio\Resources\Home Improvments\2 Adding Skylights to Your Home.aspx" />
+    <Content Include="REStudio\Resources\Home Improvments\3 Herb Gardens.aspx" />
+    <Content Include="REStudio\Resources\Mortgage\1 Pre-approval Letters.aspx" />
+    <Content Include="REStudio\Resources\Mortgage\2 Loan Approval.aspx" />
+    <Content Include="REStudio\Resources\Mortgage\3 Improving a Credit Score.aspx" />
+    <Content Include="REStudio\Resources\Mortgage\4 Saving for a Down Payment.aspx" />
+    <Content Include="REStudio\Resources\Moving\1 Moving Tips.aspx" />
+    <Content Include="REStudio\Resources\Moving\2 Moving Timeline and Checklist.aspx" />
+    <Content Include="REStudio\Resources\Moving\3 Getting Rid of Extra Items.aspx" />
+    <Content Include="REStudio\Resources\Moving\4 Tips for Saving Energy.aspx" />
+    <Content Include="REStudio\Resources\Second Home buying\1 Income Properties.aspx" />
+    <Content Include="REStudio\Resources\Second Home buying\2 Vacation Homes.aspx" />
+    <Content Include="REStudio\Resources\Sellers\1 Determining Fair Market Value.aspx" />
+    <Content Include="REStudio\Resources\Sellers\2 Preparing to Sell Your Home.aspx" />
+    <Content Include="REStudio\Resources\Sellers\3 Quick Tips for Showing Your Home.aspx" />
+    <Content Include="REStudio\SendEmail.aspx" />
+    <Content Include="REStudio\Sold Reports\default.aspx" />
+    <Content Include="REStudio\Sold Reports\details.aspx" />
+    <Content Include="REStudio\Sold Reports\results.aspx" />
+    <Content Include="REStudio\Sold Reports\SoldDetails.ascx" />
+    <Content Include="REStudio\Sold Reports\SoldDfault.ascx" />
+    <Content Include="REStudio\Sold Reports\SoldResults.ascx" />
+    <Content Include="REStudio\Traffic\default.aspx" />
+    <Content Include="REStudio\Traffic\severity_scale.jpg" />
+    <Content Include="Styles.css" />
+    <Content Include="wanControl\default.aspx" />
+    <Content Include="wanControl\SvLuka\Subscribe\confirmation.aspx" />
+    <Content Include="wanControl\SvLuka\Subscribe\default.aspx" />
+    <Content Include="wanControl\SvLuka\Subscribe\unsubscribe.aspx" />
+    <Content Include="wanControl\test.aspx" />
+    <Content Include="wanControl\ZipCodes\ZipCodes.asmx" />
+    <Content Include="Web.config" />
+    <EmbeddedResource Include="Bujak\databasetest.aspx.resx">
+      <DependentUpon>databasetest.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bujak\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bujak\Email.aspx.resx">
+      <DependentUpon>Email.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="error.aspx.resx">
+      <DependentUpon>error.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Errors\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Errors\ErrorInfo.ascx.resx">
+      <DependentUpon>ErrorInfo.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Errors\FlahertyDCError.aspx.resx">
+      <DependentUpon>FlahertyDCError.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Errors\FlahertyPotomacError.aspx.resx">
+      <DependentUpon>FlahertyPotomacError.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Errors\KensingtonTeamError.aspx.resx">
+      <DependentUpon>KensingtonTeamError.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Errors\renovationStudioError.aspx.resx">
+      <DependentUpon>renovationStudioError.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Errors\reStudioError.aspx.resx">
+      <DependentUpon>reStudioError.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FLAHERTYDC\About\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FLAHERTYDC\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FLAHERTYDC\Listings\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FLAHERTYDC\Resources\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FLAHERTYDC\SoldReports\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FLAHERTYDC\SoldReports\details.aspx.resx">
+      <DependentUpon>details.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FLAHERTYDC\SoldReports\results.aspx.resx">
+      <DependentUpon>results.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FLAHERTYPOTOMAC\About\about.ascx.resx">
+      <DependentUpon>about.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FLAHERTYPOTOMAC\About\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FLAHERTYPOTOMAC\controls\Footer.ascx.resx">
+      <DependentUpon>Footer.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FLAHERTYPOTOMAC\controls\Left.ascx.resx">
+      <DependentUpon>Left.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FLAHERTYPOTOMAC\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FLAHERTYPOTOMAC\Listings\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FLAHERTYPOTOMAC\Resources\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FLAHERTYPOTOMAC\Resources\Resources.ascx.resx">
+      <DependentUpon>Resources.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FLAHERTYPOTOMAC\SoldReports\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FLAHERTYPOTOMAC\SoldReports\details.aspx.resx">
+      <DependentUpon>details.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FLAHERTYPOTOMAC\SoldReports\results.aspx.resx">
+      <DependentUpon>results.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Global.asax.resx">
+      <DependentUpon>Global.asax.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HarmonyLeaf\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KensingtonTeam\About\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KensingtonTeam\Controls\Footer.ascx.resx">
+      <DependentUpon>Footer.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KensingtonTeam\Controls\Header.ascx.resx">
+      <DependentUpon>Header.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KensingtonTeam\Controls\Left.ascx.resx">
+      <DependentUpon>Left.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KensingtonTeam\Controls\Right.ascx.resx">
+      <DependentUpon>Right.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KensingtonTeam\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KensingtonTeam\Listings\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KensingtonTeam\Listings\OldListings.ascx.resx">
+      <DependentUpon>OldListings.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KensingtonTeam\Resources\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KensingtonTeam\Sold Reports\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KensingtonTeam\Sold Reports\details.aspx.resx">
+      <DependentUpon>details.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KensingtonTeam\Sold Reports\results.aspx.resx">
+      <DependentUpon>results.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="properIT\About\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="properIT\BackToTop.ascx.resx">
+      <DependentUpon>BackToTop.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="properIT\Database\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="properIT\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="properIT\Footer.ascx.resx">
+      <DependentUpon>Footer.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="properIT\Header.ascx.resx">
+      <DependentUpon>Header.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="properIT\MoreInformation.ascx.resx">
+      <DependentUpon>MoreInformation.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="properIT\Network\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="properIT\Samples\OasisCD\NavBar\MainPanel.ascx.resx">
+      <DependentUpon>MainPanel.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="properIT\Samples\OasisCD\NavBar\Sample1.aspx.resx">
+      <DependentUpon>Sample1.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="properIT\Samples\OasisCD\NavBar\Sample2.aspx.resx">
+      <DependentUpon>Sample2.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="properIT\Samples\OasisCD\NavBar\Sample3.aspx.resx">
+      <DependentUpon>Sample3.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="properIT\Samples\OasisCD\NavBar\Sample4.aspx.resx">
+      <DependentUpon>Sample4.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="properIT\Samples\OasisCD\NavBar\Sample5.aspx.resx">
+      <DependentUpon>Sample5.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="properIT\Samples\OasisCD\NavBar\Sample6.aspx.resx">
+      <DependentUpon>Sample6.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="properIT\Samples\OasisCD\NavBar\Sample7.aspx.resx">
+      <DependentUpon>Sample7.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="properIT\Samples\OasisCD\NavBar\Sample8.aspx.resx">
+      <DependentUpon>Sample8.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="properIT\Software\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RENOVATIONSTUDIO\aboutus.aspx.resx">
+      <DependentUpon>aboutus.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RENOVATIONSTUDIO\contact.aspx.resx">
+      <DependentUpon>contact.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RENOVATIONSTUDIO\controls\Footer.ascx.resx">
+      <DependentUpon>Footer.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RENOVATIONSTUDIO\controls\Header.ascx.resx">
+      <DependentUpon>Header.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RENOVATIONSTUDIO\controls\MainNavBar.ascx.resx">
+      <DependentUpon>MainNavBar.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RENOVATIONSTUDIO\controls\Right.ascx.resx">
+      <DependentUpon>Right.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RENOVATIONSTUDIO\controls\Sales.ascx.resx">
+      <DependentUpon>Sales.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RENOVATIONSTUDIO\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RENOVATIONSTUDIO\process.aspx.resx">
+      <DependentUpon>process.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RENOVATIONSTUDIO\Projects\Baltimore\defaultStara.aspx.resx">
+      <DependentUpon>defaultStara.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RENOVATIONSTUDIO\Projects\Clients.aspx.resx">
+      <DependentUpon>Clients.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RENOVATIONSTUDIO\Projects\Crestwood 10105\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RENOVATIONSTUDIO\Projects\Farragut\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RENOVATIONSTUDIO\Projects\Lexington\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RENOVATIONSTUDIO\Projects\Lexington\Lexington.ascx.resx">
+      <DependentUpon>Lexington.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RENOVATIONSTUDIO\Projects\NewHomes.aspx.resx">
+      <DependentUpon>NewHomes.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RENOVATIONSTUDIO\Projects\Parkwood II\defult.aspx.resx">
+      <DependentUpon>defult.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RENOVATIONSTUDIO\Projects\Parkwood II\P2.ascx.resx">
+      <DependentUpon>P2.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RENOVATIONSTUDIO\Projects\Parkwood I\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RENOVATIONSTUDIO\services.aspx.resx">
+      <DependentUpon>services.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RENOVATIONSTUDIO\testimonies.aspx.resx">
+      <DependentUpon>testimonies.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RENOVATIONSTUDIO\WebForm1.aspx.resx">
+      <DependentUpon>WebForm1.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\about.aspx.resx">
+      <DependentUpon>about.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\community\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\community\Events\2007\Labor Day Parade\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\community\Events\2007\Parkwood Party\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\contact.aspx.resx">
+      <DependentUpon>contact.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Controls\emailContact.ascx.resx">
+      <DependentUpon>emailContact.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Controls\Footer.ascx.resx">
+      <DependentUpon>Footer.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Controls\Header.ascx.resx">
+      <DependentUpon>Header.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Controls\Left.ascx.resx">
+      <DependentUpon>Left.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Controls\LowDown.ascx.resx">
+      <DependentUpon>LowDown.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Controls\phoneContact.ascx.resx">
+      <DependentUpon>phoneContact.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Controls\RentContact.ascx.resx">
+      <DependentUpon>RentContact.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Controls\ResourcesContact.ascx.resx">
+      <DependentUpon>ResourcesContact.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Controls\Right.ascx.resx">
+      <DependentUpon>Right.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Controls\SalesContact.ascx.resx">
+      <DependentUpon>SalesContact.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Controls\SellerTips.ascx.resx">
+      <DependentUpon>SellerTips.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\FlahertyDCSearch\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\FlahertyPotomacSearch\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\KensingtonTeamSearch\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Listings.aspx.resx">
+      <DependentUpon>Listings.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Listings\10234Parkwood\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Listings\Ambler\Ambler.ascx.resx">
+      <DependentUpon>Ambler.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Listings\Ambler\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Listings\Blueridge3003\Blueridge3003.ascx.resx">
+      <DependentUpon>Blueridge3003.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Listings\Blueridge3003\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Listings\Carriage\carriage.ascx.resx">
+      <DependentUpon>carriage.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Listings\Carriage\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Listings\Crestwood 10105\Crestwood10105.ascx.resx">
+      <DependentUpon>Crestwood10105.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Listings\Crestwood 10105\Crestwood10105AsIs.ascx.resx">
+      <DependentUpon>Crestwood10105AsIs.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Listings\Crestwood 10105\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Listings\Darcy Green, 2137\DarcyGreen.ascx.resx">
+      <DependentUpon>DarcyGreen.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Listings\Darcy Green, 2137\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Listings\DarcyForestDrive9820\DarcyForest.ascx.resx">
+      <DependentUpon>DarcyForest.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Listings\DarcyForestDrive9820\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Listings\Dupont\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Listings\Homewood\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Listings\Lexington\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Listings\P3\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Listings\P3\P3.ascx.resx">
+      <DependentUpon>P3.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Listings\Puller4511\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Listings\Puller4511\Puller4511.ascx.resx">
+      <DependentUpon>Puller4511.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\NewsletterSubscribe.aspx.resx">
+      <DependentUpon>NewsletterSubscribe.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Resources.aspx.resx">
+      <DependentUpon>Resources.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Resources\Buyers\1 Deciding on a Neighborhood and Home.aspx.resx">
+      <DependentUpon>1 Deciding on a Neighborhood and Home.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Resources\Buyers\2 Renting versus Buying.aspx.resx">
+      <DependentUpon>2 Renting versus Buying.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Resources\Buyers\3 Thoughts of Buying a New Home.aspx.resx">
+      <DependentUpon>3 Thoughts of Buying a New Home.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Resources\Buyers\Schools.aspx.resx">
+      <DependentUpon>Schools.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Resources\Home Improvments\1 Tankless Water Heaters.aspx.resx">
+      <DependentUpon>1 Tankless Water Heaters.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Resources\Home Improvments\2 Adding Skylights to Your Home.aspx.resx">
+      <DependentUpon>2 Adding Skylights to Your Home.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Resources\Home Improvments\3 Herb Gardens.aspx.resx">
+      <DependentUpon>3 Herb Gardens.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Resources\Mortgage\1 Pre-approval Letters.aspx.resx">
+      <DependentUpon>1 Pre-approval Letters.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Resources\Mortgage\2 Loan Approval.aspx.resx">
+      <DependentUpon>2 Loan Approval.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Resources\Mortgage\3 Improving a Credit Score.aspx.resx">
+      <DependentUpon>3 Improving a Credit Score.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Resources\Mortgage\4 Saving for a Down Payment.aspx.resx">
+      <DependentUpon>4 Saving for a Down Payment.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Resources\Moving\1 Moving Tips.aspx.resx">
+      <DependentUpon>1 Moving Tips.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Resources\Moving\2 Moving Timeline and Checklist.aspx.resx">
+      <DependentUpon>2 Moving Timeline and Checklist.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Resources\Moving\3 Getting Rid of Extra Items.aspx.resx">
+      <DependentUpon>3 Getting Rid of Extra Items.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Resources\Moving\4 Tips for Saving Energy.aspx.resx">
+      <DependentUpon>4 Tips for Saving Energy.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Resources\Second Home buying\1 Income Properties.aspx.resx">
+      <DependentUpon>1 Income Properties.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Resources\Second Home buying\2 Vacation Homes.aspx.resx">
+      <DependentUpon>2 Vacation Homes.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Resources\Sellers\1 Determining Fair Market Value.aspx.resx">
+      <DependentUpon>1 Determining Fair Market Value.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Resources\Sellers\2 Preparing to Sell Your Home.aspx.resx">
+      <DependentUpon>2 Preparing to Sell Your Home.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Resources\Sellers\3 Quick Tips for Showing Your Home.aspx.resx">
+      <DependentUpon>3 Quick Tips for Showing Your Home.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\SendEmail.aspx.resx">
+      <DependentUpon>SendEmail.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Sold Reports\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Sold Reports\details.aspx.resx">
+      <DependentUpon>details.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Sold Reports\results.aspx.resx">
+      <DependentUpon>results.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Sold Reports\SoldDetails.ascx.resx">
+      <DependentUpon>SoldDetails.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Sold Reports\SoldDfault.ascx.resx">
+      <DependentUpon>SoldDfault.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Sold Reports\SoldResults.ascx.resx">
+      <DependentUpon>SoldResults.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REStudio\Traffic\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wanControl\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wanControl\SvLuka\Subscribe\confirmation.aspx.resx">
+      <DependentUpon>confirmation.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wanControl\SvLuka\Subscribe\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wanControl\SvLuka\Subscribe\unsubscribe.aspx.resx">
+      <DependentUpon>unsubscribe.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wanControl\test.aspx.resx">
+      <DependentUpon>test.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wanControl\ZipCodes\ZipCodes.asmx.resx">
+      <DependentUpon>ZipCodes.asmx.vb</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Bujak\BujakDatabase.mdb" />
+    <None Include="Bujak\DejanBujakResume.doc" />
+    <None Include="Bujak\images\Krstenje Mie\res\styles\arcs\theme.properties" />
+    <None Include="RENOVATIONSTUDIO\Investor Package.pps" />
+    <None Include="RENOVATIONSTUDIO\Logo.cpt" />
+    <None Include="RENOVATIONSTUDIO\Logos.cpt" />
+    <None Include="RENOVATIONSTUDIO\Projects\Lexington\10703 Lexington.pdf" />
+    <None Include="RENOVATIONSTUDIO\Projects\NewHomesImages\Sold.cpt" />
+    <None Include="REStudio\community\Events\2005\Egg Hunt\res\styles\arcs\theme.properties" />
+    <None Include="REStudio\community\Events\2006\July 4th Parade\res\styles\arcs\theme.properties" />
+    <None Include="REStudio\community\Events\2007\July 4th\res\styles\arcs\theme.properties" />
+    <None Include="REStudio\community\Events\2007\July 4th\Thumbs.db" />
+    <None Include="REStudio\community\Events\2007\Rock Creek Clean up\res\styles\arcs\theme.properties" />
+    <None Include="REStudio\community\Events\2007\Rock Creek Clean up\Thumbs.db" />
+    <None Include="REStudio\Listings\Ambler\4302AmblerDesclosure.pdf" />
+    <None Include="REStudio\Listings\Ambler\icp.log" />
+    <None Include="REStudio\Listings\Baltimore, 3951\Disclosures.pdf" />
+    <None Include="REStudio\Listings\Carriage\Carriage Disclosures.pdf" />
+    <None Include="REStudio\Listings\Crestwood 10105\1ST FL.pdf" />
+    <None Include="REStudio\Listings\Crestwood 10105\2ND FL.pdf" />
+    <None Include="REStudio\Listings\Crestwood 10105\Basement electric plan.pdf" />
+    <None Include="REStudio\Listings\Crestwood 10105\Basement Floor plan 2.pdf" />
+    <None Include="REStudio\Listings\Crestwood 10105\Basement Floor plan.pdf" />
+    <None Include="REStudio\Listings\Crestwood 10105\Basement.pdf" />
+    <None Include="REStudio\Listings\Crestwood 10105\Crestwood Disclosures.pdf" />
+    <None Include="REStudio\Listings\Crestwood 10105\FRONT Elevation.pdf" />
+    <None Include="REStudio\Listings\Crestwood 10105\LEFT Elevation.pdf" />
+    <None Include="REStudio\Listings\Crestwood 10105\REAR Elevations.pdf" />
+    <None Include="REStudio\Listings\Dupont\Dupont Brochure.pdf" />
+    <None Include="REStudio\Listings\Lexington\icp.log" />
+    <None Include="REStudio\Listings\P3\P3 Disclosures.pdf" />
+    <None Include="REStudio\Listings\Parkwood10104\Parkwood Brochure.pdf" />
+    <None Include="REStudio\Listings\Pomander7103\Brochure.pdf" />
+    <None Include="REStudio\Listings\Puller4511\BackLeft.pdf" />
+    <None Include="REStudio\Listings\Puller4511\BackRight.pdf" />
+    <None Include="REStudio\Listings\Puller4511\Basement.pdf" />
+    <None Include="REStudio\Listings\Puller4511\First.pdf" />
+    <None Include="REStudio\Listings\Puller4511\FrontLeft.pdf" />
+    <None Include="REStudio\Listings\Puller4511\FrontRight.pdf" />
+    <None Include="REStudio\Listings\Puller4511\Second.pdf" />
+    <None Include="REStudio\Listings\Puller4511\Third.pdf" />
+    <None Include="Web References\localhost\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\localhost\zipcodes.disco" />
+    <None Include="Web References\localhost\zipcodes.wsdl" />
+    <WebReferenceUrl Include="http://localhost/brinkster/zipcodes/zipcodes.asmx%3fop=HelloWorld">
+      <RelPath>Web References\localhost\</RelPath>
+      <UrlBehavior>Static</UrlBehavior>
+    </WebReferenceUrl>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My Project\" />
+    <Folder Include="RENOVATIONSTUDIO\Projects\ClientsImages\Homewood\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v8.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3371</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/Brinkster</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+
+    <channel>
+        <title>KP</title>
+   	<link>.</link>
+        <generator>Jalbum 8.1</generator>
+   		<description></description>
+        
+        
+        <item>
+            <title>album</title>
+            <link>album.xml</link>
+            <pubDate>Sat, 07 Feb 2009 01:46:31 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="res/xml.gif" width="26" height="30"/>
+            <media:content url="res/xml.gif" width="26" height="30"/>
+            <jalbum:original url="album.xml" width="26" height="30" fileSize="14407"/>
+            
+            <guid isPermaLink="false">res/xml.gif</guid>
+        </item>
+        
+        <item>
+            <title>menu</title>
+            <link>menu.xml</link>
+            <pubDate>Sat, 07 Feb 2009 01:46:31 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="res/xml.gif" width="26" height="30"/>
+            <media:content url="res/xml.gif" width="26" height="30"/>
+            <jalbum:original url="menu.xml" width="26" height="30" fileSize="168"/>
+            
+            <guid isPermaLink="false">res/xml.gif</guid>
+        </item>
+        
+        <item>
+            <title>settings</title>
+            <link>settings.xml</link>
+            <pubDate>Sat, 07 Feb 2009 01:46:31 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="res/xml.gif" width="26" height="30"/>
+            <media:content url="res/xml.gif" width="26" height="30"/>
+            <jalbum:original url="settings.xml" width="26" height="30" fileSize="1360"/>
+            
+            <guid isPermaLink="false">res/xml.gif</guid>
+        </item>
+        
+        <item>
+            <title>SQPLG6</title>
+            <link>slides/SQPLG6.jpg</link>
+            <pubDate>Sat, 07 Feb 2009 01:46:31 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/SQPLG6.jpg" width="209" height="139"/>
+            <media:content url="slides/SQPLG6.jpg" width="1024" height="682"/>
+            
+            <jalbum:exif originalDate="2009.01.29 00:17:18" cameraMake="Canon" cameraModel="Canon EOS 30D"/>
+            <guid isPermaLink="false">slides/SQPLG6.jpg</guid>
+        </item>
+        
+        <item>
+            <title>SQPLG6_still_br</title>
+            <link>slides/SQPLG6_still_br.jpg</link>
+            <pubDate>Sat, 07 Feb 2009 01:46:31 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/SQPLG6_still_br.jpg" width="209" height="139"/>
+            <media:content url="slides/SQPLG6_still_br.jpg" width="1024" height="682"/>
+            
+            <jalbum:exif originalDate="2009.01.28 22:53:58" cameraMake="Canon" cameraModel="Canon EOS 30D"/>
+            <guid isPermaLink="false">slides/SQPLG6_still_br.jpg</guid>
+        </item>
+        
+        <item>
+            <title>SQPLG6_still_br2</title>
+            <link>slides/SQPLG6_still_br2.jpg</link>
+            <pubDate>Sat, 07 Feb 2009 01:46:31 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/SQPLG6_still_br2.jpg" width="209" height="139"/>
+            <media:content url="slides/SQPLG6_still_br2.jpg" width="1024" height="682"/>
+            
+            <jalbum:exif originalDate="2009.01.28 22:54:27" cameraMake="Canon" cameraModel="Canon EOS 30D"/>
+            <guid isPermaLink="false">slides/SQPLG6_still_br2.jpg</guid>
+        </item>
+        
+        <item>
+            <title>SQPLG6_still_brba</title>
+            <link>slides/SQPLG6_still_brba.jpg</link>
+            <pubDate>Sat, 07 Feb 2009 01:46:31 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/SQPLG6_still_brba.jpg" width="209" height="139"/>
+            <media:content url="slides/SQPLG6_still_brba.jpg" width="1024" height="682"/>
+            
+            <jalbum:exif originalDate="2009.01.28 22:52:57" cameraMake="Canon" cameraModel="Canon EOS 30D"/>
+            <guid isPermaLink="false">slides/SQPLG6_still_brba.jpg</guid>
+        </item>
+        
+        <item>
+            <title>SQPLG6_still_dr</title>
+            <link>slides/SQPLG6_still_dr.jpg</link>
+            <pubDate>Sat, 07 Feb 2009 01:46:31 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/SQPLG6_still_dr.jpg" width="209" height="139"/>
+            <media:content url="slides/SQPLG6_still_dr.jpg" width="1024" height="682"/>
+            
+            <jalbum:exif originalDate="2009.01.28 22:40:54" cameraMake="Canon" cameraModel="Canon EOS 30D"/>
+            <guid isPermaLink="false">slides/SQPLG6_still_dr.jpg</guid>
+        </item>
+        
+        <item>
+            <title>SQPLG6_still_enwy</title>
+            <link>slides/SQPLG6_still_enwy.jpg</link>
+            <pubDate>Sat, 07 Feb 2009 01:46:31 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/SQPLG6_still_enwy.jpg" width="209" height="139"/>
+            <media:content url="slides/SQPLG6_still_enwy.jpg" width="1024" height="682"/>
+            
+            <jalbum:exif originalDate="2009.01.28 22:33:33" cameraMake="Canon" cameraModel="Canon EOS 30D"/>
+            <guid isPermaLink="false">slides/SQPLG6_still_enwy.jpg</guid>
+        </item>
+        
+        <item>
+            <title>SQPLG6_still_fo</title>
+            <link>slides/SQPLG6_still_fo.jpg</link>
+            <pubDate>Sat, 07 Feb 2009 01:46:31 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/SQPLG6_still_fo.jpg" width="209" height="139"/>
+            <media:content url="slides/SQPLG6_still_fo.jpg" width="1024" height="682"/>
+            
+            <jalbum:exif originalDate="2009.01.28 22:34:57" cameraMake="Canon" cameraModel="Canon EOS 30D"/>
+            <guid isPermaLink="false">slides/SQPLG6_still_fo.jpg</guid>
+        </item>
+        
+        <item>
+            <title>SQPLG6_still_ho</title>
+            <link>slides/SQPLG6_still_ho.jpg</link>
+            <pubDate>Sat, 07 Feb 2009 01:46:31 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/SQPLG6_still_ho.jpg" width="209" height="139"/>
+            <media:content url="slides/SQPLG6_still_ho.jpg" width="1024" height="682"/>
+            
+            <jalbum:exif originalDate="2009.01.28 22:36:11" cameraMake="Canon" cameraModel="Canon EOS 30D"/>
+            <guid isPermaLink="false">slides/SQPLG6_still_ho.jpg</guid>
+        </item>
+        
+        <item>
+            <title>SQPLG6_still_kbrk</title>
+            <link>slides/SQPLG6_still_kbrk.jpg</link>
+            <pubDate>Sat, 07 Feb 2009 01:46:31 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/SQPLG6_still_kbrk.jpg" width="209" height="139"/>
+            <media:content url="slides/SQPLG6_still_kbrk.jpg" width="1024" height="682"/>
+            
+            <jalbum:exif originalDate="2009.01.28 22:41:36" cameraMake="Canon" cameraModel="Canon EOS 30D"/>
+            <guid isPermaLink="false">slides/SQPLG6_still_kbrk.jpg</guid>
+        </item>
+        
+        <item>
+            <title>SQPLG6_still_ki</title>
+            <link>slides/SQPLG6_still_ki.jpg</link>
+            <pubDate>Sat, 07 Feb 2009 01:46:31 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/SQPLG6_still_ki.jpg" width="209" height="139"/>
+            <media:content url="slides/SQPLG6_still_ki.jpg" width="1024" height="682"/>
+            
+            <jalbum:exif originalDate="2009.01.28 22:42:57" cameraMake="Canon" cameraModel="Canon EOS 30D"/>
+            <guid isPermaLink="false">slides/SQPLG6_still_ki.jpg</guid>
+        </item>
+        
+        <item>
+            <title>SQPLG6_still_ll</title>
+            <link>slides/SQPLG6_still_ll.jpg</link>
+            <pubDate>Sat, 07 Feb 2009 01:46:31 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/SQPLG6_still_ll.jpg" width="209" height="139"/>
+            <media:content url="slides/SQPLG6_still_ll.jpg" width="1024" height="682"/>
+            
+            <jalbum:exif originalDate="2009.01.28 23:03:17" cameraMake="Canon" cameraModel="Canon EOS 30D"/>
+            <guid isPermaLink="false">slides/SQPLG6_still_ll.jpg</guid>
+        </item>
+        
+        <item>
+            <title>SQPLG6_still_lr</title>
+            <link>slides/SQPLG6_still_lr.jpg</link>
+            <pubDate>Sat, 07 Feb 2009 01:46:31 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/SQPLG6_still_lr.jpg" width="209" height="139"/>
+            <media:content url="slides/SQPLG6_still_lr.jpg" width="1024" height="682"/>
+            
+            <jalbum:exif originalDate="2009.01.28 22:37:48" cameraMake="Canon" cameraModel="Canon EOS 30D"/>
+            <guid isPermaLink="false">slides/SQPLG6_still_lr.jpg</guid>
+        </item>
+        
+        <item>
+            <title>SQPLG6_still_lyrm</title>
+            <link>slides/SQPLG6_still_lyrm.jpg</link>
+            <pubDate>Sat, 07 Feb 2009 01:46:31 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/SQPLG6_still_lyrm.jpg" width="209" height="139"/>
+            <media:content url="slides/SQPLG6_still_lyrm.jpg" width="1024" height="682"/>
+            
+            <jalbum:exif originalDate="2009.01.28 22:57:57" cameraMake="Canon" cameraModel="Canon EOS 30D"/>
+            <guid isPermaLink="false">slides/SQPLG6_still_lyrm.jpg</guid>
+        </item>
+        
+        <item>
+            <title>SQPLG6_still_mb</title>
+            <link>slides/SQPLG6_still_mb.jpg</link>
+            <pubDate>Sat, 07 Feb 2009 01:46:31 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/SQPLG6_still_mb.jpg" width="209" height="139"/>
+            <media:content url="slides/SQPLG6_still_mb.jpg" width="1024" height="682"/>
+            
+            <jalbum:exif originalDate="2009.01.28 22:47:48" cameraMake="Canon" cameraModel="Canon EOS 30D"/>
+            <guid isPermaLink="false">slides/SQPLG6_still_mb.jpg</guid>
+        </item>
+        
+        <item>
+            <title>SQPLG6_still_mbr</title>
+            <link>slides/SQPLG6_still_mbr.jpg</link>
+            <pubDate>Sat, 07 Feb 2009 01:46:31 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/SQPLG6_still_mbr.jpg" width="209" height="139"/>
+            <media:content url="slides/SQPLG6_still_mbr.jpg" width="1024" height="682"/>
+            
+            <jalbum:exif originalDate="2009.01.28 22:51:14" cameraMake="Canon" cameraModel="Canon EOS 30D"/>
+            <guid isPermaLink="false">slides/SQPLG6_still_mbr.jpg</guid>
+        </item>
+        
+        <item>
+            <title>SQPLG6_still_rr</title>
+            <link>slides/SQPLG6_still_rr.jpg</link>
+            <pubDate>Sat, 07 Feb 2009 01:46:31 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/SQPLG6_still_rr.jpg" width="209" height="139"/>
+            <media:content url="slides/SQPLG6_still_rr.jpg" width="1024" height="682"/>
+            
+            <jalbum:exif originalDate="2009.01.28 23:02:23" cameraMake="Canon" cameraModel="Canon EOS 30D"/>
+            <guid isPermaLink="false">slides/SQPLG6_still_rr.jpg</guid>
+        </item>
+        
+        <item>
+            <title>SQPLG6_still_rvhs</title>
+            <link>slides/SQPLG6_still_rvhs.jpg</link>
+            <pubDate>Sat, 07 Feb 2009 01:46:31 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/SQPLG6_still_rvhs.jpg" width="209" height="139"/>
+            <media:content url="slides/SQPLG6_still_rvhs.jpg" width="1024" height="682"/>
+            
+            <jalbum:exif originalDate="2009.01.29 00:09:42" cameraMake="Canon" cameraModel="Canon EOS 30D"/>
+            <guid isPermaLink="false">slides/SQPLG6_still_rvhs.jpg</guid>
+        </item>
+        
+        <item>
+            <title>SQPLG6_still_s184</title>
+            <link>slides/SQPLG6_still_s184.jpg</link>
+            <pubDate>Sat, 07 Feb 2009 01:46:31 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/SQPLG6_still_s184.jpg" width="209" height="139"/>
+            <media:content url="slides/SQPLG6_still_s184.jpg" width="1024" height="682"/>
+            
+            <jalbum:exif originalDate="2009.01.28 22:43:22" cameraMake="Canon" cameraModel="Canon EOS 30D"/>
+            <guid isPermaLink="false">slides/SQPLG6_still_s184.jpg</guid>
+        </item>
+        
+        <item>
+            <title>SQPLG6_still_s191</title>
+            <link>slides/SQPLG6_still_s191.jpg</link>
+            <pubDate>Sat, 07 Feb 2009 01:46:31 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/SQPLG6_still_s191.jpg" width="209" height="139"/>
+            <media:content url="slides/SQPLG6_still_s191.jpg" width="1024" height="682"/>
+            
+            <jalbum:exif originalDate="2009.01.28 22:48:35" cameraMake="Canon" cameraModel="Canon EOS 30D"/>
+            <guid isPermaLink="false">slides/SQPLG6_still_s191.jpg</guid>
+        </item>
+        
+        <item>
+            <title>SQPLG6_still_s192</title>
+            <link>slides/SQPLG6_still_s192.jpg</link>
+            <pubDate>Sat, 07 Feb 2009 01:46:31 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/SQPLG6_still_s192.jpg" width="209" height="139"/>
+            <media:content url="slides/SQPLG6_still_s192.jpg" width="1024" height="682"/>
+            
+            <jalbum:exif originalDate="2009.01.28 22:37:22" cameraMake="Canon" cameraModel="Canon EOS 30D"/>
+            <guid isPermaLink="false">slides/SQPLG6_still_s192.jpg</guid>
+        </item>
+        
+        <item>
+            <title>SQPLG6_still_s38</title>
+            <link>slides/SQPLG6_still_s38.jpg</link>
+            <pubDate>Sat, 07 Feb 2009 01:46:31 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/SQPLG6_still_s38.jpg" width="209" height="139"/>
+            <media:content url="slides/SQPLG6_still_s38.jpg" width="1024" height="682"/>
+            
+            <jalbum:exif originalDate="2009.01.28 22:50:55" cameraMake="Canon" cameraModel="Canon EOS 30D"/>
+            <guid isPermaLink="false">slides/SQPLG6_still_s38.jpg</guid>
+        </item>
+        
+        <item>
+            <title>SQPLG6_still_ul</title>
+            <link>slides/SQPLG6_still_ul.jpg</link>
+            <pubDate>Sat, 07 Feb 2009 01:46:31 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/SQPLG6_still_ul.jpg" width="209" height="139"/>
+            <media:content url="slides/SQPLG6_still_ul.jpg" width="1024" height="682"/>
+            
+            <jalbum:exif originalDate="2009.01.28 22:59:10" cameraMake="Canon" cameraModel="Canon EOS 30D"/>
+            <guid isPermaLink="false">slides/SQPLG6_still_ul.jpg</guid>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,15 @@
+<menu version="v6.0.9" generator="Jalbum 8.1">
+
+
+
+
+
+<home space="true" icon="home">
+	<title><![CDATA[Western]]></title>
+	<album>album.xml</album>
+</home>
+
+
+
+
+</menu>

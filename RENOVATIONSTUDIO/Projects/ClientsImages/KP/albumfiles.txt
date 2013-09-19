@@ -1,0 +1,33 @@
+# This file is created by JAlbum. It sets custom file filtering and ordering for this image directory.
+# Each row indicate a file and it's order. Files not listed here are added to the end of the album
+# Rows beginning with "-" indicate excluded files.
+# Rows containing a tab character indicate links, where the text before the tab is the logical file name
+# and the path to the right is the target path.
+# Note: This file allows absolute paths to files and directories in other locations and thereby
+# allows you to compile albums consisting of files from several different locations.
+
+album.xml
+menu.xml
+settings.xml
+SQPLG6.jpg	J:\Renovation Studio\Pictures\Kensington PKWY\Tour\SQPLG6.jpg
+SQPLG6_still_br.jpg	J:\Renovation Studio\Pictures\Kensington PKWY\Tour\SQPLG6_still_br.jpg
+SQPLG6_still_br2.jpg	J:\Renovation Studio\Pictures\Kensington PKWY\Tour\SQPLG6_still_br2.jpg
+SQPLG6_still_brba.jpg	J:\Renovation Studio\Pictures\Kensington PKWY\Tour\SQPLG6_still_brba.jpg
+SQPLG6_still_dr.jpg	J:\Renovation Studio\Pictures\Kensington PKWY\Tour\SQPLG6_still_dr.jpg
+SQPLG6_still_enwy.jpg	J:\Renovation Studio\Pictures\Kensington PKWY\Tour\SQPLG6_still_enwy.jpg
+SQPLG6_still_fo.jpg	J:\Renovation Studio\Pictures\Kensington PKWY\Tour\SQPLG6_still_fo.jpg
+SQPLG6_still_ho.jpg	J:\Renovation Studio\Pictures\Kensington PKWY\Tour\SQPLG6_still_ho.jpg
+SQPLG6_still_kbrk.jpg	J:\Renovation Studio\Pictures\Kensington PKWY\Tour\SQPLG6_still_kbrk.jpg
+SQPLG6_still_ki.jpg	J:\Renovation Studio\Pictures\Kensington PKWY\Tour\SQPLG6_still_ki.jpg
+SQPLG6_still_ll.jpg	J:\Renovation Studio\Pictures\Kensington PKWY\Tour\SQPLG6_still_ll.jpg
+SQPLG6_still_lr.jpg	J:\Renovation Studio\Pictures\Kensington PKWY\Tour\SQPLG6_still_lr.jpg
+SQPLG6_still_lyrm.jpg	J:\Renovation Studio\Pictures\Kensington PKWY\Tour\SQPLG6_still_lyrm.jpg
+SQPLG6_still_mb.jpg	J:\Renovation Studio\Pictures\Kensington PKWY\Tour\SQPLG6_still_mb.jpg
+SQPLG6_still_mbr.jpg	J:\Renovation Studio\Pictures\Kensington PKWY\Tour\SQPLG6_still_mbr.jpg
+SQPLG6_still_rr.jpg	J:\Renovation Studio\Pictures\Kensington PKWY\Tour\SQPLG6_still_rr.jpg
+SQPLG6_still_rvhs.jpg	J:\Renovation Studio\Pictures\Kensington PKWY\Tour\SQPLG6_still_rvhs.jpg
+SQPLG6_still_s184.jpg	J:\Renovation Studio\Pictures\Kensington PKWY\Tour\SQPLG6_still_s184.jpg
+SQPLG6_still_s191.jpg	J:\Renovation Studio\Pictures\Kensington PKWY\Tour\SQPLG6_still_s191.jpg
+SQPLG6_still_s192.jpg	J:\Renovation Studio\Pictures\Kensington PKWY\Tour\SQPLG6_still_s192.jpg
+SQPLG6_still_s38.jpg	J:\Renovation Studio\Pictures\Kensington PKWY\Tour\SQPLG6_still_s38.jpg
+SQPLG6_still_ul.jpg	J:\Renovation Studio\Pictures\Kensington PKWY\Tour\SQPLG6_still_ul.jpg

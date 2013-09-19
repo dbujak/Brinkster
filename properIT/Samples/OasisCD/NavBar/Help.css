@@ -1,0 +1,554 @@
+body
+{
+margin: 0px;
+background-color: #1e77d3;
+color: #000;
+}
+td
+{
+font-family: Verdana, Arial;
+font-size: 70%;
+}
+table
+{
+border-collapse: collapse;
+border: 0 0 0 0;
+}
+img
+{
+border: 0;
+}
+.hide
+{
+display: none;
+}
+#ca td
+{
+vertical-align: top;
+}
+.main
+{
+width: 771px;
+border-top: solid 1px #999999;
+border-bottom: solid 1px #999999;
+background-color: #ffffff;
+}
+.mainW
+{
+width: 995px;
+border-top: solid 1px #999999;
+border-bottom: solid 1px #999999;
+background-color: #ffffff;
+}
+.page
+{
+width: 771px;
+}
+.pageW
+{
+width: 995px;
+}
+a
+{
+text-decoration: none;
+color: #003399;
+}
+a:hover
+{
+text-decoration: underline;
+color: #ff3300;
+}
+#NavTd
+{
+border-right: 1px solid #999999;
+background-color: #e5eef9;
+filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr= '#ffffff' ,endColorStr= '#cadef4' ,gradientType= '0' );
+}
+#Nav
+{
+padding: 2px 0 10px 0px;
+font: 1em Verdana, Arial;
+}
+#Nav .line
+{
+border-top: solid 1px #999999;
+margin: 5px 0 5px 0;
+}
+#Nav > .line
+{
+margin: 6px 0 4px 0;
+}
+#Nav h4
+{
+margin: 4px 0px 5px 5px;
+font-size: 95%;
+}
+#Nav > h4
+{
+margin: 4px 0px 4px 5px;
+}
+#Nav ul
+{
+list-style: none;
+margin: 0;
+padding: 0;
+}
+#Nav li
+{
+padding: 0;
+margin: -4px 2px;
+width: 175px;
+}
+#Nav > ul > li
+{
+margin: -3px 2px;
+}
+#Nav a
+{
+cursor: pointer;
+display: block;
+color: #000000;
+padding: 2px 4px 4px 8px;
+margin: 1px 0px;
+}
+#Nav > ul > li > a
+{
+border: 1px solid transparent;
+padding: 2px 4px 4px 7px;
+}
+#Nav a:visited
+{
+color: #000000;
+}
+#Nav a:hover
+{
+border: 1px solid #cccccc;
+margin: 0px;
+padding: 2px 4px 4px 7px;
+background-color: #f1f1f1;
+text-decoration: none;
+}
+#Nav > ul > li > a:hover
+{
+margin: 1px 0px;
+}
+#msviLocalToolbar
+{
+border-top: solid 1px #999;
+background: #F1F1F1;
+font-size: 100%;
+padding: 5px;
+}
+#msviLocalToolbar a
+{
+text-decoration: none;
+color: black;
+}
+#msviLocalToolbar a:hover
+{
+text-decoration: none;
+color: black;
+}
+.lt0
+{
+border: solid 1px #F1F1F1;
+background: #F1F1F1;
+padding: 0px 6px 0px 6px;
+font: 70% Verdana;
+color: black;
+text-decoration: none;
+}
+.lt1
+{
+border: solid 1px #999;
+padding: 2px 6px 2px 6px;
+background: #ccc;
+font-size: 100%;
+font: 70% Verdana;
+color: black;
+text-decoration: none;
+}
+.ltsep
+{
+font: 70% Verdana;
+color: #A9A9A9;
+padding: 0px 1px;
+}
+.ad
+{
+text-align: center;
+padding: 20px;
+}
+#fa
+{
+padding-bottom: 1px;
+}
+.dFL
+{
+width: 295px;
+}
+.dFLW
+{
+width: 407px;
+}
+.dFS
+{
+width: 296px;
+}
+.dFSW
+{
+width: 408px;
+}
+.storyS
+{
+height: 152px;
+border-left: solid 1px #d2d3d6;
+}
+.storySW
+{
+height: 209px;
+border-left: solid 1px #d2d3d6;
+}
+.hhalf
+{
+width: 295px;
+height: 305px;
+}
+.hhalfW
+{
+width: 407px;
+height: 419px;
+}
+.heroL
+{
+width: 591px;
+height: 305px;
+}
+.heroLW
+{
+width: 815px;
+height: 419px;
+}
+.heroS
+{
+width: 295px;
+height: 152px;
+}
+.heroSW
+{
+width: 407px;
+height: 209px;
+}
+.storyS .heroSR
+{
+font-size: 100%;
+padding: 15px
+}
+.storyS .s
+{
+line-spacing: 18px;
+}
+.storySW .heroSR
+{
+padding: 30px
+}
+.storySW .s
+{
+font-size: 112%;
+line-spacing: 20px;
+}
+.heroSR img
+{
+padding-bottom: 4;
+}
+.hFade
+{
+background-color: #f5f5f5;
+height: 8px;
+padding: 0 0 0 0;
+filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr= '#d1d3d4' ,endColorStr= '#ffffff' ,gradientType= '0' );
+}
+.nTable
+{
+width: 591px;
+}
+.nTableW
+{
+width: 815px;
+}
+#newsHeadline
+{
+padding: 5px 5px 5px 10px;
+color: #fff;
+filter:progid:DXImageTransform.Microsoft.Gradient(startColorStr='#333333', endColorStr='#6c6c6c', gradientType='1');
+}
+#newsHeadline a, #newsHeadline a:hover
+{
+color: #fff;
+}
+#newsHeadlineTitle
+{
+padding: 5px 7px 5px 12px;
+border-right: 1px dotted #999;
+color: #fdcd00;
+font-weight: bold;
+}
+#newsHeadlineRow
+{
+background: #333;
+}
+.rotatingSection
+{
+width: 180px;
+padding: 0 15px 25px 10px;
+}
+.rotatingSectionW
+{
+width: 251px;
+padding: 0 15px 25px 10px;
+}
+.popDest
+{
+width: 390px;
+padding: 0 15px 25px 10px;
+background-color: #f5f5f5;
+}
+.popDestW
+{
+width: 543px;
+padding: 0 15px 25px 10px;
+background-color: #f5f5f5;
+}
+.vSep
+{
+background-color: #d2d3d6;
+width: 1px;
+}
+.al
+{
+display: none;
+}
+.alw
+{
+display: block;
+font-family: Verdana;
+font-size: 100%;
+}
+#re .s
+{
+margin: 13px 0 0 0;
+}
+#al .s
+{
+margin: 0 0 0 0;
+}
+.s
+{
+margin: 7px 0 0 0;
+}
+.s img
+{
+margin: 0 0 5px 0;
+height: 13px;
+}
+.popDest div .s
+{
+float: left;
+padding: 0 0 19px 0px;
+width: 49.5%;
+}
+.popDestW div .s
+{
+float: left;
+padding: 0 0 19px 0px;
+width: 33%;
+}
+.r
+{
+margin: 10px 0 13px 18px;
+}
+.re
+{
+height: 162px;
+padding: 15px 15px 15px 15px;
+}
+.reW
+{
+height: 221px;
+padding: 30px 30px 30px 30px;
+font-family: Verdana;
+font-size: 110%;
+}
+.rh
+{
+margin-left: -18px;
+}
+.t
+{
+margin: -10px 0 0 0;
+padding: 0 5px 0 17px;
+color: #999999;
+font-family: Tahoma, Verdana, Arial;
+font-size: 85%;
+clear: left;
+}
+.s ul
+{
+margin: 0 0 0 0;
+padding: 0 0 0 1px;
+}
+.s li
+{
+margin: 0 0 5px 0px;
+background: url( 'b.gif' ) no-repeat top left;
+list-style-position: outside;
+list-style-type: none;
+padding: 0 0 0 7px;
+}
+#msviRegionIdGraphic
+{
+padding-left: 7px;
+}
+.gt0
+{
+border: solid 1px #1e77d3;
+padding: 0 4px 2px 4px;
+font-size: 100%;
+}
+.gt1
+{
+border: solid 1px #a1c6eb;
+padding: 0px 4px 2px 4px;
+background: #3484D7;
+font-size: 100%;
+}
+.gtsep
+{
+font: 65% Verdana;
+color: #a1c6eb;
+padding: 0 1px 2px 1px;
+}
+td#msviGlobalToolbar
+{
+width: 288px;
+}
+#msviGlobalToolbar a
+{
+font: 65% Verdana;
+color: #ffffff;
+text-decoration: none;
+}
+#msviGlobalSearch
+{
+text-align: left;
+font: 65% Verdana;
+padding-top: 5px;
+padding-left: 6px;
+padding-right: 15px;
+}
+#msviSearchForm
+{
+margin: -1px 0px 0px 0px;
+}
+#msviSearchBox
+{
+width: 208px;
+font: 110% Tahoma;
+}
+#msviGoButton
+{
+font: 110% Tahoma;
+padding: 0em 0.2em;
+position: relative;
+top: 1px;
+margin-left: 6px;
+width: 4.6em;
+}
+#msviDualGlobalSearch
+{
+text-align: left;
+font: 71.5% Tahoma;
+padding-top: 6px;
+padding-left: 6px;
+padding-right: 15px;
+}
+#msviDualSearchForm
+{
+margin: 0px 0px 0px 0px;
+}
+#msviRadioButtons
+{
+margin: 2px 0px;
+}
+#msviRadioButtons > label
+{
+position: relative;
+top: 2px;
+}
+#msviRadioButtons input
+{
+width: 12px;
+height: 12px;
+margin: 4px 4px 3px 0px;
+vertical-align: middle;
+}
+input#msnSearch
+{
+margin-left: 9px;
+}
+#msviDualSearchBox
+{
+font: 100% Tahoma;
+width: 209px;
+}
+#msviSearchButton
+{
+font: 100% Tahoma;
+padding: 0em 0.2em;
+position: relative;
+top: 1px;
+margin-left: 6px;
+width: 4.6em;
+}
+#msviFooter
+{
+font: 70% Tahoma, Helvetica;
+}
+#msviFooter td
+{
+font-size: 100%;
+}
+#msviLocalFooter
+{
+margin: 0px;
+padding-top: 8px;
+padding-left: 10px;
+}
+#msviGlobalFooter
+{
+margin: 0px;
+padding: 10px 0 13px 10px;
+}
+#msviFooter a
+{
+color: #03C;
+margin-right: 2px;
+}
+#msviFooter a:visited
+{
+color: #03C;
+}
+#msviFooter a:hover
+{
+color: #F60;
+}
+#msviFooter span
+{
+color: #666666;
+margin-right: 5px;
+}
+#msviFooter2
+{
+filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr= '#ffffff' ,endColorStr= '#1e77d3' ,gradientType= '1' );
+background-color: #ffffff;
+}

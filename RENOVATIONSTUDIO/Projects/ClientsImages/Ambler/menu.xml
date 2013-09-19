@@ -1,0 +1,32 @@
+<menu version="v6.0.9" generator="Jalbum 8.1">
+
+
+
+
+
+<home space="true" icon="home">
+	<title><![CDATA[Ambler]]></title>
+	<album>album.xml</album>
+</home>
+
+
+
+<script language="JavaScript">
+// METATRAFFIC -- COPYRIGHT (C) 2002-2005, Brinkster Site Statistics Corp.
+
+var pagetitle = document.title; //INSERT CUSTOM PAGE NAME IN QUOTES
+var action = ""; //ACTION CODE
+var amount = "0"; //ACTION AMOUNT (LEAVE BLANK OR 0 IF NO AMOUNT)
+var order = ""; //INSERT UNIQUE ORDER NUMBER
+
+var scriptlocation = "/stats/track.asp";
+
+var pagedata = 'mtpt=' + escape(pagetitle) + '&mtac=' + escape(action) + '&mta=' + amount + '&mto=' + escape(order) + '&mtr=' + escape(document.referrer) + '&mtt=2&mts=' + window.screen.width + 'x' + window.screen.height + '&mti=1&mtz=' + Math.random(); 
+document.write ('<img height=1 width=1 ');
+document.write ('src="' + scriptlocation + '?' + pagedata + '">');
+</script>
+<noscript>
+	<a href="http://www.metasun.com/" target="_blank"><img src="/stats/track.asp?mtt=2&amp;mti=1" alt="website analytics software" border="0"></a>
+</noscript>
+
+</menu>

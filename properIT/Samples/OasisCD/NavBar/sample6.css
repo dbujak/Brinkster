@@ -1,0 +1,35 @@
+	#Nav { PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; FONT: 1em Verdana, Arial; COLOR: #f1f1f1; PADDING-TOP: 2px}
+	#Nav H4 { FONT-SIZE: 95%; MARGIN: 5px 0px 5px 5px; PADDING-TOP:2px; PADDING-RIGHT: 2px; DISPLAY: block; PADDING-LEFT: 4px; PADDING-BOTTOM: 2px;FONT-FAMILY: arial }
+	#Nav UL { list-style: none;
+margin: 0;
+padding: 0; }
+	#Nav LI 
+	{padding: 0;
+margin: -4px 2px;
+		WIDTH: 160px; }
+#Nav > ul > li
+{
+margin: -3px 2px;
+}	#Nav A 
+{cursor: pointer;
+display: block;
+color: #f1f1f1;
+padding: 2px 4px 4px 12px;
+margin: 1px 0px;
+font-size:80%;
+text-decoration: none;
+}
+#Nav > ul > li > a
+{
+border: 1px solid transparent;
+padding: 2px 4px 4px 11px;
+}	#Nav A:visited { COLOR: #f1f1f1 }
+	#Nav A:hover { border: 1px solid #cccccc;
+margin: 0px;
+padding: 2px 4px 4px 11px;
+background-color: #b0b0b0;
+text-decoration: none;}
+#Nav > ul > li > a:hover
+{
+margin: 1px 0px;
+}

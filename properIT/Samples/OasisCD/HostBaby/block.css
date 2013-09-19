@@ -1,0 +1,508 @@
+BODY
+{
+    MARGIN: 0px 0px 0px;
+    COLOR: #000;
+    FONT-FAMILY: Georgia, "Times New Roman", Times, serif;
+    BACKGROUND-COLOR: #456
+}
+HTML
+{
+    MARGIN: 0px 0px 0px;
+    COLOR: #000;
+    FONT-FAMILY: Georgia, "Times New Roman", Times, serif;
+    BACKGROUND-COLOR: #456
+}
+#wholepage
+{
+    BORDER-RIGHT: #000 3px solid;
+    BORDER-TOP: #000 3px solid;
+    MARGIN-LEFT: auto;
+    BORDER-LEFT: #000 3px solid;
+    MARGIN-RIGHT: auto;
+    BORDER-BOTTOM: #000 3px solid;
+    BACKGROUND-COLOR: #fff;
+    TEXT-ALIGN: left;
+    moz-border-radius: 12px
+}
+H1
+{
+    FONT-FAMILY: "trebuchet ms", "arial narrow", arial, helvetica, sans-serif
+}
+H2
+{
+    FONT-FAMILY: "trebuchet ms", "arial narrow", arial, helvetica, sans-serif;
+	line-height:28px
+}
+H3
+{
+    FONT-FAMILY: "trebuchet ms", "arial narrow", arial, helvetica, sans-serif
+}
+H4
+{
+    FONT-FAMILY: "trebuchet ms", "arial narrow", arial, helvetica, sans-serif
+}
+H5
+{
+    FONT-FAMILY: "trebuchet ms", "arial narrow", arial, helvetica, sans-serif
+}
+.big
+{
+    FONT-FAMILY: "trebuchet ms", "arial narrow", arial, helvetica, sans-serif
+}
+.big
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 1.1em
+}
+H2
+{
+    MARGIN-TOP: 0.5em;
+    MARGIN-BOTTOM: 0.5em;
+    COLOR: #000
+}
+H4
+{
+    MARGIN-TOP: 0.5em;
+    MARGIN-BOTTOM: 0.5em;
+    COLOR: #000
+}
+#content H3
+{
+    BORDER-RIGHT: #000 2px groove;
+    PADDING-RIGHT: 2px;
+    BORDER-TOP: #000 2px groove;
+    PADDING-LEFT: 2px;
+    BACKGROUND: #6f6;
+    PADDING-BOTTOM: 2px;
+    MARGIN: 1em 4em 0px 0px;
+    BORDER-LEFT: #000 2px groove;
+    PADDING-TOP: 2px;
+    BORDER-BOTTOM: #000 2px groove;
+    moz-border-radius: 6px
+}
+.center
+{
+    TEXT-ALIGN: center
+}
+.small
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10px;
+    COLOR: #444;
+    FONT-FAMILY: verdana, sans-serif
+}
+A:link
+{
+    COLOR: #006
+}
+A:hover
+{
+    COLOR: #900;
+    BACKGROUND-COLOR: #cccccc
+}
+A.button
+{
+    BACKGROUND-COLOR: #fff
+}
+A:visited
+{
+    COLOR: #000
+}
+#pageheader
+{
+    BACKGROUND: url(HostBaby_OasisCD_Header_blue.jpg) #2F414F no-repeat;
+    HEIGHT: 76px;
+    moz-border-radius: 8px
+}
+#pageheader H1
+{
+    DISPLAY: none
+}
+#logo
+{
+}
+#nav1
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 14px;
+    LINE-HEIGHT: 14px;
+    FONT-FAMILY: "trebuchet ms", "arial narrow", arial, helvetica, sans-serif
+}
+#nav1 UL
+{
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 10px;
+    PADDING-BOTTOM: 20px;
+    MARGIN: 0px 0px 3px;
+    PADDING-TOP: 3px;
+    BORDER-BOTTOM: #e70 1px solid
+}
+#nav1 LI
+{
+    PADDING-RIGHT: 0px;
+    DISPLAY: inline;
+    PADDING-LEFT: 0px;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px;
+    PADDING-TOP: 0px;
+    LIST-STYLE-TYPE: none
+}
+#nav1 A:link
+{
+    FLOAT: left;
+    MARGIN: 0px 10px 4px;
+    COLOR: #004;
+    TEXT-DECORATION: none
+}
+#nav1 A:visited
+{
+    FLOAT: left;
+    MARGIN: 0px 10px 4px;
+    COLOR: #004;
+    TEXT-DECORATION: none
+}
+#nav1 A.active:link
+{
+    BACKGROUND: #fff;
+    PADDING-BOTTOM: 2px;
+    BORDER-BOTTOM: #e70 4px solid
+}
+#nav1 A.active:visited
+{
+    BACKGROUND: #fff;
+    PADDING-BOTTOM: 2px;
+    BORDER-BOTTOM: #e70 4px solid
+}
+#nav1 A:hover
+{
+    BACKGROUND: #fff;
+    PADDING-BOTTOM: 2px;
+    BORDER-BOTTOM: #e70 4px solid
+}
+#sidebar
+{
+    CLEAR: both;
+    PADDING-RIGHT: 0px;
+    MARGIN-TOP: -3px;
+    PADDING-LEFT: 0px;
+    FLOAT: left;
+    PADDING-BOTTOM: 1em;
+    WIDTH: 150px;
+    PADDING-TOP: 1em;
+    BACKGROUND-COLOR: #6f6;
+    moz-border-radius: 8px
+}
+#nav2
+{
+    BORDER-RIGHT: medium none;
+    PADDING-RIGHT: 0px;
+    BORDER-TOP: medium none;
+    PADDING-LEFT: 0px;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px;
+    BORDER-LEFT: medium none;
+    PADDING-TOP: 0px;
+    BORDER-BOTTOM: medium none;
+    LIST-STYLE-TYPE: none
+}
+#nav2 LI
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    MARGIN: 0px 0px 0.7em;
+    COLOR: #004;
+    FONT-FAMILY: verdana, arial, helvetica, sans-serif
+}
+#nav2 LI A
+{
+    PADDING-RIGHT: 4px;
+    DISPLAY: block;
+    PADDING-LEFT: 8px;
+    PADDING-BOTTOM: 4px;
+    BORDER-LEFT: #6f6 4px solid;
+    WIDTH: 100%;
+    COLOR: #004;
+    PADDING-TOP: 4px;
+    TEXT-DECORATION: none
+}
+UNKNOWN
+{
+    WIDTH: auto
+}
+#nav2 LI A:hover
+{
+    BORDER-LEFT: #009 4px solid;
+    COLOR: #000;
+    BACKGROUND-COLOR: #e70
+}
+#nav2 .active
+{
+    BORDER-LEFT: #009 4px solid;
+    COLOR: #000;
+    BACKGROUND-COLOR: #e70
+}
+#content
+{
+    MARGIN-LEFT: 160px
+}
+BODY#home #content
+{
+    MARGIN-LEFT: 70px;
+    MARGIN-RIGHT: 70px
+}
+BODY#designers #content
+{
+    MARGIN-LEFT: 70px;
+    MARGIN-RIGHT: 70px
+}
+#content UL
+{
+    PADDING-LEFT: 0px
+}
+#content UL LI
+{
+    DISPLAY: block;
+    PADDING-LEFT: 19px;
+    BACKGROUND: url(/images/hostbaby_li.gif) no-repeat 0px 7px;
+    MARGIN-BOTTOM: 0.75em;
+    MARGIN-LEFT: 2em;
+    WIDTH: 80%
+}
+#content P
+{
+    MARGIN: 1em
+}
+.details
+{
+    FONT-SIZE: 11px;
+    FONT-FAMILY: sans-serif
+}
+TH
+{
+    PADDING-RIGHT: 1em;
+    FONT-SIZE: 12px;
+    TEXT-ALIGN: right
+}
+.highlight
+{
+    BACKGROUND-COLOR: yellow
+}
+IMG.screenshot
+{
+    BORDER-RIGHT: #000 1px solid;
+    BORDER-TOP: #000 1px solid;
+    FLOAT: right;
+    MARGIN: 0px 0px 6px 6px;
+    BORDER-LEFT: #000 1px solid;
+    BORDER-BOTTOM: #000 1px solid
+}
+CODE
+{
+    PADDING-RIGHT: 0.5em;
+    DISPLAY: block;
+    PADDING-LEFT: 0.5em;
+    FONT-SIZE: 10px;
+    PADDING-BOTTOM: 0.5em;
+    COLOR: #fff;
+    PADDING-TOP: 0.5em;
+    FONT-FAMILY: "courier new", courier, monospace;
+    BACKGROUND-COLOR: #000
+}
+.example
+{
+    PADDING-RIGHT: 0.5em;
+    DISPLAY: block;
+    PADDING-LEFT: 0.5em;
+    FONT-SIZE: 10px;
+    PADDING-BOTTOM: 0.5em;
+    COLOR: #fff;
+    PADDING-TOP: 0.5em;
+    FONT-FAMILY: "courier new", courier, monospace;
+    BACKGROUND-COLOR: #000
+}
+#next
+{
+    CLEAR: both;
+    FONT-SIZE: 36px;
+    MARGIN-BOTTOM: 5px;
+    FONT-FAMILY: impact, "arial narrow", "trebuchet ms", verdana, sans-serif;
+    TEXT-ALIGN: right
+}
+#next A
+{
+    PADDING-RIGHT: 50px;
+    BACKGROUND: url(/images/arrow_right.gif) no-repeat right 50%;
+    COLOR: #900
+}
+#next A:hover
+{
+    COLOR: #009
+}
+DT
+{
+    FONT-WEIGHT: bold
+}
+DD
+{
+    MARGIN-BOTTOM: 1em
+}
+#footer
+{
+    CLEAR: both;
+    FONT-SIZE: 11px;
+    RIGHT: 0px;
+    COLOR: #ddd;
+    BOTTOM: 0px;
+    POSITION: absolute;
+    TEXT-ALIGN: right
+}
+#content TD
+{
+    PADDING-RIGHT: 8px;
+    PADDING-LEFT: 8px;
+    PADDING-BOTTOM: 8px;
+    PADDING-TOP: 8px
+}
+.searchresult
+{
+    MARGIN-BOTTOM: 1em
+}
+.searchresult .address
+{
+    FONT-WEIGHT: bold
+}
+.searchresult .skills
+{
+    FONT-SIZE: 0.8em;
+    MARGIN: 0px 5em 0px 1em
+}
+.reviewblock
+{
+    MARGIN-BOTTOM: 1em;
+    WIDTH: 80%
+}
+.reviewblock .name
+{
+    FONT-WEIGHT: bold
+}
+.reviewblock .rating
+{
+    FONT-WEIGHT: bold
+}
+.reviewblock .subject
+{
+    FONT-WEIGHT: bold
+}
+.reviewblock .review
+{
+    FONT-SIZE: 11px;
+    FONT-FAMILY: verdana, arial, helvetica, sans-serif
+}
+UL#skills LI
+{
+    MARGIN-BOTTOM: 0px
+}
+#contact TD
+{
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px;
+    PADDING-TOP: 0px
+}
+FORM .input
+{
+    MARGIN-TOP: 1em
+}
+.input LABEL
+{
+    FONT-WEIGHT: bold
+}
+INPUT:unknown
+{
+    BACKGROUND-COLOR: #6f6
+}
+TEXTAREA:unknown
+{
+    BACKGROUND-COLOR: #6f6
+}
+.grid TH
+{
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    PADDING-BOTTOM: 0px;
+    PADDING-TOP: 0px
+}
+DIV.clearer
+{
+    CLEAR: left;
+    LINE-HEIGHT: 0;
+    HEIGHT: 0px
+}
+TABLE#payments
+{
+    FONT-SIZE: 11px;
+    FONT-FAMILY: verdana, arial, helvetica, sans-serif
+}
+TABLE#charges
+{
+    FONT-SIZE: 11px;
+    FONT-FAMILY: verdana, arial, helvetica, sans-serif
+}
+TABLE.history
+{
+    FONT-SIZE: 11px;
+    FONT-FAMILY: verdana, arial, helvetica, sans-serif
+}
+TABLE#domaininfo
+{
+    MARGIN-LEFT: 80px
+}
+.col1
+{
+    BACKGROUND-COLOR: #ddd
+}
+.col2
+{
+    BACKGROUND-COLOR: #cfc
+}
+#subbox
+{
+    BORDER-RIGHT: green 1px solid;
+    PADDING-RIGHT: 3px;
+    BORDER-TOP: green 1px solid;
+    PADDING-LEFT: 3px;
+    PADDING-BOTTOM: 3px;
+    BORDER-LEFT: green 1px solid;
+    WIDTH: 450px;
+    PADDING-TOP: 3px;
+    BORDER-BOTTOM: green 1px solid;
+    BACKGROUND-COLOR: #ddd
+}
+INPUT.redbutton
+{
+    BORDER-RIGHT: red 4px solid;
+    BORDER-TOP: red 4px solid;
+    BORDER-LEFT: red 4px solid;
+    BORDER-BOTTOM: red 4px solid
+}
+INPUT.greenbutton
+{
+    BORDER-RIGHT: lime 4px solid;
+    BORDER-TOP: lime 4px solid;
+    BORDER-LEFT: lime 4px solid;
+    BORDER-BOTTOM: lime 4px solid
+}
+INPUT.bluebutton
+{
+    BORDER-RIGHT: blue 4px solid;
+    BORDER-TOP: blue 4px solid;
+    BORDER-LEFT: blue 4px solid;
+    BORDER-BOTTOM: blue 4px solid
+}
+#wizard #content
+{
+    MARGIN: 0px;
+}

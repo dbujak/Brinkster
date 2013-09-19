@@ -1,0 +1,66 @@
+	#Nav { PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; FONT: 1em Verdana, Arial; COLOR: #f1f1f1; PADDING-TOP: 2px}
+	#Nav .search {font-size: 95%; font-family:Arial; font-weight:bold; margin-left:3px}
+	#Nav H4 { FONT-SIZE: 95%; MARGIN: 5px 0px 2px 5px; PADDING-TOP:2px; PADDING-RIGHT: 2px; DISPLAY: block; PADDING-LEFT: 4px; PADDING-BOTTOM: 2px;FONT-FAMILY: arial }
+	#Nav  h4  a
+	{
+		cursor: pointer;
+display: block;
+color: #f1f1f1;
+FONT-SIZE: 100%;
+text-decoration: none;
+MARGIN: 0; PADDING: 0; FONT-FAMILY: arial ;
+ border: 0;
+margin: 0px;
+padding: 0;
+background-color: #4a72b1;
+text-decoration: none;
+ }
+ #Nav h4 a:visited{background-color: #4a72b1}
+ #Nav  h4  a:hover
+	{
+		cursor: pointer;
+display: block;
+color: #b0b0b0;
+FONT-SIZE: 100%;
+text-decoration: none;
+MARGIN: 0; PADDING: 0; FONT-FAMILY: arial ;
+ border: 0;
+margin: 0px;
+padding: 0;
+background-color: #4a72b1;
+text-decoration: none;
+ }
+	#Nav UL { list-style: none;
+margin: 0px 0px 0px 4px;
+padding: 0; }
+	#Nav LI 
+	{padding: 0;
+margin: 2px 2px;
+		WIDTH: 160px;
+		font-size:12px; }
+#Nav > ul > li
+{
+margin: 3px 2px;
+}	#Nav A 
+{cursor: pointer;
+display: block;
+color: #f1f1f1;
+padding: 2px 4px 4px 12px;
+margin: 1px 0px;
+font-size:13px;
+text-decoration: none;
+}
+#Nav > ul > li > a
+{
+border: 1px solid transparent;
+padding: 2px 4px 4px 11px;
+}	#Nav A:visited { COLOR: #f1f1f1 }
+	#Nav A:hover { border: 1px solid #cccccc;
+margin: 0px;
+padding: 2px 4px 4px 11px;
+background-color: #b0b0b0;
+text-decoration: none;}
+#Nav > ul > li > a:hover
+{
+margin: 1px 0px;
+}
