@@ -35,29 +35,7 @@ Partial Class Footer1
 
         Me.lblCopyright.Text = "Copyright © " & strYear & " by Renovation Studio LLC. All rights reserved."
 
-        'Chat button
-        'Check the day and time of the day and display chat option
-        Dim boolWork As Boolean = False
 
-        'Check the day
-        Select Case Today.DayOfWeek
-            Case DayOfWeek.Monday, DayOfWeek.Tuesday, DayOfWeek.Wednesday, DayOfWeek.Thursday, DayOfWeek.Friday
-                'check time of the day
-                Select Case Now.Hour
-                    Case Is < 9, Is >= 17   'closed before 9 and after 5 PM
-                        boolWork = False
-                    Case Else
-                        boolWork = True
-                End Select
-            Case DayOfWeek.Saturday, DayOfWeek.Sunday
-                boolWork = False
-        End Select
-
-        Me.lblChat.Visible = False
-
-        'If boolWork = True Then
-        '    Me.lblChat.Visible = True
-        'End If
 
     End Sub
 

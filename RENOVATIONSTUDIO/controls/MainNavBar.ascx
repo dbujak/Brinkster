@@ -44,13 +44,11 @@
 			<div id="dbujakNavContainer">
 				<ul id="dbujakNavList">
 					<li id="dbujakNavLI" style="MARGIN-TOP: 2px">
-						<A href="/Brinkster/RENOVATIONSTUDIO/default.aspx">Renovation Studio</A>
+						<A href="/Brinkster/RENOVATIONSTUDIO/aboutus.aspx">Clients / Renovations</A>
 					</li>
 				</ul>
 				<div id="dbujakNavContainer2">
 					<ul id="dbujakNavList2">
-						<li id="dbujakNavLI2">
-							<A href="/Brinkster/RENOVATIONSTUDIO/default.aspx">Home</A>
 						<li id="dbujakNavLI2">
 							<A href="/Brinkster/RENOVATIONSTUDIO/aboutus.aspx">About Us</A>
 						<li id="dbujakNavLI2">
@@ -59,9 +57,8 @@
 							<A href="/Brinkster/RENOVATIONSTUDIO/process.aspx">Process</A>
 						<li id="dbujakNavLI2">
 							<A href="/Brinkster/RENOVATIONSTUDIO/testimonies.aspx">Testimonials</A>
-						<!--		<li id="dbujakNavLI2">
-							<A href="/Brinkster/RENOVATIONSTUDIO/testimonies.aspx">Testimonies</A>
-				-->
+						<li id="dbujakNavLI2">
+							<A href="/Brinkster/RENOVATIONSTUDIO/Projects/Clients.aspx">Galeries</A>
 						<li id="dbujakNavLI2">
 							<A href="/Brinkster/RENOVATIONSTUDIO/contact.aspx">Contact Us</A>
 						</li>
@@ -71,38 +68,19 @@
 			<div id="dbujakNavContainer">
 				<ul id="dbujakNavList">
 					<li id="dbujakNavLI" style="MARGIN-TOP: 2px">
-						<A href="/Brinkster/RENOVATIONSTUDIO/Projects/Clients.aspx">Galleries</A>
+						<A href="/Brinkster/RENOVATIONSTUDIO/SpeckHomes/default.aspx">Speck Homes</A>
 					</li>
 				</ul>
 				<div id="dbujakNavContainer2">
 					<ul id="dbujakNavList2">
 						<li id="dbujakNavLI2">
-							<A href="/Brinkster/RENOVATIONSTUDIO/Projects/Clients.aspx">Client 
-								Projects</A>
+							<A href="/Brinkster/RENOVATIONSTUDIO/SpeckHomes/default.aspx">Sell Us Your House</A>
 						<li id="dbujakNavLI2">
-							<A href="/Brinkster/RENOVATIONSTUDIO/Projects/NewHomes.aspx">New Homes 
-								For Sale</A> 
-							<!--
+							<A href="/Brinkster/RENOVATIONSTUDIO/Projects/NewHomes.aspx">New Homes For Sale</A> 
+    				    </li>
 						<li id="dbujakNavLI2">
-							<A href="/Brinkster/RENOVATIONSTUDIO/Projects/Crestwood 10105/default.aspx">Crestwood</A>
-						<li id="dbujakNavLI2">
-							<A href="/Brinkster/RENOVATIONSTUDIO/Projects/Baltimore/default.aspx">Baltimore St.</A>
-						</li>
-						--></li>
-					</ul>
-				</div>
-			</div>
-			<div id="dbujakNavContainer">
-				<ul id="dbujakNavList">
-					<li id="dbujakNavLI" style="MARGIN-TOP: 2px">
-						<a href="http://webmail.brinkster.com/" target="_blank">Employees Only</a>
-					</li>
-				</ul>
-				<div id="dbujakNavContainer2">
-					<ul id="dbujakNavList2">
-						<li id="dbujakNavLI2">
-							<a href="http://webmail.brinkster.com/" target="_blank">Check E-mail</a>
-						</li>
+							<A href="/Brinkster/RENOVATIONSTUDIO/SpeckHomes/ContactUs.aspx">Contact Us</A> 
+    				    </li>
 					</ul>
 				</div>
 			</div>

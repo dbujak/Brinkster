@@ -45,6 +45,11 @@
     </UpgradeBackupLocation>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <OldToolsVersion>2.0</OldToolsVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <OutputPath>bin\</OutputPath>
@@ -691,6 +696,34 @@
     <Compile Include="RENOVATIONSTUDIO\services.aspx.vb">
       <DependentUpon>services.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\SpeckHomes\ContactUs.aspx.designer.vb">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\SpeckHomes\ContactUs.aspx.vb">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\SpeckHomes\controls\Footer.ascx.designer.vb">
+      <DependentUpon>Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\SpeckHomes\controls\Footer.ascx.vb">
+      <DependentUpon>Footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\SpeckHomes\controls\Header.ascx.designer.vb">
+      <DependentUpon>Header.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\SpeckHomes\controls\Header.ascx.vb">
+      <DependentUpon>Header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\SpeckHomes\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RENOVATIONSTUDIO\SpeckHomes\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="RENOVATIONSTUDIO\testimonies.aspx.designer.vb">
       <DependentUpon>testimonies.aspx</DependentUpon>
@@ -1745,6 +1778,10 @@
     <Content Include="RENOVATIONSTUDIO\SampleAfter.jpg" />
     <Content Include="RENOVATIONSTUDIO\SampleBefore.jpg" />
     <Content Include="RENOVATIONSTUDIO\services.aspx" />
+    <Content Include="RENOVATIONSTUDIO\SpeckHomes\ContactUs.aspx" />
+    <Content Include="RENOVATIONSTUDIO\SpeckHomes\controls\Footer.ascx" />
+    <Content Include="RENOVATIONSTUDIO\SpeckHomes\controls\Header.ascx" />
+    <Content Include="RENOVATIONSTUDIO\SpeckHomes\default.aspx" />
     <Content Include="RENOVATIONSTUDIO\test.htm" />
     <Content Include="RENOVATIONSTUDIO\testimonies.aspx" />
     <Content Include="RENOVATIONSTUDIO\weather.xml" />
@@ -3130,6 +3167,10 @@
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost/Brinkster</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>
     </VisualStudio>

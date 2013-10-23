@@ -26,7 +26,7 @@ Partial Class _default9
     Private Sub Page_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         'Put user code to initialize the page here
 
-        Me.Header1.Title = "Home"
+        Me.Header1.Title = "Renovation Studio"
         Me.Header1.Image = "/Brinkster/RenovationStudio/images/empty.jpg"
 
     End Sub

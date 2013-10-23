@@ -64,23 +64,7 @@
 							<BR>
 						</P>
 						<P>
-							<TABLE id="Table2" cellSpacing="1" cellPadding="1" width="450" border="0" style="HEIGHT: 80px">
-								<TR>
-									<TD vAlign="top" rowSpan="2" width="20"><A href="http://restudio.biz" target="_blank"><IMG src="/Brinkster/RENOVATIONSTUDIO/images/dejan2.jpg" border="0"></A></TD>
-									<TD style="HEIGHT: 55px"></TD>
-									<TD vAlign="top" align="left" style="HEIGHT: 55px"><a href="http://restudio.biz" target="_blank"><STRONG>Dejan 
-												Bujak</STRONG></a><BR>
-										Investors and New Homes for Sale <FONT size="2">(Flaherty Group Inc)<BR>
-											<A href="http://www.reStudio.biz" target="_blank">www.reStudio.biz</A></FONT></TD>
-								</TR>
-								<TR>
-									<TD></TD>
-									<TD vAlign="bottom" align="left">301.675.1682<BR>
-										<A href="mailto:dbujak@renovationstudio.biz">dbujak@renovationstudio.biz</A>
-									</TD>
-								</TR>
-							</TABLE>
-						</P>
+							&nbsp;</P>
 					</TD>
 					<TD vAlign="top"></TD>
 					<TD vAlign="top"></TD>
