@@ -5,7 +5,7 @@
 <%@ Page Language="vb" AutoEventWireup="false" Codebehind="default.aspx.vb" Inherits="Brinkster._default23"%>
 <%@ Register TagPrefix="uc1" TagName="Sales" Src="../../../RENOVATIONSTUDIO/controls/Sales.ascx" %>
 <%@ Register TagPrefix="uc1" TagName="RentContact" Src="../../Controls/RentContact.ascx" %>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <HTML>
 	<HEAD>
 		<title>3603 Dupont Ave, Kensington, MD 20895 - by Dejan Bujak</title>

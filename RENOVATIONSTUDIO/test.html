@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+
+    <style type="text/css" media="screen">
+        #slider1 {
+            width: 700px; /* important to be same as image width */
+            height: 397px; /* important to be same as image height */
+            position: relative; /* important */
+            overflow: hidden; /* important */
+        }
+
+        #slider1Content {
+            width: 700px; /* important to be same as image width or wider */
+            position: absolute;
+        }
+
+        .slider1Image {
+            float: left;
+            position: relative;
+            display: none;
+        }
+
+            .slider1Image span {
+                position: absolute;
+                font: 10px/15px Arial, Helvetica, sans-serif;
+                padding: 10px 10px;
+                width: 596px;
+                background-color: #000;
+                filter: alpha(opacity=70);
+                -moz-opacity: 0.7;
+                -khtml-opacity: 0.7;
+                opacity: 0.7;
+                color: #fff;
+                display: none;
+                box-sizing: border-box;
+            }
+
+        .clear {
+            clear: both;
+        }
+
+        .slider1Image span strong {
+            font-size: 14px;
+        }
+
+        .left {
+            top: 0;
+            left: 0;
+            width: 110px !important;
+            height: 397px;
+        }
+
+        .right {
+            right: 40px;
+            top: 0;
+            width: 90px !important;
+            height: 397px;
+        }
+
+        .top {
+            top: 0;
+            left: 0;
+        }
+
+        .bottom {
+            bottom: 20px;
+            left: 0;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+    </style>
+    <!-- JavaScripts-->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript" src="/Brinkster/RenovationStudio/js/s3Slider.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#slider1').s3Slider({
+                timeOut: 2000
+            });
+        });
+    </script>
+</head>
+<body bgcolor="black">
+
+
+
+
+
+
+
+
+    <div id="slider1">
+        <ul id="slider1Content">
+            <li class="slider1Image">
+                <img src="/Brinkster/RenovationStudio/images/scroll/01.jpg" />
+                <span class="top"><strong>We are what we repeatedly do. Excellence, then, is not an act, but a habit.</strong></span></li>
+            <li class="slider1Image">
+                <img src="/Brinkster/RenovationStudio/images/scroll/02.jpg" />
+                <span class="top"><strong>Appreciation is a wonderful thing. It makes what is excellent in others belong to us as well.</strong></span></li>
+            <li class="slider1Image">
+                <img src="/Brinkster/RenovationStudio/images/scroll/03.jpg" />
+                <span class="top"><strong>Let’s give the historians something to write about</strong></span></li>
+            <li class="slider1Image">
+                <img src="/Brinkster/RenovationStudio/images/scroll/04.jpg" />
+                <span class="top"><strong>If I cannot do great things, I can do small things in a great way</strong></span></li>
+            <div class="clear slider1Image"></div>
+        </ul>
+    </div>
+
+
+
+</body>
+</html>

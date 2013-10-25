@@ -4,7 +4,7 @@
 <%@ Register TagPrefix="uc1" TagName="Left" Src="../../Controls/Left.ascx" %>
 <%@ Register TagPrefix="uc1" TagName="Header" Src="../../Controls/Header.ascx" %>
 <%@ Page Language="vb" AutoEventWireup="false" Codebehind="1 Tankless Water Heaters.aspx.vb" Inherits="Brinkster._1_Tankless_Water_Heaters"%>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <HTML>
 	<HEAD>
 		<title>Tankless Water Heaters by Dejan Bujak</title>

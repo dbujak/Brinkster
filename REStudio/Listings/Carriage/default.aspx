@@ -4,7 +4,7 @@
 <%@ Register TagPrefix="uc1" TagName="Footer" Src="../../Controls/Footer.ascx" %>
 <%@ Page Language="vb" AutoEventWireup="false" Codebehind="default.aspx.vb" Inherits="Brinkster._default27"%>
 <%@ Register TagPrefix="uc1" TagName="carriage" Src="carriage.ascx" %>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <HTML>
 	<HEAD>
 		<title>9604 Carriage Rd; Kensington, MD 20895</title>

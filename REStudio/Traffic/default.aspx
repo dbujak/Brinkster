@@ -3,7 +3,7 @@
 <%@ Register TagPrefix="uc1" TagName="Left" Src="../Controls/Left.ascx" %>
 <%@ Register TagPrefix="uc1" TagName="Right" Src="../Controls/Right.ascx" %>
 <%@ Register TagPrefix="uc1" TagName="Footer" Src="../Controls/Footer.ascx" %>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <HTML>
 	<HEAD>
 		<title>Dejan Bujak - Traffic Page</title>

@@ -4,7 +4,7 @@
 <%@ Register TagPrefix="uc1" TagName="Footer" Src="../Controls/Footer.ascx" %>
 <%@ Page Language="vb" AutoEventWireup="false" Codebehind="details.aspx.vb" Inherits="Brinkster.details1"%>
 <%@ Register TagPrefix="uc1" TagName="SoldDetails" Src="/Brinkster/REStudio/Sold Reports/SoldDetails.ascx" %>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <HTML>
 	<HEAD>
 		<title>Keep it in Kensington - Sold Reports</title>

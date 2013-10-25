@@ -1,7 +1,7 @@
 <%@ Register TagPrefix="uc1" TagName="Footer" Src="Footer.ascx" %>
 <%@ Page Language="vb" AutoEventWireup="false" Codebehind="default.aspx.vb" Inherits="Brinkster._default1"%>
 <%@ Register TagPrefix="uc1" TagName="Header" Src="Header.ascx" %>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <HTML>
 	<HEAD>
 		<title>properIT</title>

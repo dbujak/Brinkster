@@ -7,22 +7,7 @@
 	</TR>
 	<TR>
 		<TD colSpan="3">
-			<P align="center">
-				<asp:Label id="lblChat" runat="server">
-					<table height="20">
-						<tr>
-							<td>
-								<span class="footerChat">
-									<!-- Boldcenter Live Chat Button HTML v1.10 (Type=Web,ChatButton=- None -,ChatWindow=- None -,Website=- None -) -->
-									<a href="http://chat.boldcenter.com/aid/304086841263900764/bc.chat" target="_blank"
-										onClick="this.newWindow = window.open('http://chat.boldcenter.com/aid/304086841263900764/bc.chat?url=' + document.location, 'Chat', 'toolbar=0,scrollbars=1,location=0,statusbar=0,menubar=0,resizable=1,width=640,height=480');this.newWindow.focus();this.newWindow.opener=window;return false;">
-										<b>You can also chat with us live!</b></a> 
-									<!-- /Boldcenter Live Chat Button HTML v1.10 -->
-								</span>
-							</td>
-						</tr>
-					</table>
-				</asp:Label></P>
+
 		</TD>
 	</TR>
 	<TR>

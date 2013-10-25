@@ -4,7 +4,7 @@
 <%@ Register TagPrefix="uc1" TagName="Footer" Src="../../Controls/Footer.ascx" %>
 <%@ Page Language="vb" AutoEventWireup="false" Codebehind="3 Quick Tips for Showing Your Home.aspx.vb" Inherits="Brinkster._3_Quick_Tips_for_Showing_Your_Home"%>
 <%@ Register TagPrefix="uc1" TagName="ResourcesContact" Src="../../Controls/ResourcesContact.ascx" %>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <HTML>
 	<HEAD>
 		<title>Quick Tips for Showing Your Home</title>

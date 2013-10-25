@@ -6,7 +6,7 @@
 
 <%@ Register src="controls/Footer.ascx" tagname="Footer" tagprefix="uc2" %>
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head runat="server">
     <title></title>

@@ -5,7 +5,7 @@
 <%@ Register TagPrefix="uc1" TagName="P2" Src="/Brinkster/RENOVATIONSTUDIO/Projects/Parkwood II/P2.ascx" %>
 <%@ Page Language="vb" AutoEventWireup="false" Codebehind="Listings.aspx.vb" Inherits="Brinkster.Listings"%>
 <%@ Register TagPrefix="uc1" TagName="OldListings" Src="../KensingtonTeam/Listings/OldListings.ascx" %>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <HTML>
 	<HEAD>
 		<title>Dejan Bujak - Listings</title>

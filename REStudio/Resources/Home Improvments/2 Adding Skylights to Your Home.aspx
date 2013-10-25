@@ -4,7 +4,7 @@
 <%@ Register TagPrefix="uc1" TagName="Left" Src="../../Controls/Left.ascx" %>
 <%@ Register TagPrefix="uc1" TagName="Header" Src="../../Controls/Header.ascx" %>
 <%@ Page Language="vb" AutoEventWireup="false" Codebehind="2 Adding Skylights to Your Home.aspx.vb" Inherits="Brinkster._1_Adding_Skylights_to_Your_Home"%>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <HTML>
 	<HEAD>
 		<title>Adding Skylights to Your Home by Dejan Bujak</title>

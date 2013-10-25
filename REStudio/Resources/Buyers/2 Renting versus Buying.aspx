@@ -4,7 +4,7 @@
 <%@ Register TagPrefix="uc1" TagName="Footer" Src="../../Controls/Footer.ascx" %>
 <%@ Register TagPrefix="uc1" TagName="ResourcesContact" Src="../../Controls/ResourcesContact.ascx" %>
 <%@ Page Language="vb" AutoEventWireup="false" Codebehind="2 Renting versus Buying.aspx.vb" Inherits="Brinkster._2_Renting_versus_Buying"%>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <HTML>
 	<HEAD>
 		<title>Renting versus Buying</title>

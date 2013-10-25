@@ -5,7 +5,7 @@
 <%@ Register TagPrefix="uc1" TagName="Header" Src="../../Controls/Header.ascx" %>
 <%@ Register TagPrefix="uc1" TagName="Crestwood10105AsIs" Src="Crestwood10105AsIs.ascx" %>
 <%@ Page Language="vb" AutoEventWireup="false" Codebehind="default.aspx.vb" Inherits="Brinkster._default25"%>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <HTML>
 	<HEAD>
 		<title>Dejan Bujak - 10105 Crestwood Rd, Kensington, MD 20895</title>
