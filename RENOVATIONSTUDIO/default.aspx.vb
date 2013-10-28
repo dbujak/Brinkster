@@ -100,7 +100,7 @@ Partial Class _default9
 
     Private Function TextAlign() As String
         Dim x As Integer = _r.Next(1, 4)
-        Return "bottom"
+
         Select Case x
             Case 1
                 Return "top"
