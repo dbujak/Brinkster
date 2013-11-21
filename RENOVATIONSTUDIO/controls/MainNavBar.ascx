@@ -68,7 +68,7 @@
 			<div id="dbujakNavContainer">
 				<ul id="dbujakNavList">
 					<li id="dbujakNavLI" style="MARGIN-TOP: 2px">
-						<A href="/Brinkster/RENOVATIONSTUDIO/SpeckHomes/default.aspx">Speck Homes</A>
+						<A href="/Brinkster/RENOVATIONSTUDIO/SpeckHomes/default.aspx">Custom Homes</A>
 					</li>
 				</ul>
 				<div id="dbujakNavContainer2">
