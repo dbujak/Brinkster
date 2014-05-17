@@ -45,7 +45,7 @@
     </UpgradeBackupLocation>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <OldToolsVersion>2.0</OldToolsVersion>
-    <UseIISExpress>false</UseIISExpress>
+    <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
@@ -927,6 +927,20 @@
     <Compile Include="REStudio\Listings\Baltimore, 3951\default.aspx.vb">
       <SubType>ASPXCodebehind</SubType>
       <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Listings\Bambi, 11933\Bambi, 11933.ascx.designer.vb">
+      <DependentUpon>Bambi, 11933.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Listings\Bambi, 11933\Bambi, 11933.ascx.vb">
+      <DependentUpon>Bambi, 11933.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REStudio\Listings\Bambi, 11933\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REStudio\Listings\Bambi, 11933\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="REStudio\Listings\Blueridge3003\Blueridge3003.ascx.designer.vb">
       <DependentUpon>Blueridge3003.ascx</DependentUpon>
@@ -2469,6 +2483,8 @@
     <Content Include="REStudio\Listings\Baltimore, 3951\Baltimore3951.ascx" />
     <Content Include="REStudio\Listings\Baltimore, 3951\default.aspx" />
     <Content Include="REStudio\Listings\Baltimore, 3951\DLES3C.jpg" />
+    <Content Include="REStudio\Listings\Bambi, 11933\Bambi, 11933.ascx" />
+    <Content Include="REStudio\Listings\Bambi, 11933\default.aspx" />
     <Content Include="REStudio\Listings\Blueridge3003\Blueridge3003.ascx" />
     <Content Include="REStudio\Listings\Blueridge3003\default.aspx" />
     <Content Include="REStudio\Listings\Carriage\Backyard.jpg" />
@@ -3170,7 +3186,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>3371</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost/Brinkster</IISUrl>
+          <IISUrl>http://localhost:3371/Brinkster/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
