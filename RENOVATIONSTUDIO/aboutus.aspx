@@ -39,7 +39,7 @@
 						</P>
 						<P>Renovation Studio attributes its success and outstanding reputation to 
 							completing projects on time and in budget. Renovation Studio offers the 
-							following services: programming, estimating, design, and construction, 
+							following services: estimating, design, and construction, 
 							separately or as a package to this unique approach to construction.
 						</P>
 						<P>Renovation Studio gives the same attention to detail in all their projects, 
