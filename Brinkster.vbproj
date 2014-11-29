@@ -1772,6 +1772,8 @@
     <Content Include="RENOVATIONSTUDIO\Projects\Lexington\Lexington_FloorPlansSecond.jpg" />
     <Content Include="RENOVATIONSTUDIO\Projects\Lexington\Lexington_FloorPlansSecondSmall.jpg" />
     <Content Include="RENOVATIONSTUDIO\Projects\NewHomes.aspx" />
+    <Content Include="RENOVATIONSTUDIO\Projects\NewHomesImages\Chestnut7218.jpg" />
+    <Content Include="RENOVATIONSTUDIO\Projects\NewHomesImages\Howell8502.jpg" />
     <Content Include="RENOVATIONSTUDIO\Projects\NewHomesImages\Lexington.jpg" />
     <Content Include="RENOVATIONSTUDIO\Projects\NewHomesImages\LexingtonBW.jpg" />
     <Content Include="RENOVATIONSTUDIO\Projects\Parkwood II\defult.aspx" />
@@ -3111,6 +3113,7 @@
     <None Include="Bujak\BujakDatabase.mdb" />
     <None Include="Bujak\DejanBujakResume.doc" />
     <None Include="Bujak\images\Krstenje Mie\res\styles\arcs\theme.properties" />
+    <None Include="My Project\PublishProfiles\Brinkster.pubxml" />
     <None Include="RENOVATIONSTUDIO\Investor Package.pps" />
     <None Include="RENOVATIONSTUDIO\Logo.cpt" />
     <None Include="RENOVATIONSTUDIO\Logos.cpt" />
@@ -3162,7 +3165,6 @@
     <WebReferences Include="Web References\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="My Project\" />
     <Folder Include="RENOVATIONSTUDIO\Projects\ClientsImages\Homewood\" />
   </ItemGroup>
   <PropertyGroup>

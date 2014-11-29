@@ -28,11 +28,86 @@
 					<TD vAlign="top">
 						<TABLE id="Table2" cellSpacing="0" cellPadding="0" border="0">
 							<TR>
+								<TD><A href="http://murtaghproperties.com/idx/mls-mc8507598-7218_chestnut_st_chevy_chase_md_20815" target="_blank"><IMG alt="7218 Chestnut St, Chevy Chase MD 20815" src="/Brinkster/RENOVATIONSTUDIO/Projects/NewHomesImages/Chestnut7218.jpg"
+											border="0"></A></TD>
+								<TD width="10"></TD>
+								<TD vAlign="bottom">
+									<TABLE id="Table7" cellSpacing="1" cellPadding="3" border="0">
+										<TR>
+											<TD vAlign="top"><STRONG>Address:</STRONG></TD>
+											<TD></TD>
+											<TD vAlign="top">7218 Chestnut St<BR>
+												Chevy Chase, MD 20815</TD>
+										</TR>
+										<TR>
+											<TD vAlign="top"><STRONG>Features:</STRONG></TD>
+											<TD></TD>
+											<TD vAlign="top">5 bedrooms,<BR>
+												5 full, 1 half bats</TD>
+										</TR>
+										<TR>
+											<TD vAlign="top"><STRONG>Asking Price:</STRONG><BR>
+											</TD>
+											<TD></TD>
+											<TD vAlign="top">$2,069,000</TD>
+										</TR>
+										<TR>
+											<TD vAlign="top"><STRONG>More Info:</STRONG></TD>
+											<TD></TD>
+											<TD vAlign="top"><A href="http://murtaghproperties.com/idx/mls-mc8507598-7218_chestnut_st_chevy_chase_md_20815" target="_blank">Click 
+													Here</A></TD>
+										</TR>
+									</TABLE>
+								</TD>
+							</TR>
+							<TR>
+								<TD height="30"></TD>
+								<TD width="10" height="30"></TD>
+								<TD vAlign="bottom" height="30"></TD>
+							</TR>
+							<TR>
+								<TD><IMG alt="10703 Lexington, Kensington MD 20895" src="/Brinkster/RENOVATIONSTUDIO/Projects/NewHomesImages/Howell8502.jpg"
+											border="0"></TD>
+								<TD width="10"></TD>
+								<TD vAlign="bottom">
+									<TABLE id="Table3" cellSpacing="1" cellPadding="3" border="0">
+										<TR>
+											<TD vAlign="top"><STRONG>Address:</STRONG></TD>
+											<TD></TD>
+											<TD vAlign="top">8502 West Howell Rd<BR>
+												Bethesda, MD 20817</TD>
+										</TR>
+										<TR>
+											<TD vAlign="top"><STRONG>Features:</STRONG></TD>
+											<TD></TD>
+											<TD vAlign="top">6 bedrooms,<BR>
+												6 full, 1 half bats</TD>
+										</TR>
+										<TR>
+											<TD vAlign="top"><STRONG>Asking Price:</STRONG><BR>
+											</TD>
+											<TD></TD>
+											<TD vAlign="top">$2,495,000</TD>
+										</TR>
+										<TR>
+											<TD vAlign="top"><STRONG>More Info:</STRONG></TD>
+											<TD></TD>
+											<TD vAlign="top">Please call Matthew Maury: 301.928.8686</TD>
+										</TR>
+									</TABLE>
+								</TD>
+							</TR>
+							<TR>
+								<TD height="30"></TD>
+								<TD width="10" height="30"></TD>
+								<TD vAlign="bottom" height="30"></TD>
+							</TR>
+							<TR>
 								<TD><A href="/Brinkster/RENOVATIONSTUDIO/Projects/Lexington/default.aspx"><IMG alt="10703 Lexington, Kensington MD 20895" src="/Brinkster/RENOVATIONSTUDIO/Projects/NewHomesImages/LexingtonBW.jpg"
 											border="0"></A></TD>
 								<TD width="10"></TD>
 								<TD vAlign="bottom">
-									<TABLE id="Table3" cellSpacing="1" cellPadding="3" border="0">
+									<TABLE id="Table8" cellSpacing="1" cellPadding="3" border="0">
 										<TR>
 											<TD vAlign="top"><STRONG>Address:</STRONG></TD>
 											<TD></TD>
