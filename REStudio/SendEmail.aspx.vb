@@ -26,7 +26,7 @@ Partial Class SendEmail
 
             ' Get all the emails
             Dim ds As New DataSet
-            Dim da As New System.Data.Odbc.OdbcDataAdapter("Select * From tblEmails", "Driver={Microsoft Access Driver (*.mdb)};Dbq=c:\sites\Single7\dbujak\Database\New Site Search.mdb;Uid=Admin;Pwd=;")
+            Dim da As New System.Data.Odbc.OdbcDataAdapter("Select * From tblEmails", "Driver={Microsoft Access Driver (*.mdb)};Dbq=c:\sites\Single37\dbujak\Database\New Site Search.mdb;Uid=Admin;Pwd=;")
             da.Fill(ds)
 
 

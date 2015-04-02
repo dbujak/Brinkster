@@ -6,9 +6,9 @@ Namespace reStudio
         Private mConKensingtonTeam As String
 
         Sub New()
-            Dim Path As String = "c:\sites\Single7\dbujak\Database\reStudio.mdb"
-            Dim soldPath As String = "c:\sites\Single7\dbujak\Database\"
-            Dim KensingtonTeam As String = "c:\sites\Single7\dbujak\Database\KensingtonTeam.mdb"
+            Dim Path As String = "c:\sites\Single37\dbujak\Database\reStudio.mdb"
+            Dim soldPath As String = "c:\sites\Single37\dbujak\Database\"
+            Dim KensingtonTeam As String = "c:\sites\Single37\dbujak\Database\KensingtonTeam.mdb"
 
             mConString = "Provider=Microsoft.Jet.OLEDB.4.0;Data source=" & Path
             mConSold = "Provider=Microsoft.Jet.OLEDB.4.0;Data source=" & soldPath

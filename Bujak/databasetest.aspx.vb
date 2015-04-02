@@ -22,8 +22,8 @@ Partial Class databasetest
 
     Private Sub Page_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         'Put user code to initialize the page here
-        Dim strPathDatabase As String = "c:\sites\Single7\dbujak\database\bujakdatabase.mdb"
-        Dim strPathBujak As String = "c:\sites\Single7\dbujak\webroot\brinkster\bujak\bujakdatabase.mdb"
+        Dim strPathDatabase As String = "c:\sites\Single37\dbujak\database\bujakdatabase.mdb"
+        Dim strPathBujak As String = "c:\sites\Single37\dbujak\webroot\brinkster\bujak\bujakdatabase.mdb"
 
         Dim strConDatabase As String = "Provider=Microsoft.Jet.OLEDB.4.0; DATA Source=" & strPathDatabase & ";"
         Dim strConBujak As String = "Provider=Microsoft.Jet.OLEDB.4.0; DATA Source=" & strPathBujak & ";"
