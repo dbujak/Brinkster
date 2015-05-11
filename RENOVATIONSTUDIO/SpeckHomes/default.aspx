@@ -45,7 +45,7 @@
                         <p>We understand that a lot of homeowners think they have the time and energy for the above, in hopes that it will “pay off”.   But keep in mind, that they will pay 6% in commissions and 3-4% on fixing their houses, de-cluttering, staging, granting credits post-inspection, and more.</p>
                         <p>We are offering you a selling alternative, where you will not have to worry about anything and still get market value of your home in record time.  This model creates a “win-win” - protects your privacy, allows you to keep the dollars associated with one of your biggest assets, saves you time and hassle.</p>
                         <p>We have built many homes in the area, and take great pride in building to the scale of the neighborhood, and offering curb appeal with architectural details that allow a remodeled home to feel like it’s been there and belongs there.</p>
-                        <p>If you are interested in selling your home or need more information please give us a call at (301) 760-3515.</p>
+                        <p>If you are interested in selling your home or need more information please give us a call at 240.374.2525.</p>
 
 
 					</TD>

@@ -15,7 +15,7 @@
 			<P align="center">
 				3932 Washington St; Kensington, MD 20895
 				<BR>
-				tel:&nbsp;301.760.3515&nbsp;&nbsp;&nbsp; fax: 240.363.8900&nbsp;&nbsp;&nbsp; 
+				tel:&nbsp;240.374.2525&nbsp;&nbsp;&nbsp; fax: 240.363.8900&nbsp;&nbsp;&nbsp; 
 				web: <A href="http://www.renovationstudio.biz">www.renovationstudio.biz</A>
 			</P>
 		</TD>

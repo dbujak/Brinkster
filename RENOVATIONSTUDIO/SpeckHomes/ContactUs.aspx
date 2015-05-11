@@ -31,7 +31,7 @@
                                     3932 Washington St<br />
                                     Kensington MD, 20895</td>
                                 <td width="60"></td>
-                                <td align="left" valign="bottom">Phone: 301.760.3515<br />
+                                <td align="left" valign="bottom">Phone: 240.374.2525<br />
                                     Fax: 240.363.8900</td>
                             </tr>
                         </table>
@@ -90,7 +90,7 @@
 									<TD vAlign="top" colSpan="1" rowSpan="2" width="10"><IMG src="/Brinkster/RENOVATIONSTUDIO/images/Vince.jpg"></TD>
 								</TR>
 								<TR>
-									<TD vAlign="bottom" align="right">301.760.4188<BR>
+									<TD vAlign="bottom" align="right"><BR>
 										<A href="mailto:VBartozzi@renovationstudio.biz">VBartozzi@renovationstudio.biz</A></TD>
 									<TD></TD>
 								</TR>
