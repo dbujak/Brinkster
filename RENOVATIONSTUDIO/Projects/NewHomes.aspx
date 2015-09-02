@@ -28,8 +28,45 @@
 					<TD vAlign="top">
 						<TABLE id="Table2" cellSpacing="0" cellPadding="0" border="0">
 							<TR>
-								<TD><A href="http://murtaghproperties.com/idx/mls-mc8507598-7218_chestnut_st_chevy_chase_md_20815" target="_blank"><IMG alt="7218 Chestnut St, Chevy Chase MD 20815" src="/Brinkster/RENOVATIONSTUDIO/Projects/NewHomesImages/Chestnut7218.jpg"
-											border="0"></A></TD>
+								<TD><IMG alt="5603 Pollard Road" src="/Brinkster/RENOVATIONSTUDIO/Projects/NewHomesImages/Pollard5603.jpg"
+											border="0"></TD>
+								<TD width="10"></TD>
+								<TD vAlign="bottom">
+									<TABLE id="Table9" cellSpacing="1" cellPadding="3" border="0">
+										<TR>
+											<TD vAlign="top"><STRONG>Address:</STRONG></TD>
+											<TD></TD>
+											<TD vAlign="top">5603 Pollard Road<BR>
+												Bethesda, MD 20816</TD>
+										</TR>
+										<TR>
+											<TD vAlign="top"><STRONG>Features:</STRONG></TD>
+											<TD></TD>
+											<TD vAlign="top">5 bedrooms,<BR>
+												4 full, 1 half baths</TD>
+										</TR>
+										<TR>
+											<TD vAlign="top"><STRONG>Asking Price:</STRONG><BR>
+											</TD>
+											<TD></TD>
+											<TD vAlign="top">$1,995,000</TD>
+										</TR>
+										<TR>
+											<TD vAlign="top"><STRONG>More Info:</STRONG></TD>
+											<TD></TD>
+											<TD vAlign="top">Please call Matthew Maury: 301.928.8686</TD>
+										</TR>
+									</TABLE>
+								</TD>
+							</TR>
+							<TR>
+								<TD height="30"></TD>
+								<TD width="10" height="30"></TD>
+								<TD vAlign="bottom" height="30"></TD>
+							</TR>
+							<TR>
+								<TD><IMG alt="7218 Chestnut St, Chevy Chase MD 20815" src="/Brinkster/RENOVATIONSTUDIO/Projects/NewHomesImages/Chestnut7218.jpg"
+											border="0"></TD>
 								<TD width="10"></TD>
 								<TD vAlign="bottom">
 									<TABLE id="Table7" cellSpacing="1" cellPadding="3" border="0">
@@ -43,19 +80,13 @@
 											<TD vAlign="top"><STRONG>Features:</STRONG></TD>
 											<TD></TD>
 											<TD vAlign="top">5 bedrooms,<BR>
-												5 full, 1 half bats</TD>
+												5 full, 1 half baths</TD>
 										</TR>
 										<TR>
 											<TD vAlign="top"><STRONG>Asking Price:</STRONG><BR>
 											</TD>
 											<TD></TD>
 											<TD vAlign="top">$2,069,000</TD>
-										</TR>
-										<TR>
-											<TD vAlign="top"><STRONG>More Info:</STRONG></TD>
-											<TD></TD>
-											<TD vAlign="top"><A href="http://murtaghproperties.com/idx/mls-mc8507598-7218_chestnut_st_chevy_chase_md_20815" target="_blank">Click 
-													Here</A></TD>
 										</TR>
 									</TABLE>
 								</TD>
@@ -66,7 +97,7 @@
 								<TD vAlign="bottom" height="30"></TD>
 							</TR>
 							<TR>
-								<TD><IMG alt="10703 Lexington, Kensington MD 20895" src="/Brinkster/RENOVATIONSTUDIO/Projects/NewHomesImages/Howell8502.jpg"
+								<TD><IMG alt="8502 West Howell Rd" src="/Brinkster/RENOVATIONSTUDIO/Projects/NewHomesImages/Howell8502.jpg"
 											border="0"></TD>
 								<TD width="10"></TD>
 								<TD vAlign="bottom">
@@ -81,7 +112,7 @@
 											<TD vAlign="top"><STRONG>Features:</STRONG></TD>
 											<TD></TD>
 											<TD vAlign="top">6 bedrooms,<BR>
-												6 full, 1 half bats</TD>
+												6 full, 1 half baths</TD>
 										</TR>
 										<TR>
 											<TD vAlign="top"><STRONG>Asking Price:</STRONG><BR>
@@ -118,7 +149,7 @@
 											<TD vAlign="top"><STRONG>Features:</STRONG></TD>
 											<TD></TD>
 											<TD vAlign="top">5 bedrooms,<BR>
-												3 full, 2 half bats</TD>
+												3 full, 2 half baths</TD>
 										</TR>
 										<TR>
 											<TD vAlign="top"><STRONG>Asking Price:</STRONG><BR>
@@ -156,7 +187,7 @@
 											<TD vAlign="top"><STRONG>Features:</STRONG></TD>
 											<TD></TD>
 											<TD vAlign="top">5 bedrooms,<BR>
-												4&nbsp;full,&nbsp;1 half bats</TD>
+												4&nbsp;full,&nbsp;1 half baths</TD>
 										</TR>
 										<TR>
 											<TD vAlign="top"><STRONG>Asking Price:</STRONG><BR>
@@ -194,7 +225,7 @@
 											<TD vAlign="top"><STRONG>Features:</STRONG></TD>
 											<TD></TD>
 											<TD vAlign="top">5 bedrooms,<BR>
-												3 full,&nbsp;1 half bats</TD>
+												3 full,&nbsp;1 half baths</TD>
 										</TR>
 										<TR>
 											<TD vAlign="top"><STRONG>Asking Price:</STRONG><BR>
@@ -232,7 +263,7 @@
 											<TD vAlign="top"><STRONG>Features:</STRONG></TD>
 											<TD></TD>
 											<TD vAlign="top">3&nbsp;bedrooms,<BR>
-												2&nbsp;full,&nbsp;1 half bats</TD>
+												2&nbsp;full,&nbsp;1 half baths</TD>
 										</TR>
 										<TR>
 											<TD vAlign="top"><STRONG>Asking Price:</STRONG><BR>
