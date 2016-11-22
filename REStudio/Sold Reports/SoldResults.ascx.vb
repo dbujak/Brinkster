@@ -55,19 +55,8 @@ Partial Class SoldResults
     Private Sub BindData(ByVal strSort As String)
 
         Dim strLink As String
-        If Me.Request.Url.AbsoluteUri.ToUpper.IndexOf("KENSINGTONTEAM") > -1 Then
-            strLink = "/Brinkster/KensingtonTeam/Sold Reports/details.aspx?ID="
-            Me.DataGrid1.AlternatingItemStyle.BackColor = Color.FromArgb(115, 160, 195)
-        ElseIf Me.Request.Url.AbsoluteUri.ToUpper.IndexOf("FLAHERTYPOTOMAC") > -1 Then
-            strLink = "/Brinkster/FlahertyPotomac/SoldReports/details.aspx?ID="
-            Me.DataGrid1.AlternatingItemStyle.BackColor = Color.LightGray ' .Gray ' .FromArgb(115, 160, 195)
-        ElseIf Me.Request.Url.AbsoluteUri.ToUpper.IndexOf("FLAHERTYDC") > -1 Then
-            strLink = "/Brinkster/FlahertyDC/SoldReports/details.aspx?ID="
-            Me.DataGrid1.AlternatingItemStyle.BackColor = Color.LightGray
-        Else
-            strLink = "/Brinkster/reStudio/Sold Reports/details.aspx?ID="
-            Me.DataGrid1.AlternatingItemStyle.BackColor = Color.FromArgb(81, 81, 81)
-        End If
+        strLink = "/Brinkster/reStudio/Sold Reports/details.aspx?ID="
+        Me.DataGrid1.AlternatingItemStyle.BackColor = Color.FromArgb(81, 81, 81)
 
         Dim strSQL As String = "Select Address, '" & strLink & "' + [ML#] As MLS, City, Zip5, ListDate, CloseDate, ClosePrice From tblHomeSales "
         ' Insert Search criteria

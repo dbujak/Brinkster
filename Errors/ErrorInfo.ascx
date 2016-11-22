@@ -7,11 +7,7 @@
 <P align="left">Thank you!</P>
 <P>Dejan Bujak
 	<BR>
-	Flaherty Group, Inc<BR>
-	10410 North Kensington PKWY
-	<BR>
-	Kensington, MD 20895
-	<BR>
+	Evers & Co. Real Estate Inc.<BR>
 	<BR>
 	Phone: 301.675.1682
 	<BR>

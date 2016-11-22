@@ -27,25 +27,13 @@ Partial Class SoldDfault
             Session("reStudiostrLink") = "SoldReports"
 
             Me.lblYears.Text = Date.Now.Year - 1998
-            If Me.Request.Url.AbsoluteUri.ToUpper.IndexOf("KENSINGTONTEAM") > -1 _
-                OrElse Me.Request.Url.AbsoluteUri.ToUpper.IndexOf("FLAHERTYPOTOMAC") > -1 _
-                OrElse Me.Request.Url.AbsoluteUri.ToUpper.IndexOf("FLAHERTYDC") > -1 Then
-                Me.lblICap1.Text = "We "
-                Me.lblIsmall1.Text = " we "
-                Me.lblIsmall2.Text = " we "
-                Me.lblIsmall3.Text = " we "
-                Me.lblMe1.Text = " us "
-                Me.lblMe2.Text = " us "
-                Me.lblMe3.Text = " us "
-            Else
-                Me.lblICap1.Text = "I "
-                Me.lblIsmall1.Text = " I "
-                Me.lblIsmall2.Text = " I "
-                Me.lblIsmall3.Text = " I "
-                Me.lblMe1.Text = " me "
-                Me.lblMe2.Text = " me "
-                Me.lblMe3.Text = " me "
-            End If
+            Me.lblICap1.Text = "I "
+            Me.lblIsmall1.Text = " I "
+            Me.lblIsmall2.Text = " I "
+            Me.lblIsmall3.Text = " I "
+            Me.lblMe1.Text = " me "
+            Me.lblMe2.Text = " me "
+            Me.lblMe3.Text = " me "
 
             ' Fill year combo box
             For i As Int16 = DateTime.Now.Year To 1999 Step -1

@@ -37,12 +37,6 @@ Partial Class _default29
             Response.Redirect("reStudioError.aspx")
         ElseIf strSearch.ToUpper.IndexOf("RENOVATIONSTUDIO") > -1 Then
             Response.Redirect("renovationStudioError.aspx")
-        ElseIf strSearch.ToUpper.IndexOf("KENSINGTONTEAM") > -1 Then
-            Response.Redirect("KensingtonTeamError.aspx")
-        ElseIf strSearch.ToUpper.IndexOf("FLAHERTYPOTOMAC") > -1 Then
-            Response.Redirect("FlahertyPotomacError.aspx")
-        ElseIf strSearch.ToUpper.IndexOf("FLAHERTYDC") > -1 Then
-            Response.Redirect("FlahertyDCError.aspx")
         Else
             Response.Redirect("/Brinkster/error.aspx")
         End If

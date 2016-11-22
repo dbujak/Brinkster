@@ -33,7 +33,7 @@
 						</P>
 						<P><BR>
 							<STRONG><FONT size="3">Dejan Bujak<BR>
-								</FONT><FONT size="2">Flaherty Group Inc, Realtors - licensed in MD, DC, VA</FONT><BR>
+								</FONT><FONT size="2">Evers & Co. Real Estate Inc. - licensed in MD</FONT><BR>
 							</STRONG>
 							<BR>
 							Phone:

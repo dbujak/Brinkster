@@ -6,11 +6,11 @@
 </P>
 <P>Dejan Bujak
 	<BR>
-	Flaherty Group Inc, Realtors - licensed in MD, DC, VA
+	Evers & Co. Real Estate Inc. - licensed in MD
 	<BR>
-	10410 N Kensington Pkwy
+	7032 Wisconsin Avenue
 	<BR>
-	Kensington, MD 20895
+	Chevy Chase, MD 20815
 	<BR>
 	<BR>
 	Phone:

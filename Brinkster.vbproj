@@ -184,27 +184,6 @@
       <DependentUpon>ErrorInfo.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Errors\FlahertyDCError.aspx.designer.vb">
-      <DependentUpon>FlahertyDCError.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Errors\FlahertyDCError.aspx.vb">
-      <DependentUpon>FlahertyDCError.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Errors\FlahertyPotomacError.aspx.designer.vb">
-      <DependentUpon>FlahertyPotomacError.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Errors\FlahertyPotomacError.aspx.vb">
-      <DependentUpon>FlahertyPotomacError.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Errors\KensingtonTeamError.aspx.designer.vb">
-      <DependentUpon>KensingtonTeamError.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Errors\KensingtonTeamError.aspx.vb">
-      <DependentUpon>KensingtonTeamError.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
     <Compile Include="Errors\renovationStudioError.aspx.designer.vb">
       <DependentUpon>renovationStudioError.aspx</DependentUpon>
     </Compile>
@@ -219,132 +198,6 @@
       <DependentUpon>reStudioError.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="FLAHERTYDC\About\default.aspx.designer.vb">
-      <DependentUpon>default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="FLAHERTYDC\About\default.aspx.vb">
-      <DependentUpon>default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="FLAHERTYDC\default.aspx.designer.vb">
-      <DependentUpon>default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="FLAHERTYDC\default.aspx.vb">
-      <DependentUpon>default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="FLAHERTYDC\Listings\default.aspx.designer.vb">
-      <DependentUpon>default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="FLAHERTYDC\Listings\default.aspx.vb">
-      <DependentUpon>default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="FLAHERTYDC\Resources\default.aspx.designer.vb">
-      <DependentUpon>default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="FLAHERTYDC\Resources\default.aspx.vb">
-      <DependentUpon>default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="FLAHERTYDC\SoldReports\default.aspx.designer.vb">
-      <DependentUpon>default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="FLAHERTYDC\SoldReports\default.aspx.vb">
-      <DependentUpon>default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="FLAHERTYDC\SoldReports\details.aspx.designer.vb">
-      <DependentUpon>details.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="FLAHERTYDC\SoldReports\details.aspx.vb">
-      <DependentUpon>details.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="FLAHERTYDC\SoldReports\results.aspx.designer.vb">
-      <DependentUpon>results.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="FLAHERTYDC\SoldReports\results.aspx.vb">
-      <DependentUpon>results.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="FLAHERTYPOTOMAC\About\about.ascx.designer.vb">
-      <DependentUpon>about.ascx</DependentUpon>
-    </Compile>
-    <Compile Include="FLAHERTYPOTOMAC\About\about.ascx.vb">
-      <DependentUpon>about.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="FLAHERTYPOTOMAC\About\default.aspx.designer.vb">
-      <DependentUpon>default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="FLAHERTYPOTOMAC\About\default.aspx.vb">
-      <DependentUpon>default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="FLAHERTYPOTOMAC\controls\Footer.ascx.designer.vb">
-      <DependentUpon>Footer.ascx</DependentUpon>
-    </Compile>
-    <Compile Include="FLAHERTYPOTOMAC\controls\Footer.ascx.vb">
-      <DependentUpon>Footer.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="FLAHERTYPOTOMAC\controls\Left.ascx.designer.vb">
-      <DependentUpon>Left.ascx</DependentUpon>
-    </Compile>
-    <Compile Include="FLAHERTYPOTOMAC\controls\Left.ascx.vb">
-      <DependentUpon>Left.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="FLAHERTYPOTOMAC\default.aspx.designer.vb">
-      <DependentUpon>default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="FLAHERTYPOTOMAC\default.aspx.vb">
-      <DependentUpon>default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="FLAHERTYPOTOMAC\Listings\default.aspx.designer.vb">
-      <DependentUpon>default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="FLAHERTYPOTOMAC\Listings\default.aspx.vb">
-      <DependentUpon>default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="FLAHERTYPOTOMAC\Resources\default.aspx.designer.vb">
-      <DependentUpon>default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="FLAHERTYPOTOMAC\Resources\default.aspx.vb">
-      <DependentUpon>default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="FLAHERTYPOTOMAC\Resources\Resources.ascx.designer.vb">
-      <DependentUpon>Resources.ascx</DependentUpon>
-    </Compile>
-    <Compile Include="FLAHERTYPOTOMAC\Resources\Resources.ascx.vb">
-      <DependentUpon>Resources.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="FLAHERTYPOTOMAC\SoldReports\default.aspx.designer.vb">
-      <DependentUpon>default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="FLAHERTYPOTOMAC\SoldReports\default.aspx.vb">
-      <DependentUpon>default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="FLAHERTYPOTOMAC\SoldReports\details.aspx.designer.vb">
-      <DependentUpon>details.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="FLAHERTYPOTOMAC\SoldReports\details.aspx.vb">
-      <DependentUpon>details.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="FLAHERTYPOTOMAC\SoldReports\results.aspx.designer.vb">
-      <DependentUpon>results.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="FLAHERTYPOTOMAC\SoldReports\results.aspx.vb">
-      <DependentUpon>results.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
     <Compile Include="General\clsGeneral.vb">
       <SubType>Code</SubType>
     </Compile>
@@ -356,13 +209,6 @@
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
     <Compile Include="HarmonyLeaf\default.aspx.vb">
-      <DependentUpon>default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="KensingtonTeam\About\default.aspx.designer.vb">
-      <DependentUpon>default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="KensingtonTeam\About\default.aspx.vb">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
@@ -394,13 +240,6 @@
       <DependentUpon>Right.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="KensingtonTeam\default.aspx.designer.vb">
-      <DependentUpon>default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="KensingtonTeam\default.aspx.vb">
-      <DependentUpon>default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
     <Compile Include="KensingtonTeam\Listings\default.aspx.designer.vb">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
@@ -413,34 +252,6 @@
     </Compile>
     <Compile Include="KensingtonTeam\Listings\OldListings.ascx.vb">
       <DependentUpon>OldListings.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="KensingtonTeam\Resources\default.aspx.designer.vb">
-      <DependentUpon>default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="KensingtonTeam\Resources\default.aspx.vb">
-      <DependentUpon>default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="KensingtonTeam\Sold Reports\default.aspx.designer.vb">
-      <DependentUpon>default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="KensingtonTeam\Sold Reports\default.aspx.vb">
-      <DependentUpon>default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="KensingtonTeam\Sold Reports\details.aspx.designer.vb">
-      <DependentUpon>details.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="KensingtonTeam\Sold Reports\details.aspx.vb">
-      <DependentUpon>details.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="KensingtonTeam\Sold Reports\results.aspx.designer.vb">
-      <DependentUpon>results.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="KensingtonTeam\Sold Reports\results.aspx.vb">
-      <DependentUpon>results.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="properIT\About\default.aspx.designer.vb">
@@ -867,27 +678,6 @@
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
     <Compile Include="REStudio\default.aspx.vb">
-      <DependentUpon>default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="REStudio\FlahertyDCSearch\default.aspx.designer.vb">
-      <DependentUpon>default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="REStudio\FlahertyDCSearch\default.aspx.vb">
-      <DependentUpon>default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="REStudio\FlahertyPotomacSearch\default.aspx.designer.vb">
-      <DependentUpon>default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="REStudio\FlahertyPotomacSearch\default.aspx.vb">
-      <DependentUpon>default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="REStudio\KensingtonTeamSearch\default.aspx.designer.vb">
-      <DependentUpon>default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="REStudio\KensingtonTeamSearch\default.aspx.vb">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
@@ -1522,54 +1312,18 @@
     <Content Include="error.aspx" />
     <Content Include="Errors\default.aspx" />
     <Content Include="Errors\ErrorInfo.ascx" />
-    <Content Include="Errors\FlahertyDCError.aspx" />
-    <Content Include="Errors\FlahertyPotomacError.aspx" />
-    <Content Include="Errors\KensingtonTeamError.aspx" />
     <Content Include="Errors\renovationStudioError.aspx" />
     <Content Include="Errors\reStudioError.aspx" />
-    <Content Include="FLAHERTYDC\About\default.aspx" />
-    <Content Include="FLAHERTYDC\default.aspx" />
-    <Content Include="FLAHERTYDC\Listings\default.aspx" />
-    <Content Include="FLAHERTYDC\Resources\default.aspx" />
-    <Content Include="FLAHERTYDC\SoldReports\default.aspx" />
-    <Content Include="FLAHERTYDC\SoldReports\details.aspx" />
-    <Content Include="FLAHERTYDC\SoldReports\results.aspx" />
-    <Content Include="FLAHERTYPOTOMAC\About\about.ascx" />
-    <Content Include="FLAHERTYPOTOMAC\About\Alana.gif" />
-    <Content Include="FLAHERTYPOTOMAC\About\default.aspx" />
-    <Content Include="FLAHERTYPOTOMAC\About\Dejan.gif" />
-    <Content Include="FLAHERTYPOTOMAC\controls\AlanaDejan.gif" />
-    <Content Include="FLAHERTYPOTOMAC\controls\BlurPeopleBg.jpg" />
-    <Content Include="FLAHERTYPOTOMAC\controls\FlahertyGroupInc.gif" />
-    <Content Include="FLAHERTYPOTOMAC\controls\Footer.ascx" />
-    <Content Include="FLAHERTYPOTOMAC\controls\Left.ascx" />
-    <Content Include="FLAHERTYPOTOMAC\controls\WeStandOut.gif" />
-    <Content Include="FLAHERTYPOTOMAC\default.aspx" />
-    <Content Include="FLAHERTYPOTOMAC\Listings\default.aspx" />
-    <Content Include="FLAHERTYPOTOMAC\Resources\default.aspx" />
-    <Content Include="FLAHERTYPOTOMAC\Resources\Resources.ascx" />
-    <Content Include="FLAHERTYPOTOMAC\SoldReports\default.aspx" />
-    <Content Include="FLAHERTYPOTOMAC\SoldReports\details.aspx" />
-    <Content Include="FLAHERTYPOTOMAC\SoldReports\results.aspx" />
     <Content Include="Global.asax" />
     <Content Include="HarmonyLeaf\default.aspx" />
     <Content Include="HTMLPage1.htm" />
-    <Content Include="KensingtonTeam\About\Alana.jpg" />
-    <Content Include="KensingtonTeam\About\default.aspx" />
-    <Content Include="KensingtonTeam\About\Dejan.jpg" />
-    <Content Include="KensingtonTeam\About\Flaherty.jpg" />
     <Content Include="KensingtonTeam\Controls\Alana and Dejan.jpg" />
     <Content Include="KensingtonTeam\Controls\Footer.ascx" />
     <Content Include="KensingtonTeam\Controls\Header.ascx" />
     <Content Include="KensingtonTeam\Controls\Left.ascx" />
     <Content Include="KensingtonTeam\Controls\Right.ascx" />
-    <Content Include="KensingtonTeam\default.aspx" />
     <Content Include="KensingtonTeam\Listings\default.aspx" />
     <Content Include="KensingtonTeam\Listings\OldListings.ascx" />
-    <Content Include="KensingtonTeam\Resources\default.aspx" />
-    <Content Include="KensingtonTeam\Sold Reports\default.aspx" />
-    <Content Include="KensingtonTeam\Sold Reports\details.aspx" />
-    <Content Include="KensingtonTeam\Sold Reports\results.aspx" />
     <Content Include="properIT\About\default.aspx" />
     <Content Include="properIT\About\images\ludoA.jpg" />
     <Content Include="properIT\BackToTop.ascx" />
@@ -2448,12 +2202,9 @@
     <Content Include="REStudio\Controls\SalesContact.ascx" />
     <Content Include="REStudio\Controls\SellerTips.ascx" />
     <Content Include="REStudio\default.aspx" />
-    <Content Include="REStudio\FlahertyDCSearch\default.aspx" />
-    <Content Include="REStudio\FlahertyPotomacSearch\default.aspx" />
     <Content Include="REStudio\images\3102Ferndale.jpg" />
     <Content Include="REStudio\images\GrabFreeNewsletter.jpg" />
     <Content Include="REStudio\images\Y5D7HE %281%29.jpg" />
-    <Content Include="REStudio\KensingtonTeamSearch\default.aspx" />
     <Content Include="REStudio\Listings.aspx" />
     <Content Include="REStudio\Listings\10234Parkwood\1ST FL small.jpg" />
     <Content Include="REStudio\Listings\10234Parkwood\1ST FL.jpg" />
@@ -2649,83 +2400,17 @@
     <EmbeddedResource Include="Errors\ErrorInfo.ascx.resx">
       <DependentUpon>ErrorInfo.ascx.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Errors\FlahertyDCError.aspx.resx">
-      <DependentUpon>FlahertyDCError.aspx.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Errors\FlahertyPotomacError.aspx.resx">
-      <DependentUpon>FlahertyPotomacError.aspx.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Errors\KensingtonTeamError.aspx.resx">
-      <DependentUpon>KensingtonTeamError.aspx.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Errors\renovationStudioError.aspx.resx">
       <DependentUpon>renovationStudioError.aspx.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Errors\reStudioError.aspx.resx">
       <DependentUpon>reStudioError.aspx.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FLAHERTYDC\About\default.aspx.resx">
-      <DependentUpon>default.aspx.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FLAHERTYDC\default.aspx.resx">
-      <DependentUpon>default.aspx.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FLAHERTYDC\Listings\default.aspx.resx">
-      <DependentUpon>default.aspx.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FLAHERTYDC\Resources\default.aspx.resx">
-      <DependentUpon>default.aspx.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FLAHERTYDC\SoldReports\default.aspx.resx">
-      <DependentUpon>default.aspx.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FLAHERTYDC\SoldReports\details.aspx.resx">
-      <DependentUpon>details.aspx.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FLAHERTYDC\SoldReports\results.aspx.resx">
-      <DependentUpon>results.aspx.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FLAHERTYPOTOMAC\About\about.ascx.resx">
-      <DependentUpon>about.ascx.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FLAHERTYPOTOMAC\About\default.aspx.resx">
-      <DependentUpon>default.aspx.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FLAHERTYPOTOMAC\controls\Footer.ascx.resx">
-      <DependentUpon>Footer.ascx.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FLAHERTYPOTOMAC\controls\Left.ascx.resx">
-      <DependentUpon>Left.ascx.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FLAHERTYPOTOMAC\default.aspx.resx">
-      <DependentUpon>default.aspx.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FLAHERTYPOTOMAC\Listings\default.aspx.resx">
-      <DependentUpon>default.aspx.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FLAHERTYPOTOMAC\Resources\default.aspx.resx">
-      <DependentUpon>default.aspx.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FLAHERTYPOTOMAC\Resources\Resources.ascx.resx">
-      <DependentUpon>Resources.ascx.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FLAHERTYPOTOMAC\SoldReports\default.aspx.resx">
-      <DependentUpon>default.aspx.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FLAHERTYPOTOMAC\SoldReports\details.aspx.resx">
-      <DependentUpon>details.aspx.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FLAHERTYPOTOMAC\SoldReports\results.aspx.resx">
-      <DependentUpon>results.aspx.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Global.asax.resx">
       <DependentUpon>Global.asax.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="HarmonyLeaf\default.aspx.resx">
-      <DependentUpon>default.aspx.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="KensingtonTeam\About\default.aspx.resx">
       <DependentUpon>default.aspx.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="KensingtonTeam\Controls\Footer.ascx.resx">
@@ -2740,26 +2425,11 @@
     <EmbeddedResource Include="KensingtonTeam\Controls\Right.ascx.resx">
       <DependentUpon>Right.ascx.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="KensingtonTeam\default.aspx.resx">
-      <DependentUpon>default.aspx.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="KensingtonTeam\Listings\default.aspx.resx">
       <DependentUpon>default.aspx.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="KensingtonTeam\Listings\OldListings.ascx.resx">
       <DependentUpon>OldListings.ascx.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="KensingtonTeam\Resources\default.aspx.resx">
-      <DependentUpon>default.aspx.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="KensingtonTeam\Sold Reports\default.aspx.resx">
-      <DependentUpon>default.aspx.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="KensingtonTeam\Sold Reports\details.aspx.resx">
-      <DependentUpon>details.aspx.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="KensingtonTeam\Sold Reports\results.aspx.resx">
-      <DependentUpon>results.aspx.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="properIT\About\default.aspx.resx">
       <DependentUpon>default.aspx.vb</DependentUpon>
@@ -2930,15 +2600,6 @@
       <DependentUpon>SellerTips.ascx.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="REStudio\default.aspx.resx">
-      <DependentUpon>default.aspx.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="REStudio\FlahertyDCSearch\default.aspx.resx">
-      <DependentUpon>default.aspx.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="REStudio\FlahertyPotomacSearch\default.aspx.resx">
-      <DependentUpon>default.aspx.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="REStudio\KensingtonTeamSearch\default.aspx.resx">
       <DependentUpon>default.aspx.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="REStudio\Listings.aspx.resx">

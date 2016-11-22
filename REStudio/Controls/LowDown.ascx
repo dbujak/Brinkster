@@ -12,7 +12,7 @@
 	<P>
 	Hello!
 	<P>
-	I'm Dan Bujak with Flaherty Group Inc.
+	I'm Dejan Bujak with Evers & Co. Real Estate Inc.
 	<P>
 	I started this service because many consumers think they need tens of thousands 
 	of dollars to buy a home these days. You may have talked with Realtors or 
@@ -53,8 +53,8 @@
 	very best loan to meet your personal objectives – be it low interest rate, low 
 	monthly payments or low down payment.
 	<P>
-		It's easy for you to get more information. Just give me, Dan Bujak, a call at 
-		Flaherty Group weekdays at
+		It's easy for you to get more information. Just give me, Dejan Bujak, a call at 
+		Evers & Co. Real Estate Inc. weekdays at
 		<uc1:phoneContact id="PhoneContact1" runat="server"></uc1:phoneContact>. Or, 
 		you may email me (
 		<uc1:emailContact id="EmailContact1" runat="server"></uc1:emailContact>

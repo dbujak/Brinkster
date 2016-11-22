@@ -41,7 +41,7 @@ Partial Class SendEmail
                             & "Just wanted to let you know I updated my web site with this awesome search part - everybody agrees it's the best real estate search they've seen so far - www.reStudio.biz." & vbNewLine & vbNewLine _
                             & "Sincerely," & vbNewLine _
                             & "Dejan Bujak" & vbNewLine _
-                            & "Flaherty Group Inc, Realtors - licensed in MD, DC, VA" & vbNewLine _
+                            & "Evers & Co. Real Estate Inc. - licensed in MD" & vbNewLine _
                             & "301.675.1682" & vbNewLine _
                             & "www.reStudio.biz"
                     Case Else
@@ -50,7 +50,7 @@ Partial Class SendEmail
                             & "samo kratko da ti javim da sam unaprijedio svoj web site i sada imam odlicnu pretragu kuca koje su na prodaju - www.reStudio.biz. Svi koji su probali slazu se da je nisu vidjeli bolji. Probaj ako ti treba, ili salji dalje :-)" & vbNewLine & vbNewLine _
                             & "Puno pozdrava!" _
                             & "Dejan Bujak" _
-                            & "Flaherty Group Inc, Realtors - licensed in MD, DC, VA" _
+                            & "Evers & Co. Real Estate Inc. - licensed in MD" _
                             & "301.675.1682" _
                             & "www.reStudio.biz"
                 End Select

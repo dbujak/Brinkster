@@ -53,7 +53,7 @@
 							<uc1:phoneContact id="PhoneContact2" runat="server"></uc1:phoneContact></P>
 						<P><STRONG><FONT size="3">Dejan Bujak</FONT></STRONG><BR>
 							<br>
-							Flaherty Group Inc, Realtors - licensed in MD, DC, VA<BR>
+							Evers & Co. Real Estate Inc. - licensed in MD<BR>
 							Phone:
 							<uc1:phoneContact id="PhoneContact1" runat="server"></uc1:phoneContact>
 							<BR>

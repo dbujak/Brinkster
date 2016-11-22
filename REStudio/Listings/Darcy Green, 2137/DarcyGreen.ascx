@@ -135,7 +135,7 @@
 											</TD>
 											<TD width="30%" bgColor="#ffffff"><FONT face="Arial, Helvetica, sans-serif" size="2"><SPAN>Dan 
 														Bujak</SPAN><BR>
-													Flaherty Group, Inc. Realtors<BR>
+													Evers & Co. Real Estate Inc.<BR>
 													<SPAN id="contactInfo">301.675.1682<BR>
 														dbujak@reStudio.biz</SPAN></FONT><BR>
 												<BR>

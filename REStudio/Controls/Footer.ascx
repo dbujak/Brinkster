@@ -13,10 +13,10 @@
 			height="5"></TD>
 	</TR>
 	<TR>
-		<TD bgColor="#666666" height="41" style="HEIGHT: 41px"><center><asp:label id="Label1" runat="server"><span class="footer"><a href="http://flahertygroup.com/" target="_blank">Flaherty 
-							Group, Inc. Realtors</a><br>
-						10410 N. Kensington PKWY; Kensington, MD 20895<br>
-						<b>cell:</b> 301.675.1682 &nbsp; &nbsp; &nbsp; <b>office:</b> 301.946.3900 
+		<TD bgColor="#666666" height="41" style="HEIGHT: 41px"><center><asp:label id="Label1" runat="server"><span class="footer">
+            <a href="http://murtaghproperties.com" target="_blank">Evers & Co. Real Estate Inc.</a><br>
+						7032 Wisconsin Avenue, Chevy Chase, MD 20815<br>
+						<b>cell:</b> 301.675.1682 &nbsp; &nbsp; &nbsp; <b>office:</b> 301.656.8686
 						&nbsp; &nbsp; &nbsp; <b>fax:</b> 240.363.8900 &nbsp; &nbsp; &nbsp; <b>web:</b> www.reStudio.biz</span></asp:label></center>
 		</TD>
 	</TR>

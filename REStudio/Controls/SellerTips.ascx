@@ -9,7 +9,7 @@
 </P>
 <div id="SellerTips" name="SellerTips" style="DISPLAY:none;OVERFLOW:hidden">
 	<P>Hello!</P>
-	<P>I'm Dan Bujak with Flaherty Group Inc. During my
+	<P>I'm Dejan Bujak with Evers & Co. Real Estate Inc. During my
 		<asp:Label id="lblYears" runat="server">6</asp:Label>&nbsp;years as a Realtor, 
 		I've seen sellers make some big mistakes. This page is a public service that 
 		will alert you to some of the most common mistakes, and to furnish you with 
@@ -84,7 +84,7 @@
 	</P>
 	<P>Call me at my office at
 		<uc1:phoneContact id="PhoneContact1" runat="server"></uc1:phoneContact>, and 
-		ask for Dan Bujak. Or, if you prefer, email me (
+		ask for Dejan Bujak. Or, if you prefer, email me (
 		<uc1:emailContact id="EmailContact1" runat="server"></uc1:emailContact>
 		)&nbsp;with your name and phone number along with the best time to reach you, 
 		and I'll give you a call to get the specifics on your home before I program the 
